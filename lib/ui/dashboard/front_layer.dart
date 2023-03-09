@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/images.dart';
 
@@ -13,12 +14,12 @@ class DashboardFrontLayer extends StatelessWidget {
       body: Column(
         children: [
           const Spacer(
-            flex: 3,
+            flex: 30,
           ),
           Expanded(
-            flex: 4,
+            flex: 75,
             child: CircleAvatar(
-              minRadius: 95,
+              minRadius: 120,
               backgroundColor: Colors.white,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(95),
@@ -27,10 +28,10 @@ class DashboardFrontLayer extends StatelessWidget {
             ),
           ),
           const Spacer(
-            flex: 1,
+            flex: 10,
           ),
           Expanded(
-            flex: 2,
+            flex: 30,
             child: Column(
               children: [
                 Text(
@@ -67,29 +68,63 @@ class DashboardFrontLayer extends StatelessWidget {
             flex: 3,
           ),
           Expanded(
-            flex: 3,
+            flex: 30,
             child: Container(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  RawMaterialButton(
-                    onPressed: () {},
-                    elevation: 2.0,
-                    fillColor: Colors.white,
-                    child: Icon(
-                      Icons.pause,
-                      size: 35.0,
+                  IconButton(
+                    onPressed: () {
+                      print('Clicked: Github Button');
+                    },
+                    icon: const FaIcon(
+                      FontAwesomeIcons.github,
+                      color: Colors.white,
                     ),
-                    padding: EdgeInsets.all(15.0),
-                    shape: CircleBorder(),
-                  )
+                  ),
+                  const SizedBox(
+                    width: 5,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      print('Clicked: Linkedin Button');
+                    },
+                    icon: const FaIcon(
+                      FontAwesomeIcons.linkedin,
+                      color: Colors.white,
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 5,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      print('Clicked: Discord Button');
+                    },
+                    icon: const FaIcon(
+                      FontAwesomeIcons.discord,
+                      color: Colors.white,
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 5,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      print('Clicked: Whatsapp Button');
+                    },
+                    icon: const FaIcon(
+                      FontAwesomeIcons.whatsapp,
+                      color: Colors.white,
+                    ),
+                  ),
                 ],
               ),
             ),
           ),
           const Spacer(
-            flex: 10,
+            flex: 225,
           ),
         ],
       ),
