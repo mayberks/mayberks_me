@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mayberks_me/constants/theme_settings.dart';
 
 void main() {
   runApp(MayberksMe());
@@ -12,7 +13,10 @@ class MayberksMe extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Portfolio',
-      theme: ThemeData(),
+      theme: ThemeData(
+        inputDecorationTheme: mainDefaultInputDecoration,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
     );
   }
 }
