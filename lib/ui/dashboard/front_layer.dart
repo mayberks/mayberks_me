@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/images.dart';
 
 class DashboardFrontLayer extends StatelessWidget {
@@ -26,26 +27,44 @@ class DashboardFrontLayer extends StatelessWidget {
             ),
           ),
           const Spacer(
-            flex: 5,
+            flex: 1,
           ),
           Expanded(
             flex: 2,
-            child: DefaultTextStyle(
-              style: const TextStyle(
-                fontSize: 30,
-                fontFamily: 'Karla',
-                color: Colors.white,
-              ),
-              child: AnimatedTextKit(
-                isRepeatingAnimation: true,
-                animatedTexts: [
-                  TypewriterAnimatedText('AYBERK CAKIR'),
-                ],
-              ),
+            child: Column(
+              children: [
+                Text(
+                  'AYBERK CAKIR',
+                  style: GoogleFonts.rubik(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
+                    fontSize: 20,
+                  ),
+                ),
+                const SizedBox(
+                  height: 7,
+                ),
+                DefaultTextStyle(
+                  style: GoogleFonts.rubik(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w100,
+                  ),
+                  child: AnimatedTextKit(
+                    animatedTexts: [
+                      FadeAnimatedText('Flutter Developer'),
+                      FadeAnimatedText('System Administrator'),
+                      FadeAnimatedText('Minecraft Expert'),
+                      FadeAnimatedText('Minecraft Optimization Expert'),
+                      FadeAnimatedText('Minecraft Configurator'),
+                      FadeAnimatedText('Minecraft Setup Specialist'),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
           const Spacer(
-            flex: 1,
+            flex: 3,
           ),
           Expanded(flex: 6, child: Container()),
           const Spacer(
