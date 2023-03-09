@@ -14,7 +14,7 @@ class DashboardFrontLayer extends StatelessWidget {
       body: Column(
         children: [
           const Spacer(
-            flex: 30,
+            flex: 55,
           ),
           Expanded(
             flex: 75,
@@ -51,6 +51,8 @@ class DashboardFrontLayer extends StatelessWidget {
                     fontWeight: FontWeight.w100,
                   ),
                   child: AnimatedTextKit(
+                    isRepeatingAnimation: true,
+                    totalRepeatCount: 999,
                     animatedTexts: [
                       FadeAnimatedText('Flutter Developer'),
                       FadeAnimatedText('System Administrator'),
@@ -84,7 +86,7 @@ class DashboardFrontLayer extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    width: 5,
+                    width: 7,
                   ),
                   IconButton(
                     onPressed: () {
@@ -96,7 +98,7 @@ class DashboardFrontLayer extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    width: 5,
+                    width: 7,
                   ),
                   IconButton(
                     onPressed: () {
@@ -108,7 +110,7 @@ class DashboardFrontLayer extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    width: 5,
+                    width: 7,
                   ),
                   IconButton(
                     onPressed: () {
@@ -118,13 +120,24 @@ class DashboardFrontLayer extends StatelessWidget {
                       FontAwesomeIcons.whatsapp,
                       color: Colors.white,
                     ),
+                  ),const SizedBox(
+                    width: 7,
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      print('Clicked: Website Button');
+                    },
+                    icon: const FaIcon(
+                      FontAwesomeIcons.link,
+                      color: Colors.white,
+                    ),
                   ),
                 ],
               ),
             ),
           ),
           const Spacer(
-            flex: 225,
+            flex: 200,
           ),
         ],
       ),
