@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const mainDefaultPadding = 20;
+const mainDefaultPadding = 20.0;
 
 final mainDefaultShadow = BoxShadow(
   offset: Offset(0, 50),
