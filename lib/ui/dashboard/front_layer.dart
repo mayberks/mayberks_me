@@ -29,7 +29,7 @@ class DashboardFrontLayer extends StatelessWidget {
         ),
         DashboardProfileSocialMedia(),
         SizedBox(
-          height: context.dynamicHeight(0.17),
+          height: context.dynamicHeight(0.017),
         ),
         DashboardHeyText(),
       ],
