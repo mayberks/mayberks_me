@@ -27,6 +27,17 @@ class DashboardFrontLayer extends StatelessWidget {
           Spacer(
             flex: 5,
           ),
+          Expanded(
+              flex: 2,
+              child: Text(
+                'Ayberk CAKIR',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              )),
+          Spacer(
+            flex: 1,
+          ),
           Expanded(flex: 6, child: Container()),
           Spacer(
             flex: 5,
