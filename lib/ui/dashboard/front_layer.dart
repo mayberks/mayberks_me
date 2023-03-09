@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:mayberks_me/constants/svg.dart';
+import 'package:mayberks_me/constants/images.dart';
 
 class DashboardFrontLayer extends StatelessWidget {
   const DashboardFrontLayer({Key? key}) : super(key: key);
@@ -12,40 +11,27 @@ class DashboardFrontLayer extends StatelessWidget {
       body: Column(
         children: [
           Spacer(
-            flex: 1,
+            flex: 3,
           ),
           Expanded(
-            flex: 10,
-            child: Row(
-              children: [
-                Spacer(
-                  flex: 1,
+            flex: 4,
+            child: Container(
+              child: CircleAvatar(
+                minRadius: 95,
+                backgroundColor: Colors.white,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(95),
+                  child: Image.asset(MayberksProfileImage),
                 ),
-                Expanded(
-                  flex: 3,
-                  child: Container(
-                    child: SvgPicture.asset(DashboardHeaderIconImage),
-                  ),
-                ),
-                Spacer(
-                  flex: 7,
-                ),
-                Expanded(
-                  flex: 5,
-                  child: Container(),
-                ),
-                Spacer(
-                  flex: 10,
-                ),
-              ],
+              ),
             ),
           ),
           Spacer(
-            flex: 20,
+            flex: 5,
           ),
-          Expanded(flex: 40, child: Container()),
+          Expanded(flex: 6, child: Container()),
           Spacer(
-            flex: 10,
+            flex: 5,
           ),
         ],
       ),
