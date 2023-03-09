@@ -43,7 +43,14 @@ class DashboardFrontLayer extends StatelessWidget {
             child: DashboardHeyText(),
           ),
           Spacer(
-            flex: 90,
+            flex: 5,
+          ),
+          Expanded(
+            flex: 65,
+            child: Card(),
+          ),
+          Spacer(
+            flex: 25,
           ),
         ],
       ),
