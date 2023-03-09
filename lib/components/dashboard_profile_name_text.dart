@@ -8,7 +8,7 @@ class DashboardProfileNameText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Column(mainAxisSize: MainAxisSize.max,
       children: [
         Text(
           'AYBERK CAKIR',

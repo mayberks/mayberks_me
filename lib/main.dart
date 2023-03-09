@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mayberks_me/ui/dashboard/dashboard_screen.dart';
 
 void main() {
-  runApp(MayberksMe());
+  runApp(const MayberksMe());
 }
 
 class MayberksMe extends StatelessWidget {
@@ -10,7 +10,8 @@ class MayberksMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
+      color: Colors.transparent,
       debugShowCheckedModeBanner: false,
       home: DashboardScreen(),
     );

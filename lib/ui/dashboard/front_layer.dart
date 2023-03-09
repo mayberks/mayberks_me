@@ -10,50 +10,84 @@ class DashboardFrontLayer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.transparent,
-      body: Column(
-        children: const [
-          Spacer(
-            flex: 55,
-          ),
-          Expanded(
-            flex: 75,
-            child: DashboardProfileCircle(),
-          ),
-          Spacer(
-            flex: 10,
-          ),
-          Expanded(
-            flex: 33,
-            child: DashboardProfileNameText(),
-          ),
-          Spacer(
-            flex: 3,
-          ),
-          Expanded(
-            flex: 30,
-            child: DashboardProfileSocialMedia(),
-          ),
-          Spacer(
-            flex: 20,
-          ),
-          Expanded(
-            flex: 120,
-            child: DashboardHeyText(),
-          ),
-          Spacer(
-            flex: 5,
-          ),
-          Expanded(
-            flex: 65,
-            child: Card(),
-          ),
-          Spacer(
-            flex: 25,
-          ),
-        ],
-      ),
+    return Column(
+      mainAxisSize: MainAxisSize.max,
+      children: [
+        Row(
+          children: const [
+            Spacer(
+              flex: 55,
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Expanded(
+              flex: 75,
+              child: DashboardProfileCircle(),
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Spacer(
+              flex: 10,
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Expanded(
+              flex: 33,
+              child: DashboardProfileNameText(),
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Spacer(
+              flex: 3,
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Expanded(
+              flex: 30,
+              child: DashboardProfileSocialMedia(),
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Spacer(
+              flex: 20,
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Expanded(
+              flex: 120,
+              child: DashboardHeyText(),
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Spacer(
+              flex: 5,
+            ),
+          ],
+        ),
+        Row(
+          children: const [
+            Spacer(
+              flex: 25,
+            ),
+          ],
+        ),
+      ],
     );
   }
 }
