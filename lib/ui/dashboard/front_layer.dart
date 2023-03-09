@@ -66,9 +66,30 @@ class DashboardFrontLayer extends StatelessWidget {
           const Spacer(
             flex: 3,
           ),
-          Expanded(flex: 6, child: Container()),
+          Expanded(
+            flex: 3,
+            child: Container(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  RawMaterialButton(
+                    onPressed: () {},
+                    elevation: 2.0,
+                    fillColor: Colors.white,
+                    child: Icon(
+                      Icons.pause,
+                      size: 35.0,
+                    ),
+                    padding: EdgeInsets.all(15.0),
+                    shape: CircleBorder(),
+                  )
+                ],
+              ),
+            ),
+          ),
           const Spacer(
-            flex: 5,
+            flex: 10,
           ),
         ],
       ),

@@ -13,6 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.2
+  font_awesome_flutter: ^10.4.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0
