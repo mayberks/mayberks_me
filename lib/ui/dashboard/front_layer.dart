@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/constants/images.dart';
 
@@ -10,7 +11,7 @@ class DashboardFrontLayer extends StatelessWidget {
       backgroundColor: Colors.transparent,
       body: Column(
         children: [
-          Spacer(
+          const Spacer(
             flex: 3,
           ),
           Expanded(
@@ -24,22 +25,30 @@ class DashboardFrontLayer extends StatelessWidget {
               ),
             ),
           ),
-          Spacer(
+          const Spacer(
             flex: 5,
           ),
           Expanded(
-              flex: 2,
-              child: Text(
-                'Ayberk CAKIR',
-                style: TextStyle(
-                  color: Colors.white,
-                ),
-              )),
-          Spacer(
+            flex: 2,
+            child: DefaultTextStyle(
+              style: const TextStyle(
+                fontSize: 30,
+                fontFamily: 'Karla',
+                color: Colors.white,
+              ),
+              child: AnimatedTextKit(
+                isRepeatingAnimation: true,
+                animatedTexts: [
+                  TypewriterAnimatedText('AYBERK CAKIR'),
+                ],
+              ),
+            ),
+          ),
+          const Spacer(
             flex: 1,
           ),
           Expanded(flex: 6, child: Container()),
-          Spacer(
+          const Spacer(
             flex: 5,
           ),
         ],
