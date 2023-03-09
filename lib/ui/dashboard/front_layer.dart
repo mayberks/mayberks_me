@@ -15,14 +15,12 @@ class DashboardFrontLayer extends StatelessWidget {
           ),
           Expanded(
             flex: 4,
-            child: Container(
-              child: CircleAvatar(
-                minRadius: 95,
-                backgroundColor: Colors.white,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(95),
-                  child: Image.asset(MayberksProfileImage),
-                ),
+            child: CircleAvatar(
+              minRadius: 95,
+              backgroundColor: Colors.white,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(95),
+                child: Image.asset(MayberksProfileImage),
               ),
             ),
           ),
