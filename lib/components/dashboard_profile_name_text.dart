@@ -27,8 +27,7 @@ class DashboardProfileNameText extends StatelessWidget {
             fontWeight: FontWeight.w100,
           ),
           child: AnimatedTextKit(
-            isRepeatingAnimation: true,
-            totalRepeatCount: 999,
+            repeatForever: true,
             animatedTexts: [
               FadeAnimatedText('Flutter Developer'),
               FadeAnimatedText('System Administrator'),

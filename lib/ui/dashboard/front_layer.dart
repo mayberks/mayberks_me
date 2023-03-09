@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/dashboard_profile_social_media.dart';
 import 'package:mayberks_me/components/dashobard_hey_text.dart';
+import 'package:mayberks_me/constants/extensions.dart';
 
 import '../../components/dashboard_profile_name_text.dart';
 
@@ -11,82 +12,26 @@ class DashboardFrontLayer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisSize: MainAxisSize.max,
       children: [
-        Row(
-          children: const [
-            Spacer(
-              flex: 55,
-            ),
-          ],
+        SizedBox(
+          height: context.dynamicHeight(0.17),
         ),
-        Row(
-          children: const [
-            Expanded(
-              flex: 75,
-              child: DashboardProfileCircle(),
-            ),
-          ],
+        SizedBox(
+          height: context.dynamicHeight(0.15),
+          child: const DashboardProfileCircle(),
         ),
-        Row(
-          children: const [
-            Spacer(
-              flex: 10,
-            ),
-          ],
+        SizedBox(
+          height: context.dynamicHeight(0.02),
         ),
-        Row(
-          children: const [
-            Expanded(
-              flex: 33,
-              child: DashboardProfileNameText(),
-            ),
-          ],
+        DashboardProfileNameText(),
+        SizedBox(
+          height: context.dynamicHeight(0.035),
         ),
-        Row(
-          children: const [
-            Spacer(
-              flex: 3,
-            ),
-          ],
+        DashboardProfileSocialMedia(),
+        SizedBox(
+          height: context.dynamicHeight(0.17),
         ),
-        Row(
-          children: const [
-            Expanded(
-              flex: 30,
-              child: DashboardProfileSocialMedia(),
-            ),
-          ],
-        ),
-        Row(
-          children: const [
-            Spacer(
-              flex: 20,
-            ),
-          ],
-        ),
-        Row(
-          children: const [
-            Expanded(
-              flex: 120,
-              child: DashboardHeyText(),
-            ),
-          ],
-        ),
-        Row(
-          children: const [
-            Spacer(
-              flex: 5,
-            ),
-          ],
-        ),
-        Row(
-          children: const [
-            Spacer(
-              flex: 25,
-            ),
-          ],
-        ),
+        DashboardHeyText(),
       ],
     );
   }

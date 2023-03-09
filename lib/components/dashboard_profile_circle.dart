@@ -8,10 +8,10 @@ class DashboardProfileCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
-      minRadius: 120,
+      minRadius: 45,
       backgroundColor: Colors.white,
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(95),
+        borderRadius: BorderRadius.circular(45),
         child: Image.asset(MayberksProfileImage),
       ),
     );
