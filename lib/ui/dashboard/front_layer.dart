@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/components/dashboard_all_works.dart';
 import 'package:mayberks_me/components/dashboard_details_text.dart';
 import 'package:mayberks_me/components/dashboard_hire_discord_button.dart';
@@ -58,7 +59,7 @@ class DashboardFrontLayer extends StatelessWidget {
         ),
         const DashboardDetailsText(),
         SizedBox(
-          height: context.dynamicHeight(0.09),
+          height: context.dynamicHeight(0.05),
         ),
         SizedBox(
           height: context.dynamicHeight(0.7),
@@ -88,30 +89,82 @@ class DashboardFrontLayer extends StatelessWidget {
                         child: Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
-                            Spacer(
-                              flex: 10,
+                          children: [
+                            const Spacer(
+                              flex: 12,
                             ),
                             Expanded(
-                              flex: 10,
-                              child: Text('1'),
+                              flex: 100,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Expanded(
+                                    flex: 1,
+                                    child: Text(
+                                      'My Educations',
+                                      style: GoogleFonts.karla(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 20,
+                                      ),
+                                    ),
+                                  ),
+                                  const Spacer(
+                                    flex: 1,
+                                  ),
+                                  const Expanded(
+                                    flex: 1,
+                                    child: Text('heyyyyyy'),
+                                  ),
+                                  const Spacer(
+                                    flex: 18,
+                                  ),
+                                ],
+                              ),
                             ),
-                            Spacer(
+                            const Spacer(
                               flex: 10,
                             ),
-                            VerticalDivider(
+                            const VerticalDivider(
                               color: Color.fromARGB(255, 20, 20, 20),
                               thickness: 0.4,
                             ),
-                            Spacer(
+                            const Spacer(
                               flex: 10,
                             ),
                             Expanded(
-                              flex: 10,
-                              child: Text('1'),
+                              flex: 100,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Expanded(
+                                    flex: 1,
+                                    child: Text(
+                                      'My Certificate & Skills',
+                                      style: GoogleFonts.karla(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 20,
+                                      ),
+                                    ),
+                                  ),
+                                  const Spacer(
+                                    flex: 1,
+                                  ),
+                                  const Expanded(
+                                    flex: 1,
+                                    child: Text('heyyyyyy'),
+                                  ),
+                                  const Spacer(
+                                    flex: 18,
+                                  ),
+                                ],
+                              ),
                             ),
-                            Spacer(
-                              flex: 10,
+                            const Spacer(
+                              flex: 12,
                             ),
                           ],
                         ),
