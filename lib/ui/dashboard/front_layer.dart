@@ -58,6 +58,78 @@ class DashboardFrontLayer extends StatelessWidget {
         ),
         const DashboardDetailsText(),
         SizedBox(
+          height: context.dynamicHeight(0.09),
+        ),
+        SizedBox(
+          height: context.dynamicHeight(0.7),
+          child: Row(
+            children: [
+              const Spacer(
+                flex: 9,
+              ),
+              Expanded(
+                flex: 17,
+                child: Container(
+                  decoration: const BoxDecoration(
+                    color: Color.fromARGB(255, 40, 40, 40),
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(15),
+                    ),
+                  ),
+                  width: context.dynamicWidth(0.5),
+                  height: context.dynamicHeight(0.7),
+                  child: Column(
+                    children: [
+                      const Spacer(
+                        flex: 5,
+                      ),
+                      Expanded(
+                        flex: 100,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: const [
+                            Spacer(
+                              flex: 10,
+                            ),
+                            Expanded(
+                              flex: 10,
+                              child: Text('1'),
+                            ),
+                            Spacer(
+                              flex: 10,
+                            ),
+                            VerticalDivider(
+                              color: Color.fromARGB(255, 20, 20, 20),
+                              thickness: 0.4,
+                            ),
+                            Spacer(
+                              flex: 10,
+                            ),
+                            Expanded(
+                              flex: 10,
+                              child: Text('1'),
+                            ),
+                            Spacer(
+                              flex: 10,
+                            ),
+                          ],
+                        ),
+                      ),
+                      const Spacer(
+                        flex: 5,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const Spacer(
+                flex: 10,
+              ),
+            ],
+          ),
+        ),
+        SizedBox(
           height: context.dynamicHeight(0.2),
         ),
       ],
