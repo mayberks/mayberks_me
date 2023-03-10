@@ -4,8 +4,8 @@ import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/subtitles.dart';
 import 'package:morphing_text/morphing_text.dart';
 
-class SeniorTeam extends StatelessWidget {
-  const SeniorTeam({Key? key}) : super(key: key);
+class GloryHostingSolutions extends StatelessWidget {
+  const GloryHostingSolutions({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,14 +25,14 @@ class SeniorTeam extends StatelessWidget {
               child: CircleAvatar(
                 radius: 30,
                 backgroundImage:
-                AssetImage('assets/images/senior_team.png'),
+                AssetImage('assets/images/glory_hosting_solutions.jpg'),
               ),
             ),
             SizedBox(
               height: context.dynamicHeight(0.02),
             ),
             Text(
-              'Senior Team',
+              'Glory Hosting Solutions',
               style: GoogleFonts.rubik(
                 color: const Color.fromRGBO(255, 139, 19, 1),
                 fontWeight: FontWeight.w800,
@@ -43,7 +43,7 @@ class SeniorTeam extends StatelessWidget {
               height: 7,
             ),
             EvaporateMorphingText(
-              texts: seniorteamsubtitle,
+              texts: gloryhostingsubtitle,
               loopForever: true,
               textStyle: GoogleFonts.rubik(
                 color: Colors.white,
@@ -54,7 +54,7 @@ class SeniorTeam extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'I have been working as a freelancer of Minecraft software and graphic design company since 2020.',
+              'I have been working as a Chief Operating Officer of Glory Hosting Solutions company since 2019.',
               textAlign: TextAlign.center,
               style: GoogleFonts.rubik(
                 color: Colors.white,

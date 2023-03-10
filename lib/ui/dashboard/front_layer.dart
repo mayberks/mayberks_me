@@ -4,7 +4,9 @@ import 'package:mayberks_me/components/dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/dashboard_profile_social_media.dart';
 import 'package:mayberks_me/components/dashboard_some_places_text.dart';
 import 'package:mayberks_me/components/dashobard_hey_text.dart';
+import 'package:mayberks_me/components/works/glory_hosting_solutions.dart';
 import 'package:mayberks_me/components/works/infumia_limited.dart';
+import 'package:mayberks_me/components/works/senior_team.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 import '../../components/dashboard_profile_name_text.dart';
@@ -60,11 +62,11 @@ class DashboardFrontLayer extends StatelessWidget {
                 SizedBox(
                   width: context.dynamicWidth(0.03),
                 ),
-                InfumiaLimited(),
+                SeniorTeam(),
                 SizedBox(
                   width: context.dynamicWidth(0.03),
                 ),
-                InfumiaLimited(),
+                GloryHostingSolutions(),
               ],
             ),
           ],

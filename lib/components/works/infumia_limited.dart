@@ -51,7 +51,7 @@ class InfumiaLimited extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 7,
+              height: 20,
             ),
             Text(
               'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
