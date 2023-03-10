@@ -61,7 +61,7 @@ class DashboardFrontLayer extends StatelessWidget {
               flex: 17,
               child: Container(
                 decoration: const BoxDecoration(
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 40, 40, 40),
                   borderRadius: BorderRadius.all(
                     Radius.circular(15),
                   ),
@@ -98,18 +98,18 @@ class DashboardFrontLayer extends StatelessWidget {
                     Expanded(
                       flex: 70,
                       child: SizedBox(
-                        height: 15,
+                        height: context.dynamicHeight(0.04),
                         width: context.dynamicWidth(0.14),
                         child: OutlinedButton(
                           style: OutlinedButton.styleFrom(
                             side: const BorderSide(
                               color: Colors.white,
                             ),
-                            backgroundColor: Colors.transparent,
+                            backgroundColor: const Color.fromARGB(255, 20, 20, 20),
                             foregroundColor: Colors.white,
                             textStyle: GoogleFonts.karla(
                               fontWeight: FontWeight.w300,
-                              fontSize: 22,
+                              fontSize: 20,
                             ),
                           ),
                           onPressed: () {},

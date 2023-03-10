@@ -31,7 +31,7 @@ class AdaDogaltas extends StatelessWidget {
               height: context.dynamicHeight(0.02),
             ),
             Text(
-              'Valatic Network',
+              'Ada Natural Stone',
               style: GoogleFonts.rubik(
                 color: const Color.fromRGBO(255, 139, 19, 1),
                 fontWeight: FontWeight.w800,
