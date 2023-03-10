@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:getwidget/components/button/gf_button.dart';
-import 'package:getwidget/types/gf_button_type.dart';
+import 'package:mayberks_me/components/dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/dashboard_profile_social_media.dart';
+import 'package:mayberks_me/components/dashboard_some_places_text.dart';
 import 'package:mayberks_me/components/dashobard_hey_text.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
@@ -38,26 +37,11 @@ class DashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.05),
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            GFButton(
-              onPressed: () {},
-              text: "Hire Me!",
-              type: GFButtonType.outline2x,
-              icon: FaIcon(FontAwesomeIcons.gitAlt),
-            ),
-            SizedBox(
-              width: context.dynamicWidth(0.1),
-            ),
-            GFButton(
-              onPressed: () {},
-              text: "Contact Me!",
-              type: GFButtonType.outline,
-            ),
-          ],
+        const DashboardHireDiscountButton(),
+        SizedBox(
+          height: context.dynamicHeight(0.07),
         ),
+        const DashboardSomePlacesText(),
       ],
     );
   }
