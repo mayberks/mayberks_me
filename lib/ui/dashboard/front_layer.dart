@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/components/dashboard_all_works.dart';
+import 'package:mayberks_me/components/dashboard_details_text.dart';
 import 'package:mayberks_me/components/dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/dashboard_join_our_discord.dart';
 import 'package:mayberks_me/components/dashboard_profile_circle.dart';
@@ -56,29 +56,7 @@ class DashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.05),
         ),
-        Center(
-          child: Row(
-            children: [
-              const Spacer(
-                flex: 12,
-              ),
-              Expanded(
-                flex: 15,
-                child: Text(
-                  'Here are the details about me.',
-                  style: GoogleFonts.karla(
-                    color: Colors.blue,
-                    fontWeight: FontWeight.w800,
-                    fontSize: 24,
-                  ),
-                ),
-              ),
-              const Spacer(
-                flex: 12,
-              ),
-            ],
-          ),
-        ),
+        const DashboardDetailsText(),
         SizedBox(
           height: context.dynamicHeight(0.2),
         ),
