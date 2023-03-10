@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mayberks_me/constants/subtitle.dart';
+import 'package:mayberks_me/constants/subtitles.dart';
 import 'package:morphing_text/morphing_text.dart';
 
 class DashboardProfileNameText extends StatelessWidget {
@@ -23,7 +23,7 @@ class DashboardProfileNameText extends StatelessWidget {
           height: 12,
         ),
         EvaporateMorphingText(
-          texts: subtitle,
+          texts: mainsubtitle,
           loopForever: true,
           textStyle: GoogleFonts.rubik(
             color: Colors.white,

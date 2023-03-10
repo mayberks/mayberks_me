@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
+import 'package:mayberks_me/constants/subtitles.dart';
+import 'package:morphing_text/morphing_text.dart';
 
 class InfumiaLimited extends StatelessWidget {
   const InfumiaLimited({Key? key}) : super(key: key);
@@ -40,9 +42,10 @@ class InfumiaLimited extends StatelessWidget {
             const SizedBox(
               height: 7,
             ),
-            Text(
-              'Software Company',
-              style: GoogleFonts.rubik(
+            EvaporateMorphingText(
+              texts: infumiasubtitle,
+              loopForever: true,
+              textStyle: GoogleFonts.rubik(
                 color: Colors.white,
                 fontWeight: FontWeight.w100,
               ),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
+import 'package:mayberks_me/constants/subtitles.dart';
+import 'package:morphing_text/morphing_text.dart';
 
 class SeniorTeam extends StatelessWidget {
   const SeniorTeam({Key? key}) : super(key: key);
@@ -23,14 +25,14 @@ class SeniorTeam extends StatelessWidget {
               child: CircleAvatar(
                 radius: 30,
                 backgroundImage:
-                AssetImage('assets/images/infumia_limited_logo.jpg'),
+                AssetImage('assets/images/senior_team'),
               ),
             ),
             SizedBox(
               height: context.dynamicHeight(0.02),
             ),
             Text(
-              'Infumia Limited',
+              'Senior Team',
               style: GoogleFonts.rubik(
                 color: const Color.fromRGBO(255, 139, 19, 1),
                 fontWeight: FontWeight.w800,
@@ -40,9 +42,10 @@ class SeniorTeam extends StatelessWidget {
             const SizedBox(
               height: 7,
             ),
-            Text(
-              'Software Company',
-              style: GoogleFonts.rubik(
+            EvaporateMorphingText(
+              texts: seniorteamsubtitle,
+              loopForever: true,
+              textStyle: GoogleFonts.rubik(
                 color: Colors.white,
                 fontWeight: FontWeight.w100,
               ),
@@ -51,7 +54,7 @@ class SeniorTeam extends StatelessWidget {
               height: 7,
             ),
             Text(
-              'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
+              'I have been working as a freelancer of Minecraft software and graphic design company since 2020.',
               textAlign: TextAlign.center,
               style: GoogleFonts.rubik(
                 color: Colors.white,
