@@ -57,6 +57,14 @@ class DashboardFrontLayer extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 InfumiaLimited(),
+                SizedBox(
+                  width: context.dynamicWidth(0.03),
+                ),
+                InfumiaLimited(),
+                SizedBox(
+                  width: context.dynamicWidth(0.03),
+                ),
+                InfumiaLimited(),
               ],
             ),
           ],
