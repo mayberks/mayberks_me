@@ -64,11 +64,11 @@ class DashboardFrontLayer extends StatelessWidget {
                 SizedBox(
                   width: context.dynamicWidth(0.03),
                 ),
-                const SeniorTeam(),
+                const GloryHostingSolutions(),
                 SizedBox(
                   width: context.dynamicWidth(0.03),
                 ),
-                const GloryHostingSolutions(),
+                const SeniorTeam(),
               ],
             ),
             SizedBox(
