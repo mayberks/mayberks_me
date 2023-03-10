@@ -7,7 +7,6 @@ environment:
   sdk: '>=2.19.2 <3.0.0'
 
 dependencies:
-  animated_text_kit: ^4.2.2
   cupertino_icons: ^1.0.2
   getwidget: ^3.0.1
   google_fonts: ^4.0.3
@@ -15,6 +14,7 @@ dependencies:
     sdk: flutter
   flutter_svg: ^2.0.2
   font_awesome_flutter: ^10.4.0
+  morphing_text: ^1.0.1
 
 dev_dependencies:
   flutter_lints: ^2.0.0
