@@ -8,7 +8,7 @@ class DashboardHireDiscordButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return         Row(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
@@ -17,8 +17,8 @@ class DashboardHireDiscordButton extends StatelessWidget {
             side: const BorderSide(
               color: Colors.white,
             ),
-            minimumSize: Size(
-                context.dynamicWidth(0.13), context.dynamicHeight(0.05)),
+            minimumSize:
+                Size(context.dynamicWidth(0.13), context.dynamicHeight(0.05)),
             backgroundColor: Colors.transparent,
             foregroundColor: Colors.white,
             textStyle: GoogleFonts.karla(
@@ -42,8 +42,8 @@ class DashboardHireDiscordButton extends StatelessWidget {
             side: const BorderSide(
               color: Colors.white,
             ),
-            minimumSize: Size(
-                context.dynamicWidth(0.13), context.dynamicHeight(0.05)),
+            minimumSize:
+                Size(context.dynamicWidth(0.13), context.dynamicHeight(0.05)),
             backgroundColor: Colors.transparent,
             foregroundColor: Colors.white,
           ),
