@@ -70,7 +70,7 @@ class DashboardFrontLayer extends StatelessWidget {
                   Text(
                     'Infumia Limited',
                     style: GoogleFonts.rubik(
-                      color: Color.fromRGBO(255, 139, 19, 1),
+                      color: const Color.fromRGBO(255, 139, 19, 1),
                       fontWeight: FontWeight.w800,
                       fontSize: 16,
                     ),
