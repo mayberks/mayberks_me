@@ -11,7 +11,6 @@ class InfumiaLimited extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        color: Colors.red,
         height: context.dynamicHeight(0.24),
         width: context.dynamicWidth(0.15),
         child: Column(
