@@ -3,8 +3,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class DashboardHireDiscountButton extends StatelessWidget {
-  const DashboardHireDiscountButton({Key? key}) : super(key: key);
+class DashboardHireDiscordButton extends StatelessWidget {
+  const DashboardHireDiscordButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

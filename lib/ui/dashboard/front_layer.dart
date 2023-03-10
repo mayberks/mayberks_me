@@ -37,7 +37,7 @@ class DashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.05),
         ),
-        const DashboardHireDiscountButton(),
+        const DashboardHireDiscordButton(),
         SizedBox(
           height: context.dynamicHeight(0.07),
         ),
