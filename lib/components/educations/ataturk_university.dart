@@ -28,7 +28,8 @@ class AtaturkUniversity extends StatelessWidget {
                     backgroundColor: Colors.white,
                     child: CircleAvatar(
                       radius: 30,
-                      backgroundColor: Colors.purple,
+                      backgroundImage:
+                          AssetImage('assets/images/ataturk_university.png'),
                     ),
                   ),
                 ),
