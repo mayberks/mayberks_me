@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:mayberks_me/constants/urls.dart';
 
 class DashboardFooterIcons extends StatelessWidget {
   const DashboardFooterIcons({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class DashboardFooterIcons extends StatelessWidget {
           children: [
             IconButton(
               onPressed: () {
-                print('Clicked: Github Button');
+                launchGithub();
               },
               icon: const FaIcon(
                 FontAwesomeIcons.github,
@@ -28,7 +29,7 @@ class DashboardFooterIcons extends StatelessWidget {
             ),
             IconButton(
               onPressed: () {
-                print('Clicked: Linkedin Button');
+                launchLinkedin();
               },
               icon: const FaIcon(
                 FontAwesomeIcons.linkedin,
@@ -40,7 +41,7 @@ class DashboardFooterIcons extends StatelessWidget {
             ),
             IconButton(
               onPressed: () {
-                print('Clicked: Discord Button');
+                launchDiscord();
               },
               icon: const FaIcon(
                 FontAwesomeIcons.discord,
@@ -52,7 +53,7 @@ class DashboardFooterIcons extends StatelessWidget {
             ),
             IconButton(
               onPressed: () {
-                print('Clicked: Whatsapp Button');
+                launchWhatsapp();
               },
               icon: const FaIcon(
                 FontAwesomeIcons.whatsapp,
@@ -64,7 +65,7 @@ class DashboardFooterIcons extends StatelessWidget {
             ),
             IconButton(
               onPressed: () {
-                print('Clicked: Website Button');
+                launchCompany();
               },
               icon: const FaIcon(
                 FontAwesomeIcons.link,
