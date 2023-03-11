@@ -61,11 +61,11 @@ class DashboardDetailsSection extends StatelessWidget {
                                 flex: 1,
                               ),
                               const Expanded(
-                                flex: 3,
+                                flex: 4,
                                 child: AtaturkUniversity(),
                               ),
                               const Spacer(
-                                flex: 16,
+                                flex: 15,
                               ),
                             ],
                           ),
