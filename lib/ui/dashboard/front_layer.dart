@@ -5,6 +5,7 @@ import 'package:mayberks_me/components/dashboard_details_text.dart';
 import 'package:mayberks_me/components/dashboard_footer_divider.dart';
 import 'package:mayberks_me/components/dashboard_footer_icons.dart';
 import 'package:mayberks_me/components/dashboard_footer_image.dart';
+import 'package:mayberks_me/components/dashboard_footer_text.dart';
 import 'package:mayberks_me/components/dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/dashboard_hosting_provider.dart';
 import 'package:mayberks_me/components/dashboard_join_our_discord.dart';
@@ -95,7 +96,11 @@ class DashboardFrontLayer extends StatelessWidget {
         ),
         const DashboardFooterImage(),
         SizedBox(
-          height: context.dynamicHeight(0.9),
+          height: context.dynamicHeight(0.02),
+        ),
+        const DashboardFooterText(),
+        SizedBox(
+          height: context.dynamicHeight(0.03),
         ),
       ],
     );

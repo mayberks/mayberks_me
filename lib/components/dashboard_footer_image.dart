@@ -7,8 +7,8 @@ class DashboardFooterImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image.asset(
-      'assets/images/white_infumia_logo.png',
-      //width: context.dynamicWidth(0.12),
+      'assets/images/infumia_favicon.png',
+      width: context.dynamicWidth(0.03),
     );
   }
 }
