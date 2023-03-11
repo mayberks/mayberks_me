@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:mayberks_me/components/dashboard_all_skills.dart';
 import 'package:mayberks_me/components/dashboard_certificates_educations.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
@@ -36,52 +36,23 @@ class DashboardDetailsSection extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        const Spacer(
+                      children: const [
+                        Spacer(
                           flex: 12,
                         ),
-                        const DashboardCertificatesEducations(),
-                        const Spacer(
+                        DashboardCertificatesEducations(),
+                        Spacer(
                           flex: 10,
                         ),
-                        const VerticalDivider(
+                        VerticalDivider(
                           color: Color.fromARGB(255, 20, 20, 20),
                           thickness: 0.4,
                         ),
-                        const Spacer(
+                        Spacer(
                           flex: 10,
                         ),
-                        Expanded(
-                          flex: 100,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Expanded(
-                                flex: 1,
-                                child: Text(
-                                  'My Skills',
-                                  style: GoogleFonts.karla(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 20,
-                                  ),
-                                ),
-                              ),
-                              const Spacer(
-                                flex: 1,
-                              ),
-                              const Expanded(
-                                flex: 1,
-                                child: Text('heyyyyyy'),
-                              ),
-                              const Spacer(
-                                flex: 18,
-                              ),
-                            ],
-                          ),
-                        ),
-                        const Spacer(
+                        DashboardAllSkills(),
+                        Spacer(
                           flex: 12,
                         ),
                       ],
