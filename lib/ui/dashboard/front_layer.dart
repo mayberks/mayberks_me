@@ -5,6 +5,7 @@ import 'package:mayberks_me/components/dashboard_details_text.dart';
 import 'package:mayberks_me/components/dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/dashboard_join_our_discord.dart';
 import 'package:mayberks_me/components/dashboard_no_enlarge_text.dart';
+import 'package:mayberks_me/components/dashboard_portfolio_section.dart';
 import 'package:mayberks_me/components/dashboard_portfolio_text.dart';
 import 'package:mayberks_me/components/dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/dashboard_profile_social_media.dart';
@@ -73,7 +74,11 @@ class DashboardFrontLayer extends StatelessWidget {
         ),
         const DashboardPortfolioText(),
         SizedBox(
-          height: context.dynamicHeight(0.4),
+          height: context.dynamicHeight(0.05),
+        ),
+        const DashboardPortfolioSection(),
+        SizedBox(
+          height: context.dynamicHeight(0.9),
         ),
       ],
     );
