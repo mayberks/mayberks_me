@@ -15,7 +15,7 @@ class DashboardProfileCircle extends StatelessWidget {
         backgroundColor: Colors.white,
         child: ClipRRect(
           borderRadius: BorderRadius.circular(45),
-          child: Image.asset(MayberksProfileImage),
+          child: Image.asset(mayberksProfileImage),
         ),
       ),
     );

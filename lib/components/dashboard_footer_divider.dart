@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:mayberks_me/constants/extensions.dart';
 
 class DashboardFooterDivider extends StatelessWidget {
   const DashboardFooterDivider({Key? key}) : super(key: key);

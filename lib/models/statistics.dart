@@ -20,6 +20,6 @@ List<Statistic> statistic = [
     title: "Completed Commission",
     subtitle: "750",
     image: "assets/images/completed_commission.png",
-    color: Color.fromARGB(255, 217, 255, 252),
+    color: const Color.fromARGB(255, 217, 255, 252),
   ),
 ];

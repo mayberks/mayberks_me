@@ -10,7 +10,7 @@ class AdaDogaltas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Container(
+      child: SizedBox(
         height: context.dynamicHeight(0.24),
         width: context.dynamicWidth(0.15),
         child: Column(
