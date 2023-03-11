@@ -11,48 +11,59 @@ class AtaturkUniversity extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Spacer(
-          flex: 1,
+          flex: 10,
         ),
         Expanded(
-          flex: 2,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: const [
-              Expanded(
-                child: Align(
-                  alignment: Alignment.topLeft,
-                  child: CircleAvatar(
-                    minRadius: 30,
-                    backgroundColor: Colors.white,
+          flex: 20,
+          child: Container(
+            color: Colors.red,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: const [
+                Expanded(
+                  child: Align(
+                    alignment: Alignment.topLeft,
                     child: CircleAvatar(
-                      radius: 30,
-                      backgroundColor: Colors.purple,
+                      minRadius: 30,
+                      backgroundColor: Colors.white,
+                      child: CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Colors.purple,
+                      ),
                     ),
                   ),
                 ),
-              ),
-              Spacer(),
-            ],
-          ),
-        ),
-        Expanded(
-          flex: 10,
-          child: Column(
-            children: [
-              Text(
-                'Ataturk University',
-                style: GoogleFonts.karla(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w400,
-                  fontSize: 14,
-                ),
-              ),
-            ],
+                Spacer(),
+              ],
+            ),
           ),
         ),
         const Spacer(
-          flex: 1,
+          flex: 4,
+        ),
+        Expanded(
+          flex: 100,
+          child: Container(
+            color: Colors.blue,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Ataturk University',
+                  style: GoogleFonts.karla(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                    fontSize: 14,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        const Spacer(
+          flex: 10,
         ),
       ],
     );
