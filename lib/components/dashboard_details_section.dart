@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/components/educations/ataturk_university.dart';
+import 'package:mayberks_me/components/educations/vijya_university.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class DashboardDetailsSection extends StatelessWidget {
@@ -65,7 +66,14 @@ class DashboardDetailsSection extends StatelessWidget {
                                 child: AtaturkUniversity(),
                               ),
                               const Spacer(
-                                flex: 15,
+                                flex: 1,
+                              ),
+                              const Expanded(
+                                flex: 4,
+                                child: VijyaUniversity(),
+                              ),
+                              const Spacer(
+                                flex: 11,
                               ),
                             ],
                           ),
