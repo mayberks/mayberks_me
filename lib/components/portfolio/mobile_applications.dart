@@ -3,8 +3,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class FlutterProjects extends StatelessWidget {
-  const FlutterProjects({Key? key}) : super(key: key);
+class MobileApplications extends StatelessWidget {
+  const MobileApplications({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class FlutterProjects extends StatelessWidget {
         image: DecorationImage(
           fit: BoxFit.fitHeight,
           image: AssetImage(
-            'assets/images/flutter_projects.png',
+            'assets/images/mobile_applications.png',
           ),
         ),
         borderRadius: BorderRadius.all(

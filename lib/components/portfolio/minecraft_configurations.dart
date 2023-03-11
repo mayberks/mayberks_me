@@ -3,8 +3,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class FlutterProjects extends StatelessWidget {
-  const FlutterProjects({Key? key}) : super(key: key);
+class MinecraftConfigurations extends StatelessWidget {
+  const MinecraftConfigurations({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class FlutterProjects extends StatelessWidget {
         image: DecorationImage(
           fit: BoxFit.fitHeight,
           image: AssetImage(
-            'assets/images/flutter_projects.png',
+            'assets/images/minecraft_configurations.png',
           ),
         ),
         borderRadius: BorderRadius.all(
