@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/ui/dashboard/front_layer.dart';
 import 'package:web_smooth_scroll/web_smooth_scroll.dart';
 
@@ -27,6 +26,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
         debugShowCheckedModeBanner: false,
         color: const Color.fromARGB(255, 20, 20, 20),
         home: Scaffold(
+          resizeToAvoidBottomInset: false,
+          extendBody: false,
           backgroundColor: const Color.fromARGB(255, 20, 20, 20),
           body: WebSmoothScroll(
             controller: _scrollController,
