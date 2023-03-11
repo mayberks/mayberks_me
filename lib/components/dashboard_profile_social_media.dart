@@ -25,7 +25,7 @@ class DashboardProfileSocialMedia extends StatelessWidget {
         ),
         IconButton(
           onPressed: () {
-            print('Clicked: Linkedin Button');
+            launchLinkedin();
           },
           icon: const FaIcon(
             FontAwesomeIcons.linkedin,
@@ -37,7 +37,7 @@ class DashboardProfileSocialMedia extends StatelessWidget {
         ),
         IconButton(
           onPressed: () {
-            print('Clicked: Discord Button');
+            launchDiscord();
           },
           icon: const FaIcon(
             FontAwesomeIcons.discord,
@@ -49,7 +49,7 @@ class DashboardProfileSocialMedia extends StatelessWidget {
         ),
         IconButton(
           onPressed: () {
-            print('Clicked: Whatsapp Button');
+            launchWhatsapp();
           },
           icon: const FaIcon(
             FontAwesomeIcons.whatsapp,
@@ -61,7 +61,7 @@ class DashboardProfileSocialMedia extends StatelessWidget {
         ),
         IconButton(
           onPressed: () {
-            print('Clicked: Website Button');
+            launchCompany();
           },
           icon: const FaIcon(
             FontAwesomeIcons.link,
