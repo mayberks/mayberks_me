@@ -13,18 +13,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return MediaQuery(
-      data: MediaQueryData(),
+      data: const MediaQueryData(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        color: Color.fromARGB(255, 20, 20, 20),
+        color: const Color.fromARGB(255, 20, 20, 20),
         home: Scaffold(
-          backgroundColor: Color.fromARGB(255, 20, 20, 20),
-          body: Container(
-              height: context.dynamicHeight(1.7),
-              width: context.dynamicWidth(1),
-              child: SingleChildScrollView(
-                child: DashboardFrontLayer(),
-              )),
+          backgroundColor: const Color.fromARGB(255, 20, 20, 20),
+          body: SizedBox(
+            height: context.dynamicHeight(1.7),
+            width: context.dynamicWidth(1),
+            child: const SingleChildScrollView(
+              child: DashboardFrontLayer(),
+            ),
+          ),
         ),
       ),
     );
