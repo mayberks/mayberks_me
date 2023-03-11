@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
+import 'package:mayberks_me/constants/urls.dart';
 
 class MinecraftOptimizations extends StatelessWidget {
   const MinecraftOptimizations({Key? key}) : super(key: key);
@@ -33,7 +34,7 @@ class MinecraftOptimizations extends StatelessWidget {
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
                 onTap: () {
-                  print("Tıklandı: Flutter Projets");
+                  launchminecraftoptimizationsUrl();
                 },
                 child: Container(
                   decoration: BoxDecoration(

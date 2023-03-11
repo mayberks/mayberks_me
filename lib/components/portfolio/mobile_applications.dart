@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
+import 'package:mayberks_me/constants/urls.dart';
 
 class MobileApplications extends StatelessWidget {
   const MobileApplications({Key? key}) : super(key: key);
@@ -33,7 +34,7 @@ class MobileApplications extends StatelessWidget {
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
                 onTap: () {
-                  print("Tıklandı: Flutter Projets");
+                  launchmobileappsUrl();
                 },
                 child: Container(
                   decoration: BoxDecoration(
