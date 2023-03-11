@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
+import 'package:mayberks_me/constants/urls.dart';
 
 class DashboardHireDiscordButton extends StatelessWidget {
   const DashboardHireDiscordButton({Key? key}) : super(key: key);
@@ -26,7 +27,9 @@ class DashboardHireDiscordButton extends StatelessWidget {
               fontSize: 22,
             ),
           ),
-          onPressed: () {},
+          onPressed: () {
+            launchSendMail();
+          },
           icon: const FaIcon(
             FontAwesomeIcons.mugHot,
             color: Color.fromRGBO(255, 251, 245, 1),
@@ -47,7 +50,9 @@ class DashboardHireDiscordButton extends StatelessWidget {
             backgroundColor: Colors.transparent,
             foregroundColor: Colors.white,
           ),
-          onPressed: () {},
+          onPressed: () {
+            launchDiscord();
+          },
           icon: const FaIcon(
             FontAwesomeIcons.discord,
             color: Color.fromRGBO(88, 101, 242, 1),
