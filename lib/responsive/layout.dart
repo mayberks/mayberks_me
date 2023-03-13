@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/responsive/dimensions.dart';
+import 'package:mayberks_me/ui/mobile_size_ui/mobile_size_dashboard_screen.dart';
 import 'package:mayberks_me/ui/normal_size_ui/normal_size_dashboard_screen.dart';
 
 class ResponsiveLayout extends StatelessWidget {
@@ -21,7 +22,7 @@ class ResponsiveLayout extends StatelessWidget {
         if (constraints.maxWidth >= normalMonitorSize) {
           return const NormalSizeDashboardScreen();
         } else {
-          return const NormalSizeDashboardScreen();
+          return const MobileSizeDashboardScreen();
         }
       },
     );
