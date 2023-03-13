@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mayberks_me/responsive/layout.dart';
 import 'package:mayberks_me/ui/dashboard/dashboard_screen.dart';
 
 void main() {
@@ -10,10 +11,14 @@ class MayberksMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       color: Colors.transparent,
       debugShowCheckedModeBanner: false,
-      home: DashboardScreen(),
+      home: ResponsiveLayout(
+        normalMonitorScreen: const DashboardScreen(),
+        smallMonitorScreen: const DashboardScreen(),
+        mobileScreen: const DashboardScreen(),
+      ),
     );
   }
 }
