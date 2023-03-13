@@ -7,7 +7,8 @@ class ResponsiveLayout extends StatelessWidget {
   final Widget normalMonitorScreen;
   final Widget mobileScreen;
 
-  ResponsiveLayout({
+  const ResponsiveLayout({
+    super.key,
     required this.normalMonitorScreen,
     required this.smallMonitorScreen,
     required this.mobileScreen,

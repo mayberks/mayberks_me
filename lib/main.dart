@@ -11,13 +11,13 @@ class MayberksMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       color: Colors.transparent,
       debugShowCheckedModeBanner: false,
       home: ResponsiveLayout(
-        normalMonitorScreen: const DashboardScreen(),
-        smallMonitorScreen: const DashboardScreen(),
-        mobileScreen: const DashboardScreen(),
+        normalMonitorScreen: DashboardScreen(),
+        smallMonitorScreen: DashboardScreen(),
+        mobileScreen: DashboardScreen(),
       ),
     );
   }

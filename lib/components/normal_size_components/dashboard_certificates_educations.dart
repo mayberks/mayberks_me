@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mayberks_me/components/certificates/c_sharp_certificates.dart';
-import 'package:mayberks_me/components/certificates/web_certificates.dart';
-import 'package:mayberks_me/components/educations/ataturk_university.dart';
-import 'package:mayberks_me/components/educations/vijya_university.dart';
-
+import 'package:mayberks_me/components/normal_size_components/certificates/c_sharp_certificates.dart';
+import 'package:mayberks_me/components/normal_size_components/certificates/web_certificates.dart';
+import 'package:mayberks_me/components/normal_size_components/educations/ataturk_university.dart';
+import 'package:mayberks_me/components/normal_size_components/educations/vijya_university.dart';
 class DashboardCertificatesEducations extends StatelessWidget {
   const DashboardCertificatesEducations({Key? key}) : super(key: key);
 

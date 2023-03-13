@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/components/portfolio/discord_setups.dart';
-import 'package:mayberks_me/components/portfolio/flutter_projects.dart';
-import 'package:mayberks_me/components/portfolio/minecraft_configurations.dart';
-import 'package:mayberks_me/components/portfolio/minecraft_optimizations.dart';
-import 'package:mayberks_me/components/portfolio/minecraft_setups.dart';
-import 'package:mayberks_me/components/portfolio/mobile_applications.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/discord_setups.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/flutter_projects.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/minecraft_configurations.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/minecraft_optimizations.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/minecraft_setups.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/mobile_applications.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class DashboardPortfolioSection extends StatelessWidget {

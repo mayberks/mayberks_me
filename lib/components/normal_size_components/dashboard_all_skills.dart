@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mayberks_me/components/skills/flutter_skills.dart';
-import 'package:mayberks_me/components/skills/minecraft_configurator.dart';
-import 'package:mayberks_me/components/skills/minecraft_setup_specialist.dart';
-import 'package:mayberks_me/components/skills/minecraft_system_administrator.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/flutter_skills.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/minecraft_configurator.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/minecraft_setup_specialist.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/minecraft_system_administrator.dart';
 
 class DashboardAllSkills extends StatelessWidget {
   const DashboardAllSkills({Key? key}) : super(key: key);

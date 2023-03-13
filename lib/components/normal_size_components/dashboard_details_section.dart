@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/components/dashboard_all_skills.dart';
-import 'package:mayberks_me/components/dashboard_certificates_educations.dart';
+import 'package:mayberks_me/components/normal_size_components/dashboard_all_skills.dart';
+import 'package:mayberks_me/components/normal_size_components/dashboard_certificates_educations.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class DashboardDetailsSection extends StatelessWidget {

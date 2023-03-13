@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/components/works/ada_dogaltas.dart';
-import 'package:mayberks_me/components/works/glory_hosting_solutions.dart';
-import 'package:mayberks_me/components/works/infumia_limited.dart';
-import 'package:mayberks_me/components/works/senior_team.dart';
-import 'package:mayberks_me/components/works/valatic.dart';
+import 'package:mayberks_me/components/normal_size_components/works/ada_dogaltas.dart';
+import 'package:mayberks_me/components/normal_size_components/works/glory_hosting_solutions.dart';
+import 'package:mayberks_me/components/normal_size_components/works/infumia_limited.dart';
+import 'package:mayberks_me/components/normal_size_components/works/senior_team.dart';
+import 'package:mayberks_me/components/normal_size_components/works/valatic.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class DashboardAllWorks extends StatelessWidget {

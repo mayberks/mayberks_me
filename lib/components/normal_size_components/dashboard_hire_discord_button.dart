@@ -13,7 +13,7 @@ class DashboardHireDiscordButton extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Spacer(
+        const Spacer(
           flex: 14,
         ),
         Expanded(
@@ -43,7 +43,7 @@ class DashboardHireDiscordButton extends StatelessWidget {
             label: const Text('Hey, hire me!'),
           ),
         ),
-        Spacer(
+        const Spacer(
           flex: 1,
         ),
         Expanded(
@@ -75,7 +75,7 @@ class DashboardHireDiscordButton extends StatelessWidget {
             ),
           ),
         ),
-        Spacer(
+        const Spacer(
           flex: 14,
         ),
       ],
