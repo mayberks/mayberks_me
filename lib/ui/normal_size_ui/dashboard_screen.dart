@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/ui/dashboard/front_layer.dart';
+import 'package:mayberks_me/ui/normal_size_ui/front_layer.dart';
 import 'package:web_smooth_scroll/web_smooth_scroll.dart';
 
-class DashboardScreen extends StatefulWidget {
-  const DashboardScreen({Key? key}) : super(key: key);
+class NormalSizeDashboardScreen extends StatefulWidget {
+  const NormalSizeDashboardScreen({Key? key}) : super(key: key);
 
   @override
-  State<DashboardScreen> createState() => _DashboardScreenState();
+  State<NormalSizeDashboardScreen> createState() =>
+      _NormalSizeDashboardScreenState();
 }
 
-class _DashboardScreenState extends State<DashboardScreen> {
+class _NormalSizeDashboardScreenState extends State<NormalSizeDashboardScreen> {
   late ScrollController _scrollController;
 
   @override
@@ -37,7 +38,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
             child: SingleChildScrollView(
               physics: const NeverScrollableScrollPhysics(),
               controller: _scrollController,
-              child: const DashboardFrontLayer(),
+              child: const NormalSizeDashboardFrontLayer(),
             ),
           ),
         ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/responsive/dimensions.dart';
-import 'package:mayberks_me/ui/dashboard/dashboard_screen.dart';
+import 'package:mayberks_me/ui/normal_size_ui/dashboard_screen.dart';
 
 class ResponsiveLayout extends StatelessWidget {
   final Widget smallMonitorScreen;
@@ -19,9 +19,9 @@ class ResponsiveLayout extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         if (constraints.maxWidth >= normalMonitorSize) {
-          return const DashboardScreen();
+          return const NormalSizeDashboardScreen();
         } else {
-          return const DashboardScreen();
+          return const NormalSizeDashboardScreen();
         }
       },
     );

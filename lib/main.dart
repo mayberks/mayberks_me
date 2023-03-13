@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/responsive/layout.dart';
-import 'package:mayberks_me/ui/dashboard/dashboard_screen.dart';
+import 'package:mayberks_me/ui/normal_size_ui/dashboard_screen.dart';
 
 void main() {
   runApp(const MayberksMe());
@@ -15,9 +15,9 @@ class MayberksMe extends StatelessWidget {
       color: Colors.transparent,
       debugShowCheckedModeBanner: false,
       home: ResponsiveLayout(
-        normalMonitorScreen: DashboardScreen(),
-        smallMonitorScreen: DashboardScreen(),
-        mobileScreen: DashboardScreen(),
+        normalMonitorScreen: NormalSizeDashboardScreen(),
+        smallMonitorScreen: NormalSizeDashboardScreen(),
+        mobileScreen: NormalSizeDashboardScreen(),
       ),
     );
   }

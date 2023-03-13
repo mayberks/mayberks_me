@@ -20,8 +20,8 @@ import 'package:mayberks_me/constants/extensions.dart';
 
 import '../../components/normal_size_components/dashboard_profile_name_text.dart';
 
-class DashboardFrontLayer extends StatelessWidget {
-  const DashboardFrontLayer({Key? key}) : super(key: key);
+class NormalSizeDashboardFrontLayer extends StatelessWidget {
+  const NormalSizeDashboardFrontLayer({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
