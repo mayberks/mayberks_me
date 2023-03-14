@@ -10,7 +10,7 @@ class MobileSizeDashboardHeyText extends StatelessWidget {
       child: Row(
         children: [
           const Spacer(
-            flex: 12,
+            flex: 4,
           ),
           Expanded(
             flex: 15,
@@ -41,7 +41,7 @@ class MobileSizeDashboardHeyText extends StatelessWidget {
             ),
           ),
           const Spacer(
-            flex: 12,
+            flex: 4,
           ),
         ],
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hey_text.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_join_our_discord.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_name_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_social_media.dart';
@@ -25,9 +26,13 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         ),
         const MobileSizeDashboardProfileSocialMedia(),
         SizedBox(
-          height: context.dynamicHeight(0.015),
+          height: context.dynamicHeight(0.034),
         ),
         const MobileSizeDashboardHeyText(),
+        SizedBox(
+          height: context.dynamicHeight(0.034),
+        ),
+        const MobileSizeDashboardJoinOurDiscord(),
       ],
     );
   }
