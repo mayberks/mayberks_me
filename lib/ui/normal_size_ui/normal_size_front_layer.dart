@@ -30,19 +30,19 @@ class NormalSizeDashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.17),
         ),
-        const DashboardProfileCircle(),
+        const NormalSizeDashboardProfileCircle(),
         SizedBox(
           height: context.dynamicHeight(0.02),
         ),
-        const DashboardProfileNameText(),
+        const NormalSizeDashboardProfileNameText(),
         SizedBox(
           height: context.dynamicHeight(0.035),
         ),
-        const DashboardProfileSocialMedia(),
+        const NormalSizeDashboardProfileSocialMedia(),
         SizedBox(
           height: context.dynamicHeight(0.017),
         ),
-        const DashboardHeyText(),
+        const NormalSizeDashboardHeyText(),
         SizedBox(
           height: context.dynamicHeight(0.05),
         ),
@@ -50,7 +50,7 @@ class NormalSizeDashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.07),
         ),
-        const DashboardSomePlacesText(),
+        const NormalSizeDashboardSomePlacesText(),
         SizedBox(
           height: context.dynamicHeight(0.05),
         ),
@@ -74,7 +74,7 @@ class NormalSizeDashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.05),
         ),
-        const DashboardPortfolioText(),
+        const NormalSizeDashboardPortfolioText(),
         SizedBox(
           height: context.dynamicHeight(0.02),
         ),

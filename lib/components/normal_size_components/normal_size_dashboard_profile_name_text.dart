@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/subtitles.dart';
 import 'package:morphing_text/morphing_text.dart';
 
-class DashboardProfileNameText extends StatelessWidget {
-  const DashboardProfileNameText({Key? key}) : super(key: key);
+class NormalSizeDashboardProfileNameText extends StatelessWidget {
+  const NormalSizeDashboardProfileNameText({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

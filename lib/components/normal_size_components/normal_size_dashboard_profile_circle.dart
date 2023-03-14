@@ -3,8 +3,8 @@ import 'package:mayberks_me/constants/extensions.dart';
 
 import '../../constants/images.dart';
 
-class DashboardProfileCircle extends StatelessWidget {
-  const DashboardProfileCircle({Key? key}) : super(key: key);
+class NormalSizeDashboardProfileCircle extends StatelessWidget {
+  const NormalSizeDashboardProfileCircle({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
