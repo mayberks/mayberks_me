@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class VijyaUniversity extends StatelessWidget {
-  const VijyaUniversity({Key? key}) : super(key: key);
+class NormalSizeWebCertificatesTurkey extends StatelessWidget {
+  const NormalSizeWebCertificatesTurkey({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class VijyaUniversity extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: CircleAvatar(
                     minRadius: 30,
-                    backgroundColor: Colors.white,
+                    backgroundColor: Colors.black,
                     child: CircleAvatar(
                       radius: 30,
                       backgroundImage:
-                          AssetImage('assets/images/vijya_university.jpg'),
+                      AssetImage('assets/images/meb_logo.png'),
                     ),
                   ),
                 ),
@@ -48,7 +48,7 @@ class VijyaUniversity extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Vijya University',
+                'Turkish Ministry of Education',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
@@ -56,7 +56,7 @@ class VijyaUniversity extends StatelessWidget {
                 ),
               ),
               Text(
-                'Software Engineering',
+                'Web Development',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
@@ -67,7 +67,7 @@ class VijyaUniversity extends StatelessWidget {
                 height: context.dynamicHeight(0.005),
               ),
               Text(
-                'I have been studying software engineering at Akademia Ekonomiczno University in Poland since 2022.',
+                'I received 6 months of web application development training and certification in Turkey.',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w200,

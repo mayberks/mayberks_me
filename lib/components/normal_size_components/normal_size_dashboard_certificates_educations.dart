@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mayberks_me/components/normal_size_components/certificates/c_sharp_certificates.dart';
-import 'package:mayberks_me/components/normal_size_components/certificates/web_certificates.dart';
-import 'package:mayberks_me/components/normal_size_components/educations/ataturk_university.dart';
-import 'package:mayberks_me/components/normal_size_components/educations/vijya_university.dart';
+import 'package:mayberks_me/components/normal_size_components/certificates/normal_size_c_sharp_certificates.dart';
+import 'package:mayberks_me/components/normal_size_components/certificates/normal_size_web_certificates.dart';
+import 'package:mayberks_me/components/normal_size_components/educations/normal_size_ataturk_university.dart';
+import 'package:mayberks_me/components/normal_size_components/educations/normal_size_vijya_university.dart';
 
 
 class NormalSizeDashboardCertificatesEducations extends StatelessWidget {
@@ -33,14 +33,14 @@ class NormalSizeDashboardCertificatesEducations extends StatelessWidget {
           ),
           const Expanded(
             flex: 4,
-            child: AtaturkUniversity(),
+            child: NormalSizeAtaturkUniversity(),
           ),
           const Spacer(
             flex: 1,
           ),
           const Expanded(
             flex: 4,
-            child: VijyaUniversity(),
+            child: NormalSizeVijyaUniversity(),
           ),
           const Divider(
             color: Color.fromARGB(255, 20, 20, 20),
@@ -65,14 +65,14 @@ class NormalSizeDashboardCertificatesEducations extends StatelessWidget {
           ),
           const Expanded(
             flex: 4,
-            child: WebCertificatesTurkey(),
+            child: NormalSizeWebCertificatesTurkey(),
           ),
           const Spacer(
             flex: 1,
           ),
           const Expanded(
             flex: 4,
-            child: CSharpCertificatesTurkey(),
+            child: NormalSizeCSharpCertificatesTurkey(),
           ),
         ],
       ),

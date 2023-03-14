@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class WebCertificatesTurkey extends StatelessWidget {
-  const WebCertificatesTurkey({Key? key}) : super(key: key);
+class NormalSizeAtaturkUniversity extends StatelessWidget {
+  const NormalSizeAtaturkUniversity({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class WebCertificatesTurkey extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: CircleAvatar(
                     minRadius: 30,
-                    backgroundColor: Colors.black,
+                    backgroundColor: Colors.white,
                     child: CircleAvatar(
                       radius: 30,
                       backgroundImage:
-                      AssetImage('assets/images/meb_logo.png'),
+                          AssetImage('assets/images/ataturk_university.png'),
                     ),
                   ),
                 ),
@@ -48,7 +48,7 @@ class WebCertificatesTurkey extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Turkish Ministry of Education',
+                'Ataturk University',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
@@ -56,7 +56,7 @@ class WebCertificatesTurkey extends StatelessWidget {
                 ),
               ),
               Text(
-                'Web Development',
+                'Management & Information Systems',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
@@ -67,7 +67,7 @@ class WebCertificatesTurkey extends StatelessWidget {
                 height: context.dynamicHeight(0.005),
               ),
               Text(
-                'I received 6 months of web application development training and certification in Turkey.',
+                'I have been studying in the department of management and information systems as a remote since 2021.',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w200,

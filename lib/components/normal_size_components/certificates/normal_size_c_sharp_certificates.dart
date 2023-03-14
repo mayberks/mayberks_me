@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class AtaturkUniversity extends StatelessWidget {
-  const AtaturkUniversity({Key? key}) : super(key: key);
+class NormalSizeCSharpCertificatesTurkey extends StatelessWidget {
+  const NormalSizeCSharpCertificatesTurkey({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class AtaturkUniversity extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: CircleAvatar(
                     minRadius: 30,
-                    backgroundColor: Colors.white,
+                    backgroundColor: Colors.black,
                     child: CircleAvatar(
                       radius: 30,
                       backgroundImage:
-                          AssetImage('assets/images/ataturk_university.png'),
+                      AssetImage('assets/images/meb_logo.png'),
                     ),
                   ),
                 ),
@@ -48,7 +48,7 @@ class AtaturkUniversity extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Ataturk University',
+                'Turkish Ministry of Education',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
@@ -56,7 +56,7 @@ class AtaturkUniversity extends StatelessWidget {
                 ),
               ),
               Text(
-                'Management & Information Systems',
+                'C# Development',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
@@ -67,7 +67,7 @@ class AtaturkUniversity extends StatelessWidget {
                 height: context.dynamicHeight(0.005),
               ),
               Text(
-                'I have been studying in the department of management and information systems as a remote since 2021.',
+                'I received 9 months of general c# programming language training and certification in Turkey.',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w200,

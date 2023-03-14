@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class CSharpCertificatesTurkey extends StatelessWidget {
-  const CSharpCertificatesTurkey({Key? key}) : super(key: key);
+class NormalSizeVijyaUniversity extends StatelessWidget {
+  const NormalSizeVijyaUniversity({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,11 +25,11 @@ class CSharpCertificatesTurkey extends StatelessWidget {
                   alignment: Alignment.topLeft,
                   child: CircleAvatar(
                     minRadius: 30,
-                    backgroundColor: Colors.black,
+                    backgroundColor: Colors.white,
                     child: CircleAvatar(
                       radius: 30,
                       backgroundImage:
-                      AssetImage('assets/images/meb_logo.png'),
+                          AssetImage('assets/images/vijya_university.jpg'),
                     ),
                   ),
                 ),
@@ -48,7 +48,7 @@ class CSharpCertificatesTurkey extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Turkish Ministry of Education',
+                'Vijya University',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
@@ -56,7 +56,7 @@ class CSharpCertificatesTurkey extends StatelessWidget {
                 ),
               ),
               Text(
-                'C# Development',
+                'Software Engineering',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
@@ -67,7 +67,7 @@ class CSharpCertificatesTurkey extends StatelessWidget {
                 height: context.dynamicHeight(0.005),
               ),
               Text(
-                'I received 9 months of general c# programming language training and certification in Turkey.',
+                'I have been studying software engineering at Akademia Ekonomiczno University in Poland since 2022.',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w200,
