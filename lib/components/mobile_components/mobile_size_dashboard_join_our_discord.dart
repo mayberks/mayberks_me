@@ -12,7 +12,7 @@ class MobileSizeDashboardJoinOurDiscord extends StatelessWidget {
     return Row(
       children: [
         const Spacer(
-          flex: 9,
+          flex: 4,
         ),
         Expanded(
           flex: 17,
@@ -24,11 +24,74 @@ class MobileSizeDashboardJoinOurDiscord extends StatelessWidget {
               ),
             ),
             width: context.dynamicWidth(0.5),
-            height: context.dynamicHeight(0.10),
+            height: context.dynamicHeight(0.06),
+            child: Row(
+              children: [
+                const Spacer(
+                  flex: 30,
+                ),
+                const Expanded(
+                  flex: 30,
+                  child: FaIcon(
+                    FontAwesomeIcons.discord,
+                    color: Colors.white,
+                    size: 30,
+                  ),
+                ),
+                const Spacer(
+                  flex: 30,
+                ),
+                Expanded(
+                  flex: 300,
+                  child: Text(
+                    'Discord Community',
+                    style: GoogleFonts.karla(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w200,
+                      fontSize: 23,
+                    ),
+                  ),
+                ),
+                const Spacer(
+                  flex: 10,
+                ),
+                Expanded(
+                  flex: 70,
+                  child: SizedBox(
+                    height: context.dynamicHeight(0.030),
+                    width: context.dynamicWidth(0.14),
+                    child: OutlinedButton(
+                      style: OutlinedButton.styleFrom(
+                        side: const BorderSide(
+                          color: Colors.transparent,
+                        ),
+                        backgroundColor: const Color.fromARGB(255, 20, 20, 20),
+                        foregroundColor: Colors.white,
+                        textStyle: GoogleFonts.karla(
+                          fontWeight: FontWeight.w300,
+                          fontSize: 20,
+                        ),
+                      ),
+                      onPressed: () {
+                        launchCompanyDiscord();
+                      },
+                      child: const FaIcon(
+                        FontAwesomeIcons.arrowRightFromBracket,
+                        color: Colors.white,
+                        size: 20,
+                      ),
+                    ),
+                  ),
+                ),
+                const Spacer(
+                  flex: 30,
+                ),
+              ],
+            ),
           ),
         ),
         const Spacer(
-          flex: 10,
+          flex: 4,
         ),
       ],
     );
