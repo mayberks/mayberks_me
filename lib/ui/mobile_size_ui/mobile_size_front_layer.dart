@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hey_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_name_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_social_media.dart';
@@ -20,9 +21,13 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         ),
         const MobileSizeDashboardProfileNameText(),
         SizedBox(
-          height: context.dynamicHeight(0.035),
+          height: context.dynamicHeight(0.012),
         ),
         const MobileSizeDashboardProfileSocialMedia(),
+        SizedBox(
+          height: context.dynamicHeight(0.015),
+        ),
+        const MobileSizeDashboardHeyText(),
       ],
     );
   }
