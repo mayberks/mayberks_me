@@ -4,6 +4,7 @@ import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_j
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_name_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_social_media.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_some_places_text.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class MobileSizeDashboardFrontLayer extends StatelessWidget {
@@ -36,6 +37,7 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.07),
         ),
+        const MobileSizeSomePlacesText(),
       ],
     );
   }
