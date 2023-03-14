@@ -10,7 +10,7 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: context.dynamicHeight(0.24),
+      height: context.dynamicHeight(0.12),
       width: context.dynamicWidth(0.7),
       decoration: const BoxDecoration(
         color: Color.fromARGB(255, 40, 40, 40),
@@ -23,16 +23,29 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
           const Spacer(
             flex: 3,
           ),
-          const Expanded(
-            flex: 20,
-            child: CircleAvatar(
-              minRadius: 30,
-              backgroundColor: Colors.white,
-              child: CircleAvatar(
-                radius: 30,
-                backgroundImage:
-                    AssetImage('assets/images/infumia_limited_logo.jpg'),
-              ),
+          Expanded(
+            flex: 17,
+            child: Column(
+              children: const [
+                Spacer(
+                  flex: 10,
+                ),
+                Expanded(
+                  flex: 10,
+                  child: CircleAvatar(
+                    minRadius: 30,
+                    backgroundColor: Colors.white,
+                    child: CircleAvatar(
+                      radius: 30,
+                      backgroundImage:
+                          AssetImage('assets/images/infumia_limited_logo.jpg'),
+                    ),
+                  ),
+                ),
+                Spacer(
+                  flex: 10,
+                ),
+              ],
             ),
           ),
           const Spacer(
@@ -43,7 +56,7 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
             child: Column(
               children: [
                 const Spacer(
-                  flex: 10,
+                  flex: 2,
                 ),
                 Expanded(
                   flex: 5,
@@ -60,7 +73,7 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
                   flex: 1,
                 ),
                 Expanded(
-                  flex: 10,
+                  flex: 4,
                   child: EvaporateMorphingText(
                     texts: infumiasubtitle,
                     loopForever: true,
@@ -75,12 +88,15 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
                 ),
                 Expanded(
                   flex: 10,
-                  child: Text(
-                    'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
-                    textAlign: TextAlign.start,
-                    style: GoogleFonts.rubik(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w400,
+                  child: Container(
+                    color: Colors.red,
+                    child: Text(
+                      'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
+                      textAlign: TextAlign.start,
+                      style: GoogleFonts.rubik(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ),
                 ),
