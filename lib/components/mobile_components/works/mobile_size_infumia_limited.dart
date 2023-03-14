@@ -60,31 +60,36 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
                 ),
                 Expanded(
                   flex: 5,
-                  child: Text(
-                    'Infumia Limited',
-                    style: GoogleFonts.rubik(
-                      color: const Color.fromRGBO(255, 139, 19, 1),
-                      fontWeight: FontWeight.w800,
-                      fontSize: 16,
+                  child: Align(
+                    alignment: Alignment.centerLeft,
+                    child: Column(
+                      children: [
+                        Text(
+                          'Infumia Limited',
+                          textAlign: TextAlign.start,
+                          style: GoogleFonts.rubik(
+                            color: const Color.fromRGBO(255, 139, 19, 1),
+                            fontWeight: FontWeight.w800,
+                            fontSize: 16,
+                          ),
+                        ),
+                        SizedBox(
+                          height: context.dynamicHeight(0.005),
+                        ),
+                        EvaporateMorphingText(
+                          texts: infumiasubtitle,
+                          loopForever: true,
+                          textStyle: GoogleFonts.rubik(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w100,
+                          ),
+                        )
+                      ],
                     ),
                   ),
                 ),
                 const Spacer(
-                  flex: 1,
-                ),
-                Expanded(
-                  flex: 4,
-                  child: EvaporateMorphingText(
-                    texts: infumiasubtitle,
-                    loopForever: true,
-                    textStyle: GoogleFonts.rubik(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w100,
-                    ),
-                  ),
-                ),
-                const Spacer(
-                  flex: 1,
+                  flex: 2,
                 ),
                 Expanded(
                   flex: 10,
