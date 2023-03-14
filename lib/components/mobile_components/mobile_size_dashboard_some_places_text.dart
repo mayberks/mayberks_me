@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class MobileSizeSomePlacesText extends StatelessWidget {
-  const MobileSizeSomePlacesText({Key? key}) : super(key: key);
+class MobileSizeDashboardSomePlacesText extends StatelessWidget {
+  const MobileSizeDashboardSomePlacesText({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
         const Spacer(
-          flex: 54,
+          flex: 4,
         ),
         Expanded(
           flex: 50,
@@ -26,7 +26,7 @@ class MobileSizeSomePlacesText extends StatelessWidget {
           ),
         ),
         const Spacer(
-          flex: 50,
+          flex: 10,
         ),
       ],
     );
