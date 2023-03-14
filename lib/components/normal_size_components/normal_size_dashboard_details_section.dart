@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/components/normal_size_components/dashboard_all_skills.dart';
-import 'package:mayberks_me/components/normal_size_components/dashboard_certificates_educations.dart';
+import 'package:mayberks_me/components/normal_size_components/normal_size_dashboard_all_skills.dart';
+import 'package:mayberks_me/components/normal_size_components/normal_size_dashboard_certificates_educations.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class DashboardDetailsSection extends StatelessWidget {
-  const DashboardDetailsSection({Key? key}) : super(key: key);
+class NormalSizeDashboardDetailsSection extends StatelessWidget {
+  const NormalSizeDashboardDetailsSection({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +40,7 @@ class DashboardDetailsSection extends StatelessWidget {
                         Spacer(
                           flex: 12,
                         ),
-                        DashboardCertificatesEducations(),
+                        NormalSizeDashboardCertificatesEducations(),
                         Spacer(
                           flex: 10,
                         ),
@@ -51,7 +51,7 @@ class DashboardDetailsSection extends StatelessWidget {
                         Spacer(
                           flex: 10,
                         ),
-                        DashboardAllSkills(),
+                        NormalSizeDashboardAllSkills(),
                         Spacer(
                           flex: 12,
                         ),

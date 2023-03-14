@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class DashboardDetailsText extends StatelessWidget {
-  const DashboardDetailsText({Key? key}) : super(key: key);
+class NormalSizeDashboardDetailsText extends StatelessWidget {
+  const NormalSizeDashboardDetailsText({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

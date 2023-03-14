@@ -6,8 +6,8 @@ import 'package:mayberks_me/components/normal_size_components/works/senior_team.
 import 'package:mayberks_me/components/normal_size_components/works/valatic.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class DashboardAllWorks extends StatelessWidget {
-  const DashboardAllWorks({Key? key}) : super(key: key);
+class NormalSizeDashboardAllWorks extends StatelessWidget {
+  const NormalSizeDashboardAllWorks({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

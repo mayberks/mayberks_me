@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/ui/mobile_size_ui/mobile_size_front_layer.dart';
-import 'package:mayberks_me/ui/normal_size_ui/normal_size_front_layer.dart';
 import 'package:web_smooth_scroll/web_smooth_scroll.dart';
 
 class MobileSizeDashboardScreen extends StatefulWidget {

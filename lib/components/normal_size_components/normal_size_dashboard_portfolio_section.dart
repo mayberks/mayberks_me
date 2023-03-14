@@ -7,8 +7,8 @@ import 'package:mayberks_me/components/normal_size_components/portfolio/minecraf
 import 'package:mayberks_me/components/normal_size_components/portfolio/mobile_applications.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class DashboardPortfolioSection extends StatelessWidget {
-  const DashboardPortfolioSection({Key? key}) : super(key: key);
+class NormalSizeDashboardPortfolioSection extends StatelessWidget {
+  const NormalSizeDashboardPortfolioSection({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

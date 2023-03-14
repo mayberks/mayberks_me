@@ -4,8 +4,10 @@ import 'package:mayberks_me/components/normal_size_components/certificates/c_sha
 import 'package:mayberks_me/components/normal_size_components/certificates/web_certificates.dart';
 import 'package:mayberks_me/components/normal_size_components/educations/ataturk_university.dart';
 import 'package:mayberks_me/components/normal_size_components/educations/vijya_university.dart';
-class DashboardCertificatesEducations extends StatelessWidget {
-  const DashboardCertificatesEducations({Key? key}) : super(key: key);
+
+
+class NormalSizeDashboardCertificatesEducations extends StatelessWidget {
+  const NormalSizeDashboardCertificatesEducations({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

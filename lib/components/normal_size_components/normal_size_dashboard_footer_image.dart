@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/urls.dart';
 
-class DashboardFooterImage extends StatelessWidget {
-  const DashboardFooterImage({Key? key}) : super(key: key);
+class NormalSizeDashboardFooterImage extends StatelessWidget {
+  const NormalSizeDashboardFooterImage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

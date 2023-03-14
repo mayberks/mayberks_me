@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/urls.dart';
 
-class DashboardHireDiscordButton extends StatelessWidget {
-  const DashboardHireDiscordButton({Key? key}) : super(key: key);
+class NormalSizeDashboardHireDiscordButton extends StatelessWidget {
+  const NormalSizeDashboardHireDiscordButton({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

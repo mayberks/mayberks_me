@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DashboardFooterDivider extends StatelessWidget {
-  const DashboardFooterDivider({Key? key}) : super(key: key);
+class NormalSizeDashboardFooterDivider extends StatelessWidget {
+  const NormalSizeDashboardFooterDivider({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

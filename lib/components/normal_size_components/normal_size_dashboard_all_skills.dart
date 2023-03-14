@@ -5,8 +5,8 @@ import 'package:mayberks_me/components/normal_size_components/skills/minecraft_c
 import 'package:mayberks_me/components/normal_size_components/skills/minecraft_setup_specialist.dart';
 import 'package:mayberks_me/components/normal_size_components/skills/minecraft_system_administrator.dart';
 
-class DashboardAllSkills extends StatelessWidget {
-  const DashboardAllSkills({Key? key}) : super(key: key);
+class NormalSizeDashboardAllSkills extends StatelessWidget {
+  const NormalSizeDashboardAllSkills({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
