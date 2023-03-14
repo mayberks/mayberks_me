@@ -30,9 +30,12 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         ),
         const MobileSizeDashboardHeyText(),
         SizedBox(
-          height: context.dynamicHeight(0.034),
+          height: context.dynamicHeight(0.030),
         ),
         const MobileSizeDashboardJoinOurDiscord(),
+        SizedBox(
+          height: context.dynamicHeight(0.07),
+        ),
       ],
     );
   }
