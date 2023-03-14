@@ -28,10 +28,10 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
             child: Column(
               children: const [
                 Spacer(
-                  flex: 10,
+                  flex: 4,
                 ),
                 Expanded(
-                  flex: 10,
+                  flex: 7,
                   child: CircleAvatar(
                     minRadius: 30,
                     backgroundColor: Colors.white,
@@ -56,7 +56,7 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
             child: Column(
               children: [
                 const Spacer(
-                  flex: 2,
+                  flex: 6,
                 ),
                 Expanded(
                   flex: 5,
@@ -93,20 +93,17 @@ class MobileSizeInfumiaLimited extends StatelessWidget {
                 ),
                 Expanded(
                   flex: 10,
-                  child: Container(
-                    color: Colors.red,
-                    child: Text(
-                      'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
-                      textAlign: TextAlign.start,
-                      style: GoogleFonts.rubik(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w400,
-                      ),
+                  child: Text(
+                    'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
+                    textAlign: TextAlign.start,
+                    style: GoogleFonts.rubik(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w400,
                     ),
                   ),
                 ),
                 const Spacer(
-                  flex: 10,
+                  flex: 6,
                 ),
               ],
             ),
