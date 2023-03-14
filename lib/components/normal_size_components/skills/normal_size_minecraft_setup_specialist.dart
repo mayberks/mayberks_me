@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-
-class MinecraftConfigurator extends StatelessWidget {
-  const MinecraftConfigurator({Key? key}) : super(key: key);
+class NormalSizeMinecraftSetupSpecialist extends StatelessWidget {
+  const NormalSizeMinecraftSetupSpecialist({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +48,7 @@ class MinecraftConfigurator extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Minecraft Configurator',
+                'Minecraft Setup Specialist',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
@@ -68,7 +67,7 @@ class MinecraftConfigurator extends StatelessWidget {
                 height: context.dynamicHeight(0.005),
               ),
               Text(
-                'For more than 6 years I have been working professionally on Minecraft configurator with more than 700 orders.',
+                'For more than 6 years I have been working professionally on Minecraft server setup with more than 700 orders.',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w200,

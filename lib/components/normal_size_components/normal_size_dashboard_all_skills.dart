@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mayberks_me/components/normal_size_components/skills/flutter_skills.dart';
-import 'package:mayberks_me/components/normal_size_components/skills/minecraft_configurator.dart';
-import 'package:mayberks_me/components/normal_size_components/skills/minecraft_setup_specialist.dart';
-import 'package:mayberks_me/components/normal_size_components/skills/minecraft_system_administrator.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/normal_size_flutter_skills.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/normal_size_minecraft_configurator.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/normal_size_minecraft_setup_specialist.dart';
+import 'package:mayberks_me/components/normal_size_components/skills/normal_size_minecraft_system_administrator.dart';
 
 class NormalSizeDashboardAllSkills extends StatelessWidget {
   const NormalSizeDashboardAllSkills({Key? key}) : super(key: key);
@@ -32,28 +32,28 @@ class NormalSizeDashboardAllSkills extends StatelessWidget {
           ),
           const Expanded(
             flex: 4,
-            child: FlutterSkills(),
+            child: NormalSizeFlutterSkills(),
           ),
           const Spacer(
             flex: 1,
           ),
           const Expanded(
             flex: 4,
-            child: MinecraftSetupSpecialist(),
+            child: NormalSizeMinecraftSetupSpecialist(),
           ),
           const Spacer(
             flex: 1,
           ),
           const Expanded(
             flex: 4,
-            child: MinecraftConfigurator(),
+            child: NormalSizeMinecraftConfigurator(),
           ),
           const Spacer(
             flex: 1,
           ),
           const Expanded(
             flex: 4,
-            child: MinecraftSystemAdministrator(),
+            child: NormalSizeMinecraftSystemAdministrator(),
           ),
         ],
       ),

@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/urls.dart';
 
-class WebProjects extends StatelessWidget {
-  const WebProjects({Key? key}) : super(key: key);
+class NormalSizeMinecraftSetups extends StatelessWidget {
+  const NormalSizeMinecraftSetups({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class WebProjects extends StatelessWidget {
         image: DecorationImage(
           fit: BoxFit.fitHeight,
           image: AssetImage(
-            'assets/images/web_developments.png',
+            'assets/images/minecraft_setups.png',
           ),
         ),
         borderRadius: BorderRadius.all(
@@ -34,7 +34,7 @@ class WebProjects extends StatelessWidget {
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
                 onTap: () {
-                  launchwebdevelopmentsUrl();
+                  launchminecraftsetupsUrl();
                 },
                 child: Container(
                   decoration: BoxDecoration(

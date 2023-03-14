@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mayberks_me/components/normal_size_components/portfolio/discord_setups.dart';
-import 'package:mayberks_me/components/normal_size_components/portfolio/flutter_projects.dart';
-import 'package:mayberks_me/components/normal_size_components/portfolio/minecraft_configurations.dart';
-import 'package:mayberks_me/components/normal_size_components/portfolio/minecraft_optimizations.dart';
-import 'package:mayberks_me/components/normal_size_components/portfolio/minecraft_setups.dart';
-import 'package:mayberks_me/components/normal_size_components/portfolio/mobile_applications.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/normal_size_discord_setups.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/normal_size_flutter_projects.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/normal_size_minecraft_configurations.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/normal_size_minecraft_optimizations.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/normal_size_minecraft_setups.dart';
+import 'package:mayberks_me/components/normal_size_components/portfolio/normal_size_mobile_applications.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class NormalSizeDashboardPortfolioSection extends StatelessWidget {
@@ -39,15 +39,15 @@ class NormalSizeDashboardPortfolioSection extends StatelessWidget {
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
-                          const FlutterProjects(),
+                          const NormalSizeFlutterProjects(),
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
-                          const MinecraftSetups(),
+                          const NormalSizeMinecraftSetups(),
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
-                          const MinecraftConfigurations(),
+                          const NormalSizeMinecraftConfigurations(),
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
@@ -72,15 +72,15 @@ class NormalSizeDashboardPortfolioSection extends StatelessWidget {
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
-                          const MinecraftOptimizations(),
+                          const NormalSizeMinecraftOptimizations(),
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
-                          const DiscordSetups(),
+                          const NormalSizeDiscordSetups(),
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),
-                          const MobileApplications(),
+                          const NormalSizeMobileApplications(),
                           SizedBox(
                             width: context.dynamicWidth(0.005),
                           ),

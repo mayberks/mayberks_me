@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/urls.dart';
 
-class MinecraftOptimizations extends StatelessWidget {
-  const MinecraftOptimizations({Key? key}) : super(key: key);
+class NormalSizeMinecraftOptimizations extends StatelessWidget {
+  const NormalSizeMinecraftOptimizations({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

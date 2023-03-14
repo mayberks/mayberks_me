@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class FlutterSkills extends StatelessWidget {
-  const FlutterSkills({Key? key}) : super(key: key);
+class NormalSizeFlutterSkills extends StatelessWidget {
+  const NormalSizeFlutterSkills({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

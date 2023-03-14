@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
-class MinecraftSetupSpecialist extends StatelessWidget {
-  const MinecraftSetupSpecialist({Key? key}) : super(key: key);
+class NormalSizeMinecraftSystemAdministrator extends StatelessWidget {
+  const NormalSizeMinecraftSystemAdministrator({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +48,7 @@ class MinecraftSetupSpecialist extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Minecraft Setup Specialist',
+                'Minecraft System Administrator',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w500,
@@ -56,7 +56,7 @@ class MinecraftSetupSpecialist extends StatelessWidget {
                 ),
               ),
               Text(
-                '+6 Years Experience',
+                '+4 Years Experience',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w400,
@@ -67,7 +67,7 @@ class MinecraftSetupSpecialist extends StatelessWidget {
                 height: context.dynamicHeight(0.005),
               ),
               Text(
-                'For more than 6 years I have been working professionally on Minecraft server setup with more than 700 orders.',
+                'For more than 6 years I have been working professionally on Minecraft system administrator with more than 700 orders.',
                 style: GoogleFonts.karla(
                   color: Colors.white,
                   fontWeight: FontWeight.w200,

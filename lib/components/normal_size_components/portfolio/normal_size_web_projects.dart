@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/urls.dart';
 
-class DiscordSetups extends StatelessWidget {
-  const DiscordSetups({Key? key}) : super(key: key);
+class NormalSizeWebProjects extends StatelessWidget {
+  const NormalSizeWebProjects({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class DiscordSetups extends StatelessWidget {
         image: DecorationImage(
           fit: BoxFit.fitHeight,
           image: AssetImage(
-            'assets/images/discord_setups.png',
+            'assets/images/web_developments.png',
           ),
         ),
         borderRadius: BorderRadius.all(
@@ -34,7 +34,7 @@ class DiscordSetups extends StatelessWidget {
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
                 onTap: () {
-                  launchDiscordSetups();
+                  launchwebdevelopmentsUrl();
                 },
                 child: Container(
                   decoration: BoxDecoration(
