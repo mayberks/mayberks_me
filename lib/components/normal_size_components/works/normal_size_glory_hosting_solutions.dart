@@ -4,8 +4,8 @@ import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/subtitles.dart';
 import 'package:morphing_text/morphing_text.dart';
 
-class GloryHostingSolutions extends StatelessWidget {
-  const GloryHostingSolutions({Key? key}) : super(key: key);
+class NormalSizeGloryHostingSolutions extends StatelessWidget {
+  const NormalSizeGloryHostingSolutions({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

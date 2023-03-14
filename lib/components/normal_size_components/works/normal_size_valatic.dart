@@ -4,8 +4,8 @@ import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/subtitles.dart';
 import 'package:morphing_text/morphing_text.dart';
 
-class AdaDogaltas extends StatelessWidget {
-  const AdaDogaltas({Key? key}) : super(key: key);
+class NormalSizeValatic extends StatelessWidget {
+  const NormalSizeValatic({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,14 +24,14 @@ class AdaDogaltas extends StatelessWidget {
               child: CircleAvatar(
                 radius: 30,
                 backgroundImage:
-                AssetImage('assets/images/ada_dogaltas.jpg'),
+                AssetImage('assets/images/valatic.jpg'),
               ),
             ),
             SizedBox(
               height: context.dynamicHeight(0.02),
             ),
             Text(
-              'Ada Natural Stone',
+              'Valatic Network',
               style: GoogleFonts.rubik(
                 color: const Color.fromRGBO(255, 139, 19, 1),
                 fontWeight: FontWeight.w800,
@@ -42,7 +42,7 @@ class AdaDogaltas extends StatelessWidget {
               height: 7,
             ),
             EvaporateMorphingText(
-              texts: adadogaltassubtitle,
+              texts: valaticsubtitle,
               loopForever: true,
               textStyle: GoogleFonts.rubik(
                 color: Colors.white,
@@ -53,7 +53,7 @@ class AdaDogaltas extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'Since 2019, I have been working as an IT specialist by undertaking all IT tasks of Ada Natural Stone Company.',
+              'In 2022, I spent 9 months of working experience as a server developer on the Valatic minecraft server.',
               textAlign: TextAlign.center,
               style: GoogleFonts.rubik(
                 color: Colors.white,

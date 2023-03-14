@@ -4,8 +4,8 @@ import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/subtitles.dart';
 import 'package:morphing_text/morphing_text.dart';
 
-class InfumiaLimited extends StatelessWidget {
-  const InfumiaLimited({Key? key}) : super(key: key);
+class NormalSizeSeniorTeam extends StatelessWidget {
+  const NormalSizeSeniorTeam({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -24,14 +24,14 @@ class InfumiaLimited extends StatelessWidget {
               child: CircleAvatar(
                 radius: 30,
                 backgroundImage:
-                    AssetImage('assets/images/infumia_limited_logo.jpg'),
+                AssetImage('assets/images/senior_team.png'),
               ),
             ),
             SizedBox(
               height: context.dynamicHeight(0.02),
             ),
             Text(
-              'Infumia Limited',
+              'Senior Team',
               style: GoogleFonts.rubik(
                 color: const Color.fromRGBO(255, 139, 19, 1),
                 fontWeight: FontWeight.w800,
@@ -42,7 +42,7 @@ class InfumiaLimited extends StatelessWidget {
               height: 7,
             ),
             EvaporateMorphingText(
-              texts: infumiasubtitle,
+              texts: seniorteamsubtitle,
               loopForever: true,
               textStyle: GoogleFonts.rubik(
                 color: Colors.white,
@@ -53,7 +53,7 @@ class InfumiaLimited extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'I have been working as a co-founder and software developer of Infumia software and graphic design company since 2019.',
+              'I have been working as a freelancer of Minecraft software and graphic design company since 2020.',
               textAlign: TextAlign.center,
               style: GoogleFonts.rubik(
                 color: Colors.white,
