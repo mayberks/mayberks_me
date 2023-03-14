@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_all_works.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hey_text.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_join_our_discord.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_circle.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_name_text.dart';
@@ -34,7 +35,8 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.030),
         ),
-        const MobileSizeDashboardJoinOurDiscord(),
+        const MobileSizeDashboardHireDiscordButton(),
+        /// const MobileSizeDashboardJoinOurDiscord(), [En alta alıcaksın bunu sonraki components bu]
         SizedBox(
           height: context.dynamicHeight(0.025),
         ),
