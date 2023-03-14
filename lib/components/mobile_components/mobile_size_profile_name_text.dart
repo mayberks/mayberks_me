@@ -16,7 +16,7 @@ class MobileSizeProfileNameText extends StatelessWidget {
           style: GoogleFonts.rubik(
             color: Colors.white,
             fontWeight: FontWeight.w700,
-            fontSize: 25,
+            fontSize: 32,
           ),
         ),
         const SizedBox(
@@ -28,6 +28,7 @@ class MobileSizeProfileNameText extends StatelessWidget {
           textStyle: GoogleFonts.rubik(
             color: Colors.white,
             fontWeight: FontWeight.w100,
+            fontSize: 20,
           ),
         ),
       ],
