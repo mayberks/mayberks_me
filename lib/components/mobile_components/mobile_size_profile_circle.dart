@@ -8,12 +8,12 @@ class MobileSizeProfileCircle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: context.dynamicHeight(0.15),
+      height: context.dynamicHeight(0.09),
       child: CircleAvatar(
-        minRadius: 45,
+        minRadius: 20,
         backgroundColor: Colors.white,
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(45),
+          borderRadius: BorderRadius.circular(20),
           child: Image.asset(mayberksProfileImage),
         ),
       ),
