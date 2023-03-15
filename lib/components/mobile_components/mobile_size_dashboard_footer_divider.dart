@@ -8,7 +8,7 @@ class MobileSizeDashboardFooterDivider extends StatelessWidget {
     return Row(
       children: const [
         Spacer(
-          flex: 9,
+          flex: 5,
         ),
         Expanded(
           flex: 10,
@@ -18,7 +18,7 @@ class MobileSizeDashboardFooterDivider extends StatelessWidget {
           ),
         ),
         Spacer(
-          flex: 10,
+          flex: 5,
         ),
       ],
     );

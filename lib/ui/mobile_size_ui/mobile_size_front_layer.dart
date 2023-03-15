@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_footer_divider.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_section.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_text.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_footer_icons.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_footer_image.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_footer_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hey_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_join_our_discord.dart';
@@ -84,7 +87,19 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         ),
         const MobileSizeDashboardFooterDivider(),
         SizedBox(
-          height: context.dynamicHeight(0.05),
+          height: context.dynamicHeight(0.02),
+        ),
+        const MobileSizeDashboardFooterIcons(),
+        SizedBox(
+          height: context.dynamicHeight(0.02),
+        ),
+        const MobileSizeDashboardFooterImage(),
+        SizedBox(
+          height: context.dynamicHeight(0.02),
+        ),
+        const MobileSizeDashboardFooterText(),
+        SizedBox(
+          height: context.dynamicHeight(0.001),
         ),
       ],
     );
