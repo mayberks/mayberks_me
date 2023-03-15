@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_no_enlarge_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_works_section.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_section.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_text.dart';
@@ -58,6 +59,13 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
           height: context.dynamicHeight(0.05),
         ),
         const MobileSizeDashboardDetailsSection(),
+        SizedBox(
+          height: context.dynamicHeight(0.017),
+        ),
+        const MobileSizeDashboardNoEnlargeText(),
+        SizedBox(
+          height: context.dynamicHeight(0.05),
+        ),
       ],
     );
   }
