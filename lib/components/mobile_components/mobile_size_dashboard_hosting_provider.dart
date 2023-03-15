@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 import 'package:mayberks_me/constants/urls.dart';
 
-class MobileSizeHostingProvider extends StatelessWidget {
-  const MobileSizeHostingProvider({Key? key}) : super(key: key);
+class MobileSizeDashboardHostingProvider extends StatelessWidget {
+  const MobileSizeDashboardHostingProvider({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
