@@ -65,7 +65,7 @@ class MobileSizeSeniorTeam extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          'Senior Team',
+                          'Senior Studios & Minecraft Team',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.rubik(
                             color: const Color.fromRGBO(255, 139, 19, 1),
