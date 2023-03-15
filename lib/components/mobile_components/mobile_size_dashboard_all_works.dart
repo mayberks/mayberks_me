@@ -6,6 +6,7 @@ import 'package:mayberks_me/components/mobile_components/educations/mobile_size_
 import 'package:mayberks_me/components/mobile_components/educations/mobile_size_vijya_university.dart';
 import 'package:mayberks_me/components/mobile_components/works/mobile_size_glory_hosting_solutions.dart';
 import 'package:mayberks_me/components/mobile_components/works/mobile_size_infumia_limited.dart';
+import 'package:mayberks_me/components/mobile_components/works/mobile_size_senior_team.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class MobileSizeDashboardAllWorks extends StatelessWidget {
@@ -49,7 +50,7 @@ class MobileSizeDashboardAllWorks extends StatelessWidget {
           ),
           const Expanded(
             flex: 4,
-            child: Text(''),
+            child: MobileSizeSeniorTeam(),
           ),
           const Spacer(
             flex: 1,
