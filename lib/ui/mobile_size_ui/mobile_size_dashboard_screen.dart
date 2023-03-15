@@ -38,7 +38,10 @@ class _MobileSizeDashboardScreenState extends State<MobileSizeDashboardScreen> {
               child: SingleChildScrollView(
                 physics: const NeverScrollableScrollPhysics(),
                 controller: _scrollController,
-                child: const MobileSizeDashboardFrontLayer(),
+                child: SizedBox(
+                  height: MediaQuery.of(context).size.height * 256,
+                  child: const MobileSizeDashboardFrontLayer(),
+                ),
               ),
             ),
           ),
