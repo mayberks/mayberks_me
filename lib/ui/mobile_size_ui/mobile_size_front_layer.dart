@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_no_enlarge_text.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_portfolio_section.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_portfolio_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_works_section.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_section.dart';
@@ -11,6 +12,7 @@ import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_p
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_name_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_profile_social_media.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_some_places_text.dart';
+import 'package:mayberks_me/components/mobile_components/portfolio/mobile_size_flutter_projects.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class MobileSizeDashboardFrontLayer extends StatelessWidget {
@@ -68,6 +70,10 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
           height: context.dynamicHeight(0.05),
         ),
         const MobileSizeDashboardPortfolioText(),
+        SizedBox(
+          height: context.dynamicHeight(0.02),
+        ),
+        const MobileSizeDashboardPortfolioSection(),
       ],
     );
   }
