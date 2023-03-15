@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_all_works.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_section.dart';
+import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_details_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hey_text.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_hire_discord_button.dart';
 import 'package:mayberks_me/components/mobile_components/mobile_size_dashboard_join_our_discord.dart';
@@ -49,8 +51,13 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         ),
         const MobileSizeDashboardJoinOurDiscord(),
         SizedBox(
-          height: context.dynamicHeight(0.013),
+          height: context.dynamicHeight(0.05),
         ),
+        const MobileSizeDashboardDetailsText(),
+        SizedBox(
+          height: context.dynamicHeight(0.05),
+        ),
+        const MobileSizeDashboardDetailsSection(),
       ],
     );
   }
