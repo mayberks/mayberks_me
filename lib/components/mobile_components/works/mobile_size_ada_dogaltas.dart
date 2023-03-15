@@ -9,36 +9,35 @@ class MobileSizeAdaDogaltas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: context.dynamicHeight(0.12),
-      width: context.dynamicWidth(0.7),
-      decoration: const BoxDecoration(
-        color: Color.fromARGB(255, 40, 40, 40),
-        borderRadius: BorderRadius.all(
-          Radius.circular(15),
-        ),
-      ),
+    return Center(
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Spacer(
-            flex: 3,
+            flex: 5,
           ),
           Expanded(
-            flex: 17,
+            flex: 20,
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 Spacer(
-                  flex: 4,
+                  flex: 5,
                 ),
                 Expanded(
-                  flex: 7,
-                  child: CircleAvatar(
-                    minRadius: 30,
-                    backgroundColor: Colors.white,
+                  flex: 10,
+                  child: Align(
+                    alignment: Alignment.centerLeft,
                     child: CircleAvatar(
-                      radius: 30,
-                      backgroundImage:
-                      AssetImage('assets/images/ada_dogaltas.jpg'),
+                      minRadius: 30,
+                      backgroundColor: Colors.white,
+                      child: CircleAvatar(
+                        radius: 30,
+                        backgroundImage:
+                        AssetImage('assets/images/ada_dogaltas.jpg'),
+                      ),
                     ),
                   ),
                 ),
@@ -49,67 +48,46 @@ class MobileSizeAdaDogaltas extends StatelessWidget {
             ),
           ),
           const Spacer(
-            flex: 3,
+            flex: 5,
           ),
           Expanded(
             flex: 100,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Spacer(
-                  flex: 6,
-                ),
-                Expanded(
-                  flex: 5,
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: Column(
-                      children: [
-                        Text(
-                          'Ada Dogaltas LTD. STI.',
-                          textAlign: TextAlign.start,
-                          style: GoogleFonts.rubik(
-                            color: const Color.fromRGBO(255, 139, 19, 1),
-                            fontWeight: FontWeight.w800,
-                            fontSize: 16,
-                          ),
-                        ),
-                        SizedBox(
-                          height: context.dynamicHeight(0.005),
-                        ),
-                        EvaporateMorphingText(
-                          texts: adadogaltassubtitle,
-                          loopForever: true,
-                          textStyle: GoogleFonts.rubik(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w100,
-                          ),
-                        )
-                      ],
-                    ),
+                Text(
+                  'Ada Dogaltas LTD. STI',
+                  style: GoogleFonts.karla(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w500,
+                    fontSize: 18,
                   ),
                 ),
-                const Spacer(
-                  flex: 2,
-                ),
-                Expanded(
-                  flex: 10,
-                  child: Text(
-                    'Since 2019, I have been working as an IT specialist by undertaking all IT tasks of Ada Natural Stone Company.',
-                    textAlign: TextAlign.start,
-                    style: GoogleFonts.rubik(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w400,
-                    ),
+                Text(
+                  'IT Expert',
+                  style: GoogleFonts.karla(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                    fontSize: 14,
                   ),
                 ),
-                const Spacer(
-                  flex: 6,
+                SizedBox(
+                  height: context.dynamicHeight(0.005),
+                ),
+                Text(
+                  'Since 2019, I have been working as an IT specialist by undertaking all IT tasks of Ada Natural Stone Company.',
+                  style: GoogleFonts.karla(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w200,
+                    fontSize: 14,
+                  ),
                 ),
               ],
             ),
           ),
           const Spacer(
-            flex: 3,
+            flex: 1,
           ),
         ],
       ),
