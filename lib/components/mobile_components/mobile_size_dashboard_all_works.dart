@@ -8,6 +8,7 @@ import 'package:mayberks_me/components/mobile_components/works/mobile_size_ada_d
 import 'package:mayberks_me/components/mobile_components/works/mobile_size_glory_hosting_solutions.dart';
 import 'package:mayberks_me/components/mobile_components/works/mobile_size_infumia_limited.dart';
 import 'package:mayberks_me/components/mobile_components/works/mobile_size_senior_team.dart';
+import 'package:mayberks_me/components/mobile_components/works/mobile_size_valatic.dart';
 import 'package:mayberks_me/constants/extensions.dart';
 
 class MobileSizeDashboardAllWorks extends StatelessWidget {
@@ -65,7 +66,7 @@ class MobileSizeDashboardAllWorks extends StatelessWidget {
           ),
           const Expanded(
             flex: 4,
-            child: Text(''),
+            child: MobileSizeValatic(),
           ),
         ],
       ),
