@@ -40,29 +40,17 @@ class MobileSizeDashboardAllWorks extends StatelessWidget {
             flex: 4,
             child: MobileSizeInfumiaLimited(),
           ),
-          const Spacer(
-            flex: 1,
-          ),
           const Expanded(
             flex: 4,
             child: MobileSizeGloryHostingSolutions(),
-          ),
-          const Spacer(
-            flex: 1,
           ),
           const Expanded(
             flex: 4,
             child: MobileSizeSeniorTeam(),
           ),
-          const Spacer(
-            flex: 1,
-          ),
           const Expanded(
             flex: 4,
             child: MobileSizeAdaDogaltas(),
-          ),
-          const Spacer(
-            flex: 1,
           ),
           const Expanded(
             flex: 4,

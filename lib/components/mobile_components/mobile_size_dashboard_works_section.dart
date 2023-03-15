@@ -15,7 +15,7 @@ class MobileSizeDashboardWorksSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: context.dynamicHeight(0.7),
+      height: context.dynamicHeight(0.65),
       width: context.dynamicWidth(0.7),
       decoration: const BoxDecoration(
         color: Color.fromARGB(255, 40, 40, 40),

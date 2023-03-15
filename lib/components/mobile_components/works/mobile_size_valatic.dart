@@ -15,7 +15,7 @@ class MobileSizeValatic extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Spacer(
-            flex: 5,
+            flex: 4,
           ),
           Expanded(
             flex: 20,
@@ -87,7 +87,7 @@ class MobileSizeValatic extends StatelessWidget {
             ),
           ),
           const Spacer(
-            flex: 1,
+            flex: 3,
           ),
         ],
       ),
