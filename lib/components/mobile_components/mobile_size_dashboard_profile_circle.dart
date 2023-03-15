@@ -7,16 +7,21 @@ class MobileSizeDashboardProfileCircle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: context.dynamicHeight(0.09),
-      child: CircleAvatar(
-        minRadius: 20,
-        backgroundColor: Colors.white,
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(20),
-          child: Image.asset(mayberksProfileImage),
+    return Column(
+      mainAxisSize: MainAxisSize.max,
+      children: [
+        SizedBox(
+          height: context.dynamicHeight(0.1),
+          child: CircleAvatar(
+            minRadius: context.dynamicHeight(0.1),
+            backgroundColor: Colors.white,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Image.asset(mayberksProfileImage),
+            ),
+          ),
         ),
-      ),
+      ],
     );
   }
 }
