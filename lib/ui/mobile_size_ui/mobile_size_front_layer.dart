@@ -36,7 +36,6 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
           height: context.dynamicHeight(0.030),
         ),
         const MobileSizeDashboardHireDiscordButton(),
-        /// const MobileSizeDashboardJoinOurDiscord(), [En alta alıcaksın bunu sonraki components bu]
         SizedBox(
           height: context.dynamicHeight(0.025),
         ),
@@ -44,7 +43,14 @@ class MobileSizeDashboardFrontLayer extends StatelessWidget {
         SizedBox(
           height: context.dynamicHeight(0.030),
         ),
-        const MobileSizeDashboardAllWorks()
+        const MobileSizeDashboardAllWorks(),
+        SizedBox(
+          height: context.dynamicHeight(0.030),
+        ),
+        const MobileSizeDashboardJoinOurDiscord(),
+        SizedBox(
+          height: context.dynamicHeight(0.013),
+        ),
       ],
     );
   }

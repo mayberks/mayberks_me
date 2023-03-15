@@ -12,10 +12,10 @@ class MobileSizeDashboardJoinOurDiscord extends StatelessWidget {
     return Row(
       children: [
         const Spacer(
-          flex: 4,
+          flex: 37,
         ),
         Expanded(
-          flex: 17,
+          flex: 180,
           child: Container(
             decoration: const BoxDecoration(
               color: Color.fromARGB(255, 40, 40, 40),
@@ -23,7 +23,7 @@ class MobileSizeDashboardJoinOurDiscord extends StatelessWidget {
                 Radius.circular(15),
               ),
             ),
-            width: context.dynamicWidth(0.5),
+            width: context.dynamicWidth(0.7),
             height: context.dynamicHeight(0.06),
             child: Row(
               children: [
@@ -91,7 +91,7 @@ class MobileSizeDashboardJoinOurDiscord extends StatelessWidget {
           ),
         ),
         const Spacer(
-          flex: 4,
+          flex: 37,
         ),
       ],
     );

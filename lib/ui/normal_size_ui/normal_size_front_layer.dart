@@ -100,7 +100,7 @@ class NormalSizeDashboardFrontLayer extends StatelessWidget {
         ),
         const NormalSizeDashboardFooterText(),
         SizedBox(
-          height: context.dynamicHeight(0.03),
+          height: context.dynamicHeight(0.001),
         ),
       ],
     );
