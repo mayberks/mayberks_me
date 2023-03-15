@@ -38,7 +38,10 @@ class _NormalSizeDashboardScreenState extends State<NormalSizeDashboardScreen> {
             child: SingleChildScrollView(
               physics: const NeverScrollableScrollPhysics(),
               controller: _scrollController,
-              child: const NormalSizeDashboardFrontLayer(),
+              child: SizedBox(
+                height: MediaQuery.of(context).size.height * 256,
+                child: const NormalSizeDashboardFrontLayer(),
+              ),
             ),
           ),
         ),
