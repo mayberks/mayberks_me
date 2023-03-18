@@ -11,8 +11,7 @@ class ProfileData {
 
   /// the about me.
   static String aboutMe =
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
-      's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.';
+      "I am Ayberk! I'm a 23 years old flutter developer. I'm also a madman working on Minecraft. I have been working on Minecraft since 2016, including setup, configuration, optimization, etc. Not only these; I can work with you on website, mobile application and many other issues. With my competence and ability to work fast, we will do great things with you!";
 
   /// the experiences list.
   static List experiences = [

@@ -22,7 +22,7 @@ class AboutMe extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               heading(
-                'Het!',
+                'Hey!',
                 context,
                 color: greenColor,
               ),
