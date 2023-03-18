@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
 
-/// The helper.
+/// the helper.
 class Helper {
   static double getMargin(BuildContext context) {
     var margin = Get.width * 0.13;
