@@ -1,7 +1,9 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mayberks_me/components/heading.dart';
 import 'package:mayberks_me/components/rounded_image.dart';
 import 'package:mayberks_me/components/small_text.dart';
+import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
@@ -29,9 +31,10 @@ class Header extends StatelessWidget {
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
-                child: Image.asset(
-                  'assets/images/flutter_logo.png',
+                child: SvgPicture.asset(
+                  'svg/github.svg',
                   height: isDesktop(context) ? 25 : 15,
+                  color: whiteColor,
                 ),
               ),
             ),
@@ -42,35 +45,38 @@ class Header extends StatelessWidget {
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
-                child: Image.asset(
-                  'assets/images/flutter_logo.png',
+                child: SvgPicture.asset(
+                  'svg/discord.svg',
                   height: isDesktop(context) ? 25 : 15,
+                  color: whiteColor,
                 ),
               ),
             ),
             isDesktop(context) ? widthFifteen : widthTen,
             GestureDetector(
               onTap: () {
-                  print("Tıklandı: Whatsapp");
+                print("Tıklandı: Whatsapp");
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
-                child: Image.asset(
-                  'assets/images/flutter_logo.png',
+                child: SvgPicture.asset(
+                  'svg/whatsapp.svg',
                   height: isDesktop(context) ? 25 : 15,
+                  color: whiteColor,
                 ),
               ),
             ),
             isDesktop(context) ? widthFifteen : widthTen,
             GestureDetector(
               onTap: () {
-                print("Tıklandı: Company Web");
+                print("Tıklandı: Company Link");
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
-                child: Image.asset(
-                  'assets/images/flutter_logo.png',
+                child: SvgPicture.asset(
+                  'svg/link.svg',
                   height: isDesktop(context) ? 25 : 15,
+                  color: whiteColor,
                 ),
               ),
             ),
