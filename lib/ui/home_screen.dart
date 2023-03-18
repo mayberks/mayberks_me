@@ -1,20 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/components/heading.dart';
-import 'package:mayberks_me/components/icon_button.dart';
-import 'package:mayberks_me/components/medium_text.dart';
-import 'package:mayberks_me/components/rounded_image.dart';
-import 'package:mayberks_me/components/small_text.dart';
-import 'package:mayberks_me/components/work_item.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
-import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/sections/about_me_section.dart';
 import 'package:mayberks_me/sections/experiences_section.dart';
 import 'package:mayberks_me/sections/header_section.dart';
 import 'package:mayberks_me/utilities/helper.dart';
-import 'package:mayberks_me/utilities/profile_data.dart';
-import 'package:mayberks_me/utilities/responsive.dart';
 
 /// the home screen.
 class HomeScreen extends StatefulWidget {
