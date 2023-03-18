@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 /// the wrapper.
-Widget wrapper(
+Widget Wrapper(
     {required Widget child,
     double horizontal = 20,
     double vertical = 20,
