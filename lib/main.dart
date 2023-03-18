@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:mayberks_me/ui/home_screen.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
 
 void main() {
-  usePathUrlStrategy();
-  runApp(MayberksMe());
+  runApp(const MayberksMe());
 }
 
 class MayberksMe extends StatelessWidget {
@@ -12,13 +12,9 @@ class MayberksMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      color: Colors.transparent,
       debugShowCheckedModeBanner: false,
-      home: ResponsiveLayout(
-        normalMonitorScreen: NormalSizeDashboardScreen(),
-        smallMonitorScreen: NormalSizeDashboardScreen(),
-        mobileScreen: MobileSizeDashboardScreen(),
-      ),
+      title: 'Mayberks | My Portfolio',
+      home: HomeScreen(),
     );
   }
 }
