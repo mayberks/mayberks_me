@@ -7,6 +7,7 @@ import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
+import 'package:mayberks_me/utilities/urls.dart';
 
 /// the about me section.
 class AboutMe extends StatelessWidget {
@@ -39,13 +40,29 @@ class AboutMe extends StatelessWidget {
         Row(
           children: [
             Expanded(
-              child: iconButton(
-                  'Hey, hire me!', 'assets/images/flutter_logo.png', context),
+              child: GestureDetector(
+                onTap: () {
+                  launchSendMail();
+                },
+                child: MouseRegion(
+                  cursor: SystemMouseCursors.click,
+                  child: iconButton('Hey, hire me!',
+                      'svg/mail.svg', context),
+                ),
+              ),
             ),
             widthFifteen,
             Expanded(
-              child: iconButton(
-                  'ayberkcakr#9861', 'assets/images/flutter_logo.png', context),
+              child: GestureDetector(
+                onTap: () {
+                  launchDiscordDirect();
+                },
+                child: MouseRegion(
+                  cursor: SystemMouseCursors.click,
+                  child: iconButton(
+                      'ayberkcakr#9861', 'svg/discord.svg', context),
+                ),
+              ),
             ),
           ],
         ),

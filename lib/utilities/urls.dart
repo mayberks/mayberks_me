@@ -39,3 +39,26 @@ Future<void> launchCompany() async {
     throw Exception('Could not launch $_companyUrl');
   }
 }
+
+/// the hire me link parse.
+String hiremeMail = "aybrkckr6@gmail.com";
+String hiremeTitle = "Let's work together!";
+String hiremeMessage = "Hey, I want to work with you. Can you please contact me at ____?";
+final Uri _sendmailUrl = Uri.parse('mailto:$hiremeMail?subject=$hiremeTitle&body=$hiremeMessage');
+
+/// the hire me launch.
+Future<void> launchSendMail() async {
+  if (!await launchUrl(_sendmailUrl)) {
+    throw Exception('Could not launch $_sendmailUrl');
+  }
+}
+
+/// the discord link parse.
+final Uri _discordDirect = Uri.parse('https://discordapp.com/channels/@me/658619270720389120');
+
+/// the discord link launch.
+Future<void> launchDiscordDirect() async {
+  if (!await launchUrl(_discordDirect)) {
+    throw Exception('Could not launch $_discordDirect');
+  }
+}

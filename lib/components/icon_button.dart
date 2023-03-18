@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
@@ -19,9 +20,10 @@ Widget iconButton(
     child: Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Image.asset(
+        SvgPicture.asset(
           image,
           height: 15,
+          color: whiteColor,
         ),
         widthTen,
         smallText(title, context),
