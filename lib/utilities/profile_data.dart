@@ -17,14 +17,14 @@ class ProfileData {
   /// the experiences list.
   static List experiences = [
     {
-      'image': 'assets/images/infumia_limited_logo.png',
+      'image': 'assets/images/infumia_limited_logo.jpg',
       'title': 'Infumia Limited',
       'sub_title': 'Co-Founder & Developer',
       'description':
           'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
     },
     {
-      'image': 'assets/images/glory_hosting_solutions.png',
+      'image': 'assets/images/glory_hosting_solutions.jpg',
       'title': 'Glory Hosting Solutions',
       'sub_title': 'SADSADASDSAD',
       'description':

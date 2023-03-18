@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 /// the small mobile phone.
-bool isMobile(BuildContext context) => MediaQuery.of(context).size.width > 650;
+bool isMobile(BuildContext context) => MediaQuery.of(context).size.width < 650;
 
 /// the normal mobile phone.
 bool isMobile2(BuildContext context) =>
