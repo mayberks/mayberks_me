@@ -23,14 +23,56 @@ class Header extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              'assets/images/flutter_logo.png',
-              height: isDesktop(context) ? 25 : 15,
+            GestureDetector(
+              onTap: () {
+                print("Tıklandı: Github");
+              },
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: Image.asset(
+                  'assets/images/flutter_logo.png',
+                  height: isDesktop(context) ? 25 : 15,
+                ),
+              ),
             ),
             isDesktop(context) ? widthFifteen : widthTen,
-            Image.asset(
-              'assets/images/flutter_logo.png',
-              height: isDesktop(context) ? 25 : 15,
+            GestureDetector(
+              onTap: () {
+                print("Tıklandı: Discord");
+              },
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: Image.asset(
+                  'assets/images/flutter_logo.png',
+                  height: isDesktop(context) ? 25 : 15,
+                ),
+              ),
+            ),
+            isDesktop(context) ? widthFifteen : widthTen,
+            GestureDetector(
+              onTap: () {
+                  print("Tıklandı: Whatsapp");
+              },
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: Image.asset(
+                  'assets/images/flutter_logo.png',
+                  height: isDesktop(context) ? 25 : 15,
+                ),
+              ),
+            ),
+            isDesktop(context) ? widthFifteen : widthTen,
+            GestureDetector(
+              onTap: () {
+                print("Tıklandı: Company Web");
+              },
+              child: MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: Image.asset(
+                  'assets/images/flutter_logo.png',
+                  height: isDesktop(context) ? 25 : 15,
+                ),
+              ),
             ),
           ],
         )

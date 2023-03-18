@@ -11,7 +11,7 @@ class ProfileData {
 
   /// the about me.
   static String aboutMe =
-      "I am Ayberk! I'm a 23 years old flutter developer. I'm also a madman working on Minecraft. I have been working on Minecraft since 2016, including setup, configuration, optimization, etc. Not only these; I can work with you on website, mobile application and many other issues. With my competence and ability to work fast, we will do great things with you!";
+      "Hi, I'm Ayberk. I am 23 years old. I have been developing software with Flutter for an average of 2 years. At the same time, I have been working in the Minecraft industry for 6 years in the fields of setup, configuration, optimization and management. I am a partner of a company called @Infumia. I work without a break to bring myself and my business to the best position in all sectors. If you want to get to know me better and work with me, you can review the details below.";
 
   /// the experiences list.
   static List experiences = [
