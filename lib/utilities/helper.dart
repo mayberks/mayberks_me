@@ -3,10 +3,10 @@ import 'package:get/get.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
 
-/// the helper.
+/// The helper.
 class Helper {
   static double getMargin(BuildContext context) {
-    double margin = Get.width * 0.13;
+    var margin = Get.width * 0.13;
     if (isMobile(context)) {
       margin = Get.width * 0.13;
     } else if (isMobile2(context)) {
