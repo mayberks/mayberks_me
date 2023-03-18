@@ -29,7 +29,6 @@ class Header extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 launchGithub();
-                print("Tıklandı: Github");
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
