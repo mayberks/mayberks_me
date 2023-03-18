@@ -29,5 +29,26 @@ class ProfileData {
       'description':
           'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
     },
+    {
+      'image': 'assets/images/glory_hosting_solutions.jpg',
+      'title': 'Glory Hosting Solutions',
+      'sub_title': 'SADSADASDSAD',
+      'description':
+          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+    },
+    {
+      'image': 'assets/images/glory_hosting_solutions.jpg',
+      'title': 'Glory Hosting Solutions',
+      'sub_title': 'SADSADASDSAD',
+      'description':
+          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+    },
+    {
+      'image': 'assets/images/glory_hosting_solutions.jpg',
+      'title': 'Glory Hosting Solutions',
+      'sub_title': 'SADSADASDSAD',
+      'description':
+          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+    },
   ];
 }
