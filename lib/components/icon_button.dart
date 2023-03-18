@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 
@@ -23,6 +24,7 @@ Widget iconButton(
           height: 15,
         ),
         widthTen,
+        smallText(title, context),
       ],
     ),
   );
