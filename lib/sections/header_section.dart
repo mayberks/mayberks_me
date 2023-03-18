@@ -7,6 +7,7 @@ import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
+import 'package:mayberks_me/utilities/urls.dart';
 
 /// the header section.
 class Header extends StatelessWidget {
@@ -27,6 +28,7 @@ class Header extends StatelessWidget {
           children: [
             GestureDetector(
               onTap: () {
+                launchGithub();
                 print("Tıklandı: Github");
               },
               child: MouseRegion(
@@ -41,7 +43,7 @@ class Header extends StatelessWidget {
             isDesktop(context) ? widthFifteen : widthTen,
             GestureDetector(
               onTap: () {
-                print("Tıklandı: Discord");
+                launchDiscord();
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
@@ -55,7 +57,7 @@ class Header extends StatelessWidget {
             isDesktop(context) ? widthFifteen : widthTen,
             GestureDetector(
               onTap: () {
-                print("Tıklandı: Whatsapp");
+                launchWhatsapp();
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
@@ -69,7 +71,7 @@ class Header extends StatelessWidget {
             isDesktop(context) ? widthFifteen : widthTen,
             GestureDetector(
               onTap: () {
-                print("Tıklandı: Company Link");
+                launchCompany();
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
