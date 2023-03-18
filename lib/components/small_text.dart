@@ -2,6 +2,7 @@ import 'package:flutter/widgets.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
+/// the small text.
 Widget smallText(title, BuildContext context,
     {TextAlign align = TextAlign.start,
     FontWeight weight = FontWeight.w100,
