@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
+
+/// the helper.
 class Helper {
   static double getMargin(BuildContext context) {
     double margin = Get.width * 0.13;
