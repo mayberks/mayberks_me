@@ -49,3 +49,28 @@ const heightForty = SizedBox(
 const heightFifty = SizedBox(
   height: 50,
 );
+
+/// the 5 width sizedbox.
+const widthFour = SizedBox(
+  width: 5,
+);
+
+/// the 10 width sizedbox.
+const widthTen = SizedBox(
+  width: 10,
+);
+
+/// the 15 width sizedbox.
+const widthFifteen = SizedBox(
+  width: 15,
+);
+
+/// the 20 width sizedbox.
+const widthTwenty = SizedBox(
+  width: 20,
+);
+
+/// the 25 width sizedbox.
+const widthTwentyFive = SizedBox(
+  width: 25,
+);
