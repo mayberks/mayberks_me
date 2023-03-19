@@ -25,7 +25,7 @@ class Experiences extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           mediumText(
-            'My Works',
+            'My Works Stories',
             context,
             color: whiteColor,
           ),

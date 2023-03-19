@@ -37,7 +37,7 @@ Widget workItem(var experience, BuildContext context) {
                       context,
                       size: 9,
                       overflow: TextOverflow.ellipsis,
-                      maxLines: 2,
+                      maxLines: 3,
                     ),
                   ),
                 ],

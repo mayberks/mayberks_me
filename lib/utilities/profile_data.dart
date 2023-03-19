@@ -18,37 +18,44 @@ class ProfileData {
     {
       'image': 'assets/images/infumia_limited_logo.jpg',
       'title': 'Infumia Limited',
-      'sub_title': 'Co-Founder & Developer',
+      'sub_title': 'Co-Founder (2019 - Continues)',
       'description':
-          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+          'Together with my partner in 2019, we founded Infumia software and graphic design company. I am responsible for finance and administration within the company. I also do development work.'
     },
     {
       'image': 'assets/images/glory_hosting_solutions.jpg',
       'title': 'Glory Hosting Solutions',
-      'sub_title': 'SADSADASDSAD',
+      'sub_title': 'Chief Operating Officer (2019 - Continues)',
       'description':
-          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+          'I am still working as support management, team coordination and developer in Hosting provider company which was opened in Turkey in 2019.'
     },
     {
-      'image': 'assets/images/glory_hosting_solutions.jpg',
-      'title': 'Glory Hosting Solutions',
-      'sub_title': 'SADSADASDSAD',
-      'description':
-          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+      'image': 'assets/images/senior_team.png',
+      'title': 'Senior Studios',
+      'sub_title': 'Freelancer (2020 - Continues)',
+      'description': 'I have been working as a freelancer for the world'
+          's largest Minecraft service provider for 3 years, with many orders and a high satisfaction rate.'
     },
     {
-      'image': 'assets/images/glory_hosting_solutions.jpg',
-      'title': 'Glory Hosting Solutions',
-      'sub_title': 'SADSADASDSAD',
+      'image': 'assets/images/rebel_services.png',
+      'title': 'Rebel Services',
+      'sub_title': 'Freelancer (2023 - Continues)',
       'description':
-          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+          'I manage all computer technology works in Ada natural stone LTD. STI. I manage camera & security systems and all other IT management by myself.'
     },
     {
-      'image': 'assets/images/glory_hosting_solutions.jpg',
-      'title': 'Glory Hosting Solutions',
-      'sub_title': 'SADSADASDSAD',
+      'image': 'assets/images/ada_dogaltas.jpg',
+      'title': 'Ada Natural Stone LTD. STI.',
+      'sub_title': 'IT Manager (2019 - Continues)',
       'description':
-          'I have been working as Cheif Operating Officer of Glory Hosting Solutions company since 2019.'
+          'I manage all computer technology works in Ada natural stone LTD. STI. I manage camera & security systems and all other IT management by myself.'
+    },
+    {
+      'image': 'assets/images/valatic.jpg',
+      'title': 'Valatic Network',
+      'sub_title': 'Developer (2022 - 9 Month)',
+      'description':
+          'As the only developer on the Valatic network minecraft server in 2022, I have done the biggest revork work on the server by myself. I am not currently working.'
     },
   ];
 }
