@@ -13,6 +13,7 @@ Widget iconButton(
   return Container(
     padding: const EdgeInsets.symmetric(vertical: 3),
     decoration: BoxDecoration(
+      borderRadius: BorderRadius.circular(2),
       border: Border.all(
         color: whiteColor,
       ),
