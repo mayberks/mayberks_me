@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:mayberks_me/components/medium_text.dart';
+import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/components/text_button.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
+import 'package:mayberks_me/utilities/urls.dart';
 
 /// the discord button.
 Widget discordButton(
@@ -24,22 +26,29 @@ Widget discordButton(
       color: containerBackgroundColor,
     ),
     child: Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         SvgPicture.asset(
           image,
-          height: 15,
+          height: 20,
           color: whiteColor,
         ),
-        widthTen,
-        mediumText(
+        smallText(
           text,
           context,
         ),
-        widthTen,
-        textButton(
-          title,
-          context,
+        widthFifteen,
+        GestureDetector(
+          onTap: () {
+            launchDiscordCommunity();
+          },
+          child: MouseRegion(
+            cursor: SystemMouseCursors.click,
+            child: textButton(
+              title,
+              context,
+            ),
+          ),
         ),
       ],
     ),

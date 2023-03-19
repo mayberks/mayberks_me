@@ -58,4 +58,7 @@ class ProfileData {
           'As the only developer on the Valatic network minecraft server in 2022, I have done the biggest revork work on the server by myself. I am not currently working.'
     },
   ];
+
+  /// the discord image svg link.
+  static String discordImage = 'svg/discord.svg';
 }

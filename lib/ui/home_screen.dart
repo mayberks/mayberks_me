@@ -35,7 +35,6 @@ class _HomeScreenState extends State<HomeScreen> {
               AboutMe(),
               Experiences(),
               heightFifteen,
-              DiscordInvite(),
             ],
           ),
         ),
