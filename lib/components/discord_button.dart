@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/components/icon_button.dart';
 import 'package:mayberks_me/components/medium_text.dart';
+import 'package:mayberks_me/components/text_button.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 
@@ -11,7 +11,6 @@ Widget discordButton(
   String text,
   String title,
   String image,
-  String buttonIcon,
   BuildContext context,
 ) {
   return Container(
@@ -38,9 +37,8 @@ Widget discordButton(
           context,
         ),
         widthTen,
-        iconButton(
+        textButton(
           title,
-          image,
           context,
         ),
       ],

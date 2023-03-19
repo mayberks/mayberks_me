@@ -10,7 +10,6 @@ class DiscordInvite extends StatelessWidget {
         'Our community discord server',
         'Click to join!',
         'svg/discord.svg',
-        'svg/discord.svg',
         context,
     );
   }
