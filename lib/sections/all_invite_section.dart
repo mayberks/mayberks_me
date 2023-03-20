@@ -80,11 +80,19 @@ class _InvitesState extends State<Invites> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              mediumText(title, context,
-                  color: whiteColor, size: isMobile(context) ? 18 : 10),
+              mediumText(
+                title,
+                context,
+                color: whiteColor,
+                size: isMobile(context) ? 18 : 10,
+              ),
               heightTen,
-              smallText(description, context,
-                  color: whiteColor, size: isMobile(context) ? 16 : 8),
+              smallText(
+                description,
+                context,
+                color: whiteColor,
+                size: isMobile(context) ? 16 : 8,
+              ),
             ],
           ),
         ),
