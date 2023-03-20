@@ -74,3 +74,8 @@ const widthTwenty = SizedBox(
 const widthTwentyFive = SizedBox(
   width: 25,
 );
+
+/// the 30 width sizedbox.
+const widthThirty = SizedBox(
+  width: 30,
+);
