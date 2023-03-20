@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mayberks_me/components/medium_text.dart';
+import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
@@ -36,6 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
               AboutMe(),
               Experiences(),
               isBigDesktop(context) ? heightThirty : heightFifteen,
+              Invites(),
             ],
           ),
         ),
