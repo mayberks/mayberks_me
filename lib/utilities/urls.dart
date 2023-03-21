@@ -77,7 +77,7 @@ Future<void> launchDiscordCommunity() async {
 }
 
 /// the mc-market link parse.
-final Uri _mcmarketAccount = Uri.parse('');
+final Uri _mcmarketAccount = Uri.parse('https://builtbybit.com/members/mayberks.172191/');
 
 /// the mc-market link launch.
 Future<void> launchmcmarketAccount() async {
