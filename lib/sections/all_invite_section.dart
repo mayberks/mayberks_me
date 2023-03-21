@@ -19,9 +19,10 @@ class _InvitesState extends State<Invites> {
         ? Column(
             children: [
               inviteItem(
-                'assets/images/ada_dogaltas.jpg',
-                'Title',
-                'Decription',
+                'assets/images/discord1.png',
+                'Join our Community Server.',
+                'Click here to join our community server.',
+                () {},
               ),
               isMobile(context)
                   ? heightFifteen
@@ -29,9 +30,10 @@ class _InvitesState extends State<Invites> {
                       ? widthThirty
                       : widthFifteen,
               inviteItem(
-                'assets/images/ada_dogaltas.jpg',
+                'assets/images/discord3.png',
                 'Title',
                 'Decription',
+                () {},
               ),
             ],
           )
@@ -39,64 +41,74 @@ class _InvitesState extends State<Invites> {
             children: [
               Expanded(
                 child: inviteItem(
-                  'assets/images/ada_dogaltas.jpg',
+                  'assets/images/discord1.png',
                   'Title',
                   'Decription',
+                  () {},
                 ),
               ),
               isBigDesktop(context) ? widthThirty : widthFifteen,
               Expanded(
                 child: inviteItem(
-                  'assets/images/ada_dogaltas.jpg',
+                  'assets/images/discord3.png',
                   'Title',
                   'Decription',
+                  () {},
                 ),
               ),
             ],
           );
   }
 
-  Widget inviteItem(String image, String title, String description) {
-    return Stack(
-      alignment: Alignment.center,
-      children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(10),
-          child: Image.asset(
-            image,
-            fit: BoxFit.cover,
+  Widget inviteItem(
+    String image,
+    String title,
+    String description,
+    GestureTapCallback onTap,
+  ) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: Image.asset(
+              image,
+              fit: BoxFit.fill,
+            ),
           ),
-        ),
-        LayoutBuilder(builder: (context, c) {
-          return Container(
-            width: c.maxWidth,
-            height: c.maxWidth,
-            color: backgroundColor.withOpacity(0.6),
-          );
-        }),
-        Positioned(
-          bottom: 10,
-          left: 10,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              mediumText(
-                title,
-                context,
-                color: whiteColor,
-                size: isMobile(context) ? 18 : 10,
-              ),
-              heightTen,
-              smallText(
-                description,
-                context,
-                color: whiteColor,
-                size: isMobile(context) ? 16 : 8,
-              ),
-            ],
+          LayoutBuilder(builder: (context, c) {
+            return Container(
+              width: c.maxWidth,
+              height: c.maxWidth,
+              color: backgroundColor.withOpacity(0.5),
+            );
+          }),
+          Positioned(
+            bottom: 70,
+            left: 10,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                mediumText(
+                  title,
+                  context,
+                  color: whiteColor,
+                  size: isMobile(context) ? 18 : 10,
+                ),
+                heightTen,
+                smallText(
+                  description,
+                  context,
+                  color: whiteColor,
+                  size: isMobile(context) ? 16 : 8,
+                ),
+              ],
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
