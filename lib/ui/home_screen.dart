@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Header(),
               AboutMe(),
               Experiences(),
-              isBigDesktop(context) ? heightThirty : heightFifteen,
+              isBigDesktop(context) ? heightTwenty : heightTen,
               Invites(),
             ],
           ),

@@ -28,10 +28,10 @@ class _InvitesState extends State<Invites> {
                 },
               ),
               isMobile(context)
-                  ? heightFifteen
+                  ? heightTen
                   : isBigDesktop(context)
-                      ? widthThirty
-                      : widthFifteen,
+                      ? widthFifteen
+                      : widthTen,
               inviteItem(
                 'assets/images/discord3.png',
                 'Preview my MC-Market contents',
@@ -47,8 +47,8 @@ class _InvitesState extends State<Invites> {
               Expanded(
                 child: inviteItem(
                   'assets/images/discord1.png',
-                  'Title',
-                  'Decription',
+                  'Join our Community Server.',
+                  'Click here to join our community server.',
                   () {
                     launchDiscordCommunity();
                   },
@@ -58,8 +58,8 @@ class _InvitesState extends State<Invites> {
               Expanded(
                 child: inviteItem(
                   'assets/images/discord3.png',
-                  'Title',
-                  'Decription',
+                  'Preview my MC-Market contents',
+                  'Click here to preview my mc-market contents.',
                   () {
                     launchmcmarketAccount();
                   },
