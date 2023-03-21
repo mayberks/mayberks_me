@@ -75,3 +75,13 @@ Future<void> launchDiscordCommunity() async {
     throw Exception('Colud not launch $_discordCommunity');
   }
 }
+
+/// the mc-market link parse.
+final Uri _mcmarketAccount = Uri.parse('');
+
+/// the mc-market link launch.
+Future<void> launchmcmarketAccount() async {
+  if (!await launchUrl(_mcmarketAccount)) {
+    throw Exception('Could not launch $_mcmarketAccount');
+  }
+}

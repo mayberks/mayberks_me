@@ -4,6 +4,7 @@ import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
+import 'package:mayberks_me/utilities/urls.dart';
 
 class Invites extends StatefulWidget {
   const Invites({Key? key}) : super(key: key);
@@ -22,7 +23,9 @@ class _InvitesState extends State<Invites> {
                 'assets/images/discord1.png',
                 'Join our Community Server.',
                 'Click here to join our community server.',
-                () {},
+                () {
+                  launchDiscordCommunity();
+                },
               ),
               isMobile(context)
                   ? heightFifteen
@@ -31,9 +34,11 @@ class _InvitesState extends State<Invites> {
                       : widthFifteen,
               inviteItem(
                 'assets/images/discord3.png',
-                'Title',
-                'Decription',
-                () {},
+                'Preview my MC-Market contents',
+                'Click here to preview my mc-market contents.',
+                () {
+                  launchmcmarketAccount();
+                },
               ),
             ],
           )
@@ -44,7 +49,9 @@ class _InvitesState extends State<Invites> {
                   'assets/images/discord1.png',
                   'Title',
                   'Decription',
-                  () {},
+                  () {
+                    launchDiscordCommunity();
+                  },
                 ),
               ),
               isBigDesktop(context) ? widthThirty : widthFifteen,
@@ -53,7 +60,9 @@ class _InvitesState extends State<Invites> {
                   'assets/images/discord3.png',
                   'Title',
                   'Decription',
-                  () {},
+                  () {
+                    launchmcmarketAccount();
+                  },
                 ),
               ),
             ],
