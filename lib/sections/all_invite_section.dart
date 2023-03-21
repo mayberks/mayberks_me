@@ -68,46 +68,49 @@ class _InvitesState extends State<Invites> {
   ) {
     return GestureDetector(
       onTap: onTap,
-      child: Stack(
-        alignment: Alignment.center,
-        children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(10),
-            child: Image.asset(
-              image,
-              fit: BoxFit.fill,
+      child: MouseRegion(
+        cursor: SystemMouseCursors.click,
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            ClipRRect(
+              borderRadius: BorderRadius.circular(10),
+              child: Image.asset(
+                image,
+                fit: BoxFit.fill,
+              ),
             ),
-          ),
-          LayoutBuilder(builder: (context, c) {
-            return Container(
-              width: c.maxWidth,
-              height: c.maxWidth,
-              color: backgroundColor.withOpacity(0.5),
-            );
-          }),
-          Positioned(
-            bottom: 70,
-            left: 10,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                mediumText(
-                  title,
-                  context,
-                  color: whiteColor,
-                  size: isMobile(context) ? 18 : 10,
-                ),
-                heightTen,
-                smallText(
-                  description,
-                  context,
-                  color: whiteColor,
-                  size: isMobile(context) ? 16 : 8,
-                ),
-              ],
+            LayoutBuilder(builder: (context, c) {
+              return Container(
+                width: c.maxWidth,
+                height: c.maxWidth,
+                color: backgroundColor.withOpacity(0.5),
+              );
+            }),
+            Positioned(
+              bottom: 70,
+              left: 10,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  mediumText(
+                    title,
+                    context,
+                    color: whiteColor,
+                    size: isMobile(context) ? 18 : 10,
+                  ),
+                  heightTen,
+                  smallText(
+                    description,
+                    context,
+                    color: whiteColor,
+                    size: isMobile(context) ? 16 : 8,
+                  ),
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
