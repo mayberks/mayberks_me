@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mayberks_me/ui/home/home_screen.dart';
+import 'package:mayberks_me/ui/portfolios/flutter_projects.dart';
 
 void main() {
   runApp(const MayberksMe());
@@ -11,10 +12,14 @@ class MayberksMe extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Mayberks | My Portfolio',
-      home: HomeScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => HomeScreen(),
+        '/flutter-projects': (context) => FlutterProjects(),
+      },
     );
   }
 }

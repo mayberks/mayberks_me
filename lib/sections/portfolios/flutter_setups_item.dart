@@ -18,63 +18,63 @@ class _FlutterSetupsItemState extends State<FlutterSetupsItem> {
   Widget build(BuildContext context) {
     return isMobile(context)
         ? Column(
-      children: [
-        portfolioItem(
-          'assets/images/flutter_projects.png',
-          'Flutter projects',
-          'Click to preview my flutter projects.',
-              () {
-            print("Clicked portfolio item.");
-          },
-        ),
-        isMobile(context)
-            ? heightTen
-            : isBigDesktop(context)
-            ? widthFifteen
-            : widthTen,
-        portfolioItem(
-          'assets/images/minecraft_setups.png',
-          'Minecraft Setups',
-          'Click to preview my minecraft setups.',
-              () {
-            print("Clicked portfolio item.");
-          },
-        ),
-      ],
-    )
+            children: [
+              portfolioItem(
+                'assets/images/flutter_projects.png',
+                'Flutter projects',
+                'Click to preview my flutter projects.',
+                () {
+                  Navigator.pushNamed(context, '/flutter-projects');
+                },
+              ),
+              isMobile(context)
+                  ? heightTen
+                  : isBigDesktop(context)
+                      ? widthFifteen
+                      : widthTen,
+              portfolioItem(
+                'assets/images/minecraft_setups.png',
+                'Minecraft Setups',
+                'Click to preview my minecraft setups.',
+                () {
+                  print("Clicked portfolio item.");
+                },
+              ),
+            ],
+          )
         : Row(
-      children: [
-        Expanded(
-          child: portfolioItem(
-            'assets/images/flutter_projects.png',
-            'Flutter projects',
-            'Click to preview my flutter projects.',
-                () {
-              print("Clicked portfolio item.");
-            },
-          ),
-        ),
-        isBigDesktop(context) ? widthThirty : widthFifteen,
-        Expanded(
-          child: portfolioItem(
-            'assets/images/minecraft_setups.png',
-            'Minecraft Setups',
-            'Click to preview my minecraft setups.',
-                () {
-              print("Clicked portfolio item.");
-            },
-          ),
-        ),
-      ],
-    );
+            children: [
+              Expanded(
+                child: portfolioItem(
+                  'assets/images/flutter_projects.png',
+                  'Flutter projects',
+                  'Click to preview my flutter projects.',
+                  () {
+                    Navigator.pushNamed(context, '/flutter-projects');
+                  },
+                ),
+              ),
+              isBigDesktop(context) ? widthThirty : widthFifteen,
+              Expanded(
+                child: portfolioItem(
+                  'assets/images/minecraft_setups.png',
+                  'Minecraft Setups',
+                  'Click to preview my minecraft setups.',
+                  () {
+                    print("Clicked portfolio item.");
+                  },
+                ),
+              ),
+            ],
+          );
   }
 
   Widget portfolioItem(
-      String image,
-      String title,
-      String description,
-      GestureTapCallback onTap,
-      ) {
+    String image,
+    String title,
+    String description,
+    GestureTapCallback onTap,
+  ) {
     return GestureDetector(
       onTap: onTap,
       child: MouseRegion(
