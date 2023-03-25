@@ -13,6 +13,10 @@ class ProfileData {
   static String aboutMe =
       "Hi, I'm Ayberk. I am 23 years old. I have been developing software with Flutter for an average of 2 years. At the same time, I have been working in the Minecraft industry for 6 years in the fields of setup, configuration, optimization and management. I am a partner of a company called @Infumia. I work without a break to bring myself and my business to the best position in all sectors. If you want to get to know me better and work with me, you can review the details below.";
 
+  /// the portfolio text.
+  static String portfolioText =
+      "Below are images and live examples of my work by category. These examples have been collected from past to present, mixed for better or worse. In addition to all these, the products of my customers who care about their privacy are not included. Your ideas and products are safe with me. Just click on the category you want to review. There are photos on the page that will open.";
+
   /// the experiences list.
   static List experiences = [
     {

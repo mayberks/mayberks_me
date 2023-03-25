@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/components/medium_text.dart';
-import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
@@ -9,6 +7,7 @@ import 'package:mayberks_me/sections/about_me_section.dart';
 import 'package:mayberks_me/sections/all_invite_section.dart';
 import 'package:mayberks_me/sections/experiences_section.dart';
 import 'package:mayberks_me/sections/header_section.dart';
+import 'package:mayberks_me/sections/portfolio_text_section.dart';
 import 'package:mayberks_me/utilities/helper.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
@@ -39,6 +38,8 @@ class _HomeScreenState extends State<HomeScreen> {
               Experiences(),
               isBigDesktop(context) ? heightTwenty : heightTen,
               Invites(),
+              isBigDesktop(context) ? heightTwenty : heightTen,
+              PortfolioText(),
             ],
           ),
         ),

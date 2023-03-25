@@ -6,6 +6,8 @@ import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
+
+/// the invite section.
 class Invites extends StatefulWidget {
   const Invites({Key? key}) : super(key: key);
 
