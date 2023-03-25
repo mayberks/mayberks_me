@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
+import 'package:mayberks_me/utilities/responsive.dart';
 
 /// the status data.
 class StatusData {
@@ -23,7 +24,7 @@ class CommissionStatus extends StatelessWidget {
             ? "I am currently accepting all commission requests."
             : "I am not accepting any commission at the moment.",
         context,
-        size: 6,
+        size: isMobile(context) ? 10 : 8,
         color: statusData.commissionStatus ? greenColor : greyColor,
       ),
     );

@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Experiences(),
               isBigDesktop(context) ? heightTwenty : heightTen,
               Invites(),
-              isBigDesktop(context) ? heightTwenty : heightTen,
+              isBigDesktop(context) ? heightTwenty : heightTwenty,
               PortfolioText(),
               PortfolioMain(),
               CommissionStatus(),
