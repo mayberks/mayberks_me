@@ -1,5 +1,6 @@
 /// the profile data.
 class ProfileData {
+
   /// the profile image link.
   static String profileImage = 'assets/images/personal_image.png';
 
