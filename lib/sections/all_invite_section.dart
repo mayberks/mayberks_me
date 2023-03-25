@@ -33,7 +33,7 @@ class _InvitesState extends State<Invites> {
                       ? widthFifteen
                       : widthTen,
               inviteItem(
-                'assets/images/discord3.png',
+                'assets/images/bbb.png',
                 'Preview my MC-Market contents',
                 'Click here to preview my mc-market contents.',
                 () {
@@ -57,7 +57,7 @@ class _InvitesState extends State<Invites> {
               isBigDesktop(context) ? widthThirty : widthFifteen,
               Expanded(
                 child: inviteItem(
-                  'assets/images/discord3.png',
+                  'assets/images/bbb.png',
                   'Preview my MC-Market contents',
                   'Click here to preview my mc-market contents.',
                   () {
@@ -89,15 +89,19 @@ class _InvitesState extends State<Invites> {
                 fit: BoxFit.fill,
               ),
             ),
-            LayoutBuilder(builder: (context, c) {
-              return Container(
-                width: c.maxWidth,
-                height: c.maxWidth,
-                color: backgroundColor.withOpacity(0.5),
-              );
-            }),
+            Positioned.fill(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Opacity(
+                  opacity: 0.5,
+                  child: Container(
+                    color: const Color(0xFF000000),
+                  ),
+                ),
+              ),
+            ),
             Positioned(
-              bottom: 70,
+              bottom: 10,
               left: 10,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -106,14 +110,16 @@ class _InvitesState extends State<Invites> {
                     title,
                     context,
                     color: whiteColor,
-                    size: isMobile(context) ? 18 : 10,
+                    size: isMobile(context) ? 18 : 8,
                   ),
                   heightTen,
                   smallText(
                     description,
                     context,
                     color: whiteColor,
-                    size: isMobile(context) ? 16 : 8,
+                    size: isMobile(context) ? 12 : 6,
+                    overflow: TextOverflow.ellipsis,
+                    maxLines: 2,
                   ),
                 ],
               ),
