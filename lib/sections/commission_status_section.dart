@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
+/// the status data.
 class StatusData {
   bool commissionStatus;
 
   StatusData({this.commissionStatus = false});
 }
 
+/// the status text widget.
 class CommissionStatus extends StatelessWidget {
   final statusData = StatusData(commissionStatus: true);
 
