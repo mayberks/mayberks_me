@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/constants/spaces.dart';
-import 'package:mayberks_me/sections/portfolios/configurations_optimizations_item.dart';
-import 'package:mayberks_me/sections/portfolios/discord_mobile_item.dart';
-import 'package:mayberks_me/sections/portfolios/flutter_setups_item.dart';
+import 'package:mayberks_me/sections/home/portfolios/configurations_optimizations_item.dart';
+import 'package:mayberks_me/sections/home/portfolios/discord_mobile_item.dart';
+import 'package:mayberks_me/sections/home/portfolios/flutter_setups_item.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
 /// the portfolio main section.

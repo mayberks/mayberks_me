@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
+import 'package:mayberks_me/sections/home/about_me_section.dart';
 import 'package:mayberks_me/utilities/helper.dart';
 
 /// the flutter projects portfolio screen.
@@ -25,7 +26,8 @@ class _FlutterProjectsState extends State<FlutterProjects> {
           vertical: 20,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [],
+            children: [
+            ],
           ),
         ),
       ),
