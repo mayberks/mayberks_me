@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/ui/home_screen.dart';
+import 'package:mayberks_me/ui/home/home_screen.dart';
 
 void main() {
   runApp(const MayberksMe());
