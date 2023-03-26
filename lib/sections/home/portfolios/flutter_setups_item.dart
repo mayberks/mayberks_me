@@ -24,7 +24,7 @@ class _FlutterSetupsItemState extends State<FlutterSetupsItem> {
                 'Flutter projects',
                 'Click to preview my flutter projects.',
                 () {
-                  Navigator.pushNamed(context, '/flutter-projects');
+                  Navigator.pushNamed(context, '/flutter-portfolios');
                 },
               ),
               isMobile(context)
@@ -50,7 +50,7 @@ class _FlutterSetupsItemState extends State<FlutterSetupsItem> {
                   'Flutter projects',
                   'Click to preview my flutter projects.',
                   () {
-                    Navigator.pushNamed(context, '/flutter-projects');
+                    Navigator.pushNamed(context, '/flutter-portfolios');
                   },
                 ),
               ),

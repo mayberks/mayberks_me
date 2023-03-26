@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
 import 'package:mayberks_me/ui/home/home_screen.dart';
-import 'package:mayberks_me/ui/portfolios/flutter_projects.dart';
 
 void main() {
   runApp(const MayberksMe());
@@ -18,7 +18,7 @@ class MayberksMe extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
-        '/flutter-projects': (context) => FlutterProjects(),
+        '/flutter-portfolios': (context) => FlutterPortfolios(),
       },
     );
   }

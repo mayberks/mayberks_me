@@ -18,6 +18,9 @@ class ProfileData {
   static String portfolioText =
       "Below are images and live examples of my work by category. These examples have been collected from past to present, mixed for better or worse. In addition to all these, the products of my customers who care about their privacy are not included. Your ideas and products are safe with me. Just click on the category you want to review. There are photos on the page that will open.";
 
+  /// the discord image svg link.
+  static String discordImage = 'svg/discord.svg';
+
   /// the experiences list.
   static List experiences = [
     {
@@ -64,6 +67,25 @@ class ProfileData {
     },
   ];
 
-  /// the discord image svg link.
-  static String discordImage = 'svg/discord.svg';
+  /// the flutter portfolio item photos.
+  static List flutterportfolios = [
+    'assets/images/minecraft_configurations.png',
+    'assets/images/minecraft_setups.png',
+    'assets/images/minecraft_optimizations.png',
+    'assets/images/mobile_applications.png',
+    'assets/images/minecraft_configurations.png',
+    'assets/images/minecraft_setups.png',
+    'assets/images/minecraft_optimizations.png',
+    'assets/images/mobile_applications.png',
+    'assets/images/minecraft_configurations.png',
+    'assets/images/minecraft_setups.png',
+    'assets/images/minecraft_optimizations.png',
+    'assets/images/mobile_applications.png',
+    'assets/images/minecraft_configurations.png',
+    'assets/images/minecraft_setups.png',
+    'assets/images/minecraft_optimizations.png',
+    'assets/images/mobile_applications.png',
+
+  ];
+
 }
