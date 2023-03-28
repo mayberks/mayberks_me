@@ -9,6 +9,7 @@ import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
+/// the portfolio description section.
 class PortfolioDescription extends StatelessWidget {
   const PortfolioDescription({Key? key}) : super(key: key);
 
@@ -25,12 +26,16 @@ class PortfolioDescription extends StatelessWidget {
                 'Hey!',
                 context,
                 color: greenColor,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w700,
               ),
               heightTen,
               smallText(
-                ProfileData.aboutmeOne,
+                ProfileData.flutterportfoliodescriptionText,
                 context,
                 align: TextAlign.justify,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w300,
               ),
             ],
           ),

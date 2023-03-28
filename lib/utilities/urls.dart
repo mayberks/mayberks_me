@@ -1,5 +1,16 @@
 import 'package:url_launcher/url_launcher.dart';
 
+/// the portfolio webscript link parse.
+final Uri _portfoliowebscriptUrl =
+    Uri.parse('https://github.com/mayberks/mayberks_me');
+
+/// the portfolio webscript link launch.
+Future<void> launchPortfolioWebscript() async {
+  if (!await launchUrl(_portfoliowebscriptUrl)) {
+    throw Exception('Could not launch $_portfoliowebscriptUrl');
+  }
+}
+
 /// the github link parse.
 final Uri _githubUrl = Uri.parse('https://github.com/mayberks');
 
@@ -77,7 +88,8 @@ Future<void> launchDiscordCommunity() async {
 }
 
 /// the mc-market link parse.
-final Uri _mcmarketAccount = Uri.parse('https://builtbybit.com/members/mayberks.172191/');
+final Uri _mcmarketAccount =
+    Uri.parse('https://builtbybit.com/members/mayberks.172191/');
 
 /// the mc-market link launch.
 Future<void> launchmcmarketAccount() async {

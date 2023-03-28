@@ -7,14 +7,14 @@ import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
 /// the flutter portfolios.
-class FlutterPortfolios extends StatefulWidget {
-  const FlutterPortfolios({super.key});
+class MinecraftSetupPortfolios extends StatefulWidget {
+  const MinecraftSetupPortfolios({super.key});
 
   @override
-  State<FlutterPortfolios> createState() => _FlutterPortfoliosState();
+  State<MinecraftSetupPortfolios> createState() => _MinecraftSetupPortfoliosState();
 }
 
-class _FlutterPortfoliosState extends State<FlutterPortfolios> {
+class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,7 +26,7 @@ class _FlutterPortfoliosState extends State<FlutterPortfolios> {
           // childAspectRatio: (itemWidth / itemHeight),
           shrinkWrap: true,
           children:
-              List.generate(ProfileData.flutterportfolios.length, (index) {
+              List.generate(ProfileData.minecraftsetupportfolios.length, (index) {
             return MouseRegion(
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
@@ -71,7 +71,7 @@ class _FlutterPortfoliosState extends State<FlutterPortfolios> {
                       color: whiteColor,
                     ),
                     content: Image.asset(
-                      ProfileData.flutterportfolios[index],
+                      ProfileData.minecraftsetupportfolios[index],
                       height: isMobile(context) || isMobile2(context)
                           ? null
                           : Get.height * 0.8,
@@ -84,7 +84,7 @@ class _FlutterPortfoliosState extends State<FlutterPortfolios> {
                   child: Hero(
                     tag: 'imageHero$index',
                     child: Image.asset(
-                      ProfileData.flutterportfolios[index],
+                      ProfileData.minecraftsetupportfolios[index],
                       fit: BoxFit.fill,
                     ),
                   ),

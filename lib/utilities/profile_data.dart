@@ -23,9 +23,13 @@ class ProfileData {
   /// the about me 2.
   static String aboutmeTwo = "Also, i am Turkish but I live in Poland. All my future goals are to configure my company to produce software with high standards and to live a good life with them. I also love to play games, especially warzone 2.0, even though it's buggy, I can't stop playing it, it's the kind of game that attracts me.";
 
+
   /// the portfolio text.
   static String portfolioText =
       "Below are examples and links to all my work so far. You can examine all my examples in detail by logging into the category you click on. I did not add some of my examples for customer privacy reasons. Your ideas are important to me. I do not add the examples you do not want to add here. If you want to work with me and have these wonderful products, you can contact me from my contact addresses above.";
+
+  /// the flutter portfolio description text.
+  static String flutterportfoliodescriptionText = "Below, you can view the flutter projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
 
   /// the discord image svg link.
   static String discordImage = 'svg/discord.svg';
@@ -78,7 +82,21 @@ class ProfileData {
   /// the flutter portfolio item photos.
   static List flutterportfolios = [
     'assets/images/portfolio_web_script.png',
+  ];
+
+  /// the flutter portfolio item names.
+  static List<String> flutterportfoliosname = [
+    'CV & Portfolio Webscript',
+  ];
+
+
+  /// the minecraft setup portfolio item photos.
+  static List minecraftsetupportfolios = [
     'assets/images/portfolio_web_script.png',
-    'assets/images/portfolio_web_script.png',
+  ];
+
+  /// the minecraft setup portfolio item names.
+  static List<String> minecraftsetupportfoliosname = [
+    'CV & Portfolio Webscript',
   ];
 }

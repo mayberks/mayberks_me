@@ -10,6 +10,7 @@ import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
+/// the portfolio header section.
 class PortfolioHeader extends StatelessWidget {
   const PortfolioHeader({Key? key}) : super(key: key);
 
@@ -19,15 +20,20 @@ class PortfolioHeader extends StatelessWidget {
       children: [
         roundedImage(context, image: ProfileData.profileImage),
         isDesktop(context) ? heightFifteen : heightTen,
-        heading(ProfileData.profileName, context),
-        isDesktop(context) ? heightTen : heightFour,
+        heading(
+          ProfileData.profileName,
+          context,
+          fontfamily: 'Sora',
+          weight: FontWeight.w900,
+        ),
+        isDesktop(context) ? heightTen : heightTen,
         animatedText(
           ProfileData.jobs,
           context,
           fontfamily: 'Sora',
           weight: FontWeight.w200,
         ),
-        isDesktop(context) ? heightTwenty : heightTen,
+        isDesktop(context) ? heightSeventeen : heightSeventeen,
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -39,7 +45,7 @@ class PortfolioHeader extends StatelessWidget {
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
                   'svg/github.svg',
-                  height: isDesktop(context) ? 25 : 15,
+                  height: isDesktop(context) ? 25 : 20,
                   color: whiteColor,
                 ),
               ),
@@ -53,7 +59,7 @@ class PortfolioHeader extends StatelessWidget {
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
                   'svg/discord.svg',
-                  height: isDesktop(context) ? 25 : 15,
+                  height: isDesktop(context) ? 25 : 20,
                   color: whiteColor,
                 ),
               ),
@@ -67,7 +73,7 @@ class PortfolioHeader extends StatelessWidget {
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
                   'svg/whatsapp.svg',
-                  height: isDesktop(context) ? 25 : 15,
+                  height: isDesktop(context) ? 25 : 20,
                   color: whiteColor,
                 ),
               ),
@@ -81,7 +87,7 @@ class PortfolioHeader extends StatelessWidget {
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
                   'svg/link.svg',
-                  height: isDesktop(context) ? 25 : 15,
+                  height: isDesktop(context) ? 25 : 20,
                   color: whiteColor,
                 ),
               ),
