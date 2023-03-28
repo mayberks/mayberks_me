@@ -28,7 +28,7 @@ class PortfolioDescription extends StatelessWidget {
               ),
               heightTen,
               smallText(
-                ProfileData.aboutMe,
+                ProfileData.aboutmeOne,
                 context,
                 align: TextAlign.justify,
               ),

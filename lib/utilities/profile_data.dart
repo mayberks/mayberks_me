@@ -16,9 +16,12 @@ class ProfileData {
     'Marketing Manager',
   ];
 
-  /// the about me.
-  static String aboutMe =
-      "Hi, I'm Ayberk. I am 23 years old. I have been developing software with Flutter for an average of 2 years. At the same time, I have been working in the Minecraft industry for 6 years in the fields of setup, configuration, optimization and management. I am a partner of a company called @Infumia. I work without a break to bring myself and my business to the best position in all sectors. If you want to get to know me better and work with me, you can review the details below.";
+  /// the about me 1.
+  static String aboutmeOne =
+      "I am Ayberk and I am 23 years old. I have been working on software and graphic design since 2015. Since 2019, I have been working professionally in Minecraft server development. I have a software and graphic design company in the UK. Among my works; flutter developer, minecraft setup specialist, minecraft configurator, system administrator and many other areas.";
+
+  /// the about me 2.
+  static String aboutmeTwo = "Also, i am Turkish but I live in Poland. All my future goals are to configure my company to produce software with high standards and to live a good life with them. I also love to play games, especially warzone 2.0, even though it's buggy, I can't stop playing it, it's the kind of game that attracts me.";
 
   /// the portfolio text.
   static String portfolioText =

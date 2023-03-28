@@ -31,7 +31,15 @@ class AboutMe extends StatelessWidget {
               ),
               heightTen,
               smallText(
-                ProfileData.aboutMe,
+                ProfileData.aboutmeOne,
+                context,
+                align: TextAlign.justify,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w300,
+              ),
+              heightTen,
+              smallText(
+                ProfileData.aboutmeTwo,
                 context,
                 align: TextAlign.justify,
                 fontfamily: 'Epilogue',
