@@ -8,7 +8,7 @@ import 'package:mayberks_me/ui/portfolios/minecraft_optimization_portfolios_scre
 import 'package:mayberks_me/ui/portfolios/minecraft_setup_portfolios_screen.dart';
 import 'package:mayberks_me/ui/portfolios/mobile_application_portfolios_screen.dart';
 
-Future<void> main() async {
+void main() {
   runApp(const MayberksMe());
 }
 

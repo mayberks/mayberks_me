@@ -29,7 +29,7 @@ class Footer extends StatelessWidget {
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
-                  'svg/github.svg',
+                  'assets/images/github.svg',
                   height: isDesktop(context) ? 25 : 15,
                   color: whiteColor,
                 ),
@@ -43,7 +43,7 @@ class Footer extends StatelessWidget {
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
-                  'svg/discord.svg',
+                  'assets/images/discord.svg',
                   height: isDesktop(context) ? 25 : 15,
                   color: whiteColor,
                 ),
@@ -57,7 +57,7 @@ class Footer extends StatelessWidget {
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
-                  'svg/whatsapp.svg',
+                  'assets/images/whatsapp.svg',
                   height: isDesktop(context) ? 25 : 15,
                   color: whiteColor,
                 ),
@@ -71,7 +71,7 @@ class Footer extends StatelessWidget {
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,
                 child: SvgPicture.asset(
-                  'svg/link.svg',
+                  'assets/images/link.svg',
                   height: isDesktop(context) ? 25 : 15,
                   color: whiteColor,
                 ),

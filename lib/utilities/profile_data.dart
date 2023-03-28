@@ -53,7 +53,7 @@ class ProfileData {
       "Below, you can view the discord setup projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
 
   /// the discord image svg link.
-  static String discordImage = 'svg/discord.svg';
+  static String discordImage = 'assets/images/discord.svg';
 
   /// the experiences list.
   static List experiences = [

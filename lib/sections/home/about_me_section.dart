@@ -60,7 +60,7 @@ class AboutMe extends StatelessWidget {
                   cursor: SystemMouseCursors.click,
                   child: iconButton(
                     'Hey, hire me!',
-                    'svg/mail.svg',
+                    'assets/images/mail.svg',
                     context,
                   ),
                 ),
@@ -75,7 +75,7 @@ class AboutMe extends StatelessWidget {
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child:
-                      iconButton('ayberkcakr#9861', 'svg/discord.svg', context),
+                      iconButton('ayberkcakr#9861', 'assets/images/discord.svg', context),
                 ),
               ),
             ),
