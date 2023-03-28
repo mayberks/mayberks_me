@@ -25,3 +25,24 @@ flutter:
 
   assets:
     - assets/images/
+
+  fonts:
+    - family: Epilogue
+      fonts:
+        - asset: assets/fonts/Epilogue-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Epilogue-SemiBold.ttf
+          weight: 200
+        - asset: assets/fonts/Epilogue-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Epilogue-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Epilogue-Light.ttf
+          weight: 500
+        - asset: assets/fonts/Epilogue-Italic.ttf
+          weight: 600
+        - asset: assets/fonts/Epilogue-ExtraBold.ttf
+          weight: 700
+        - asset: assets/fonts/Epilogue-Black.ttf
+          weight: 800
+        - asset: assets/fonts/Epilogue-Bold.ttf

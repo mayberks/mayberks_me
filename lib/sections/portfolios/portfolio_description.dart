@@ -35,44 +35,7 @@ class PortfolioDescription extends StatelessWidget {
             ],
           ),
         ),
-        heightTwenty,
-        Row(
-          children: [
-            Expanded(
-              child: GestureDetector(
-                onTap: () {
-                  launchSendMail();
-                },
-                child: MouseRegion(
-                  cursor: SystemMouseCursors.click,
-                  child: iconButton('Hey, hire me!',
-                      'svg/mail.svg', context),
-                ),
-              ),
-            ),
-            widthFifteen,
-            Expanded(
-              child: GestureDetector(
-                onTap: () {
-                  launchDiscordDirect();
-                },
-                child: MouseRegion(
-                  cursor: SystemMouseCursors.click,
-                  child: iconButton(
-                      'ayberkcakr#9861', 'svg/discord.svg', context),
-                ),
-              ),
-            ),
-          ],
-        ),
-        heightTen,
-        Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            mediumText("Some places I've worked with", context),
-          ],
-        ),
-        heightTen,
+        heightFifteen,
       ],
     );
   }
