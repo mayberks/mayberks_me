@@ -26,12 +26,16 @@ class AboutMe extends StatelessWidget {
                 'Hey!',
                 context,
                 color: greenColor,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w700,
               ),
               heightTen,
               smallText(
                 ProfileData.aboutMe,
                 context,
                 align: TextAlign.justify,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w300,
               ),
             ],
           ),
@@ -46,8 +50,11 @@ class AboutMe extends StatelessWidget {
                 },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
-                  child: iconButton('Hey, hire me!',
-                      'svg/mail.svg', context),
+                  child: iconButton(
+                    'Hey, hire me!',
+                    'svg/mail.svg',
+                    context,
+                  ),
                 ),
               ),
             ),
@@ -59,21 +66,26 @@ class AboutMe extends StatelessWidget {
                 },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
-                  child: iconButton(
-                      'ayberkcakr#9861', 'svg/discord.svg', context),
+                  child:
+                      iconButton('ayberkcakr#9861', 'svg/discord.svg', context),
                 ),
               ),
             ),
           ],
         ),
-        heightTen,
+        heightFifteen,
         Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            mediumText("Some places I've worked with", context),
+            mediumText(
+              "Some places I've worked with",
+              weight: FontWeight.w700,
+              fontfamily: 'Epilogue',
+              context,
+            ),
           ],
         ),
-        heightTen,
+        heightFifteen,
       ],
     );
   }

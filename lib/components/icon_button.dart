@@ -23,11 +23,16 @@ Widget iconButton(
       children: [
         SvgPicture.asset(
           image,
-          height: 15,
+          height: 20,
           color: whiteColor,
         ),
         widthTen,
-        smallText(title, context),
+        smallText(
+          title,
+          fontfamily: 'Sora',
+          weight: FontWeight.w300,
+          context,
+        ),
       ],
     ),
   );

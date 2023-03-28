@@ -20,7 +20,6 @@ Widget smallText(
     maxLines: maxLines,
     overflow: overflow,
     style: TextStyle(
-      wordSpacing: 1,
       fontSize: isDesktop(context)
           ? size * 1.5
           : isBigDesktop(context)
