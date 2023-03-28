@@ -5,8 +5,8 @@ import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
-import 'package:mayberks_me/sections/home/about_me_section.dart';
-import 'package:mayberks_me/sections/home/header_section.dart';
+import 'package:mayberks_me/sections/portfolios/portfolio_description.dart';
+import 'package:mayberks_me/sections/portfolios/portfolio_header.dart';
 import 'package:mayberks_me/utilities/helper.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
@@ -33,9 +33,10 @@ class _FlutterPortfoliosScreenState extends State<FlutterPortfoliosScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Header(),
-              AboutMe(),
-              isBigDesktop(context) ? heightTwenty : heightTen,AppBar(
+              PortfolioHeader(),
+              PortfolioDescription(),
+              isBigDesktop(context) ? heightTwenty : heightTen,
+              AppBar(
                 automaticallyImplyLeading: false,
                 backgroundColor: backgroundColor,
                 actions: [
