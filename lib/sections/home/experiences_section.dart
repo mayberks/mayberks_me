@@ -14,8 +14,8 @@ class Experiences extends StatelessWidget {
     return Container(
       width: Get.width,
       padding: const EdgeInsets.symmetric(
-        horizontal: 10,
-        vertical: 20,
+        horizontal: 15,
+        vertical: 10,
       ),
       decoration: BoxDecoration(
         color: containerBackgroundColor,
@@ -24,11 +24,6 @@ class Experiences extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          mediumText(
-            'My Works Stories',
-            context,
-            color: whiteColor,
-          ),
           heightFifteen,
           ListView.builder(
             shrinkWrap: true,

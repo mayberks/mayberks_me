@@ -37,42 +37,41 @@ class ProfileData {
       'title': 'Infumia Limited',
       'sub_title': 'Co-Founder (2019 - Continues)',
       'description':
-          'Together with my partner in 2019, we founded Infumia software and graphic design company. I am responsible for finance and administration within the company. I also do development work.'
+          'At Infumia, the company I co-founded, we offer software and graphic design services. I manage all the finance and administration of the company and I also participate in development work.'
     },
     {
       'image': 'assets/images/glory_hosting_solutions.jpg',
       'title': 'Glory Hosting Solutions',
       'sub_title': 'Chief Operating Officer (2019 - Continues)',
       'description':
-          'I am still working as support management, team coordination and developer in Hosting provider company which was opened in Turkey in 2019.'
+          'At Glory hosting solutions, where I am the chief operating officer, we offer hosting services. I provide support and customer relations for the company''s game servers and corporate services.'
     },
     {
       'image': 'assets/images/senior_team.png',
       'title': 'Senior Studios',
       'sub_title': 'Freelancer (2020 - Continues)',
-      'description': 'I have been working as a freelancer for the world'
-          's largest Minecraft service provider for 3 years, with many orders and a high satisfaction rate.'
+      'description': 'At Senior Studios, where I am a freelancer, I work as a minecraft configurator, discord server setup specialist and many other roles to provide you with the best service.'
     },
     {
       'image': 'assets/images/rebel_services.png',
       'title': 'Rebel Services',
       'sub_title': 'Freelancer (2023 - Continues)',
       'description':
-          'I manage all computer technology works in Ada natural stone LTD. STI. I manage camera & security systems and all other IT management by myself.'
+          'At rebel services, which has just opened but I see great potential, I work in minecraft server setup specialist, configurator and many roles to provide you with the best service.'
     },
     {
       'image': 'assets/images/ada_dogaltas.jpg',
       'title': 'Ada Natural Stone LTD. STI.',
       'sub_title': 'IT Manager (2019 - Continues)',
       'description':
-          'I manage all computer technology works in Ada natural stone LTD. STI. I manage camera & security systems and all other IT management by myself.'
+          'I manage & develop all Internet Technology works in the natural stone company which has many companies in Turkey and in the world, I complete domain and website transactions.'
     },
     {
       'image': 'assets/images/valatic.jpg',
       'title': 'Valatic Network',
       'sub_title': 'Developer (2022 - 9 Month)',
       'description':
-          'As the only developer on the Valatic network minecraft server in 2022, I have done the biggest revork work on the server by myself. I am not currently working.'
+          'On the minecraft server called Valatic network, I developed the major update of the server alone with 6 separate sub-servers and left because we could not agree.'
     },
   ];
 

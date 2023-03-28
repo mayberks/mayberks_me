@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/rounded_image.dart';
 import 'package:mayberks_me/components/small_text.dart';
+import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 
 Widget workItem(var experience, BuildContext context) {
@@ -20,13 +21,20 @@ Widget workItem(var experience, BuildContext context) {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              smallText(experience['title'], context, size: 11),
+              smallText(
+                experience['title'],
+                context,
+                size: 11,
+                fontfamily: 'Sora',
+                weight: FontWeight.w700,
+              ),
               heightTwo,
               smallText(
                 experience['sub_title'],
                 context,
                 size: 9,
-                weight: FontWeight.bold,
+                fontfamily: 'Sora',
+                weight: FontWeight.w400,
               ),
               heightTree,
               Row(
@@ -37,7 +45,10 @@ Widget workItem(var experience, BuildContext context) {
                       context,
                       size: 9,
                       overflow: TextOverflow.ellipsis,
-                      maxLines: 3,
+                      maxLines: 5,
+                      fontfamily: 'Sora',
+                      weight: FontWeight.w100,
+                      color: whiteColor,
                     ),
                   ),
                 ],
