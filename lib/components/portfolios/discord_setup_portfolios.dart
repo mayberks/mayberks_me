@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
-import 'package:mayberks_me/utilities/urls.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// the discord setup portfolios.
@@ -40,14 +39,14 @@ class _DiscordSetupPortfoliosState extends State<DiscordSetupPortfolios> {
                         onPressed: () {
 
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri discordsetupportfolioUrl = Uri.parse(ProfileData
                               .discordsetupportfoliolist[index]['shop_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(discordsetupportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $discordsetupportfolioUrl');
                             }
                           }
 
@@ -73,14 +72,14 @@ class _DiscordSetupPortfoliosState extends State<DiscordSetupPortfolios> {
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri discordsetupportfolioUrl = Uri.parse(ProfileData
                               .discordsetupportfoliolist[index]['github_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(discordsetupportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $discordsetupportfolioUrl');
                             }
                           }
 

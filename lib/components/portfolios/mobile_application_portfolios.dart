@@ -39,14 +39,14 @@ class _MobileApplicationPortfoliosState extends State<MobileApplicationPortfolio
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri mobileapplicationportfolioUrl = Uri.parse(ProfileData
                               .mobileapplicationportfoliolist[index]['shop_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(mobileapplicationportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $mobileapplicationportfolioUrl');
                             }
                           }
 
@@ -71,14 +71,14 @@ class _MobileApplicationPortfoliosState extends State<MobileApplicationPortfolio
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri mobileapplicationportfolioUrl = Uri.parse(ProfileData
                               .mobileapplicationportfoliolist[index]['github_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(mobileapplicationportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $mobileapplicationportfolioUrl');
                             }
                           }
 

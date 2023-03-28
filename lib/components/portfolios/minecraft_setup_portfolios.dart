@@ -40,14 +40,14 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri minecraftsetupportfolioUrl = Uri.parse(ProfileData
                               .minecraftsetupportfoliolist[index]['shop_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(minecraftsetupportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $minecraftsetupportfolioUrl');
                             }
                           }
 
@@ -73,15 +73,15 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(
+                          final Uri minecraftsetupportfolioUrl = Uri.parse(
                               ProfileData.minecraftsetupportfoliolist[index]
                                   ['github_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(minecraftsetupportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $minecraftsetupportfolioUrl');
                             }
                           }
 

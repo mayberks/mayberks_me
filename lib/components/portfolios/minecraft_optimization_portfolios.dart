@@ -39,14 +39,14 @@ class _MinecraftOptimizationPortfoliosState extends State<MinecraftOptimizationP
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri minecraftoptimizationportfolioUrl = Uri.parse(ProfileData
                               .minecraftoptimizationportfoliolist[index]['shop_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(minecraftoptimizationportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $minecraftoptimizationportfolioUrl');
                             }
                           }
 
@@ -71,14 +71,14 @@ class _MinecraftOptimizationPortfoliosState extends State<MinecraftOptimizationP
                       IconButton(
                         onPressed: () {
                           /// the link parse.
-                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                          final Uri minecraftoptimizationportfolioUrl = Uri.parse(ProfileData
                               .minecraftoptimizationportfoliolist[index]['github_link']);
 
                           /// the link launch.
                           Future<void> launchlink() async {
-                            if (!await launchUrl(flutterportfolioUrl)) {
+                            if (!await launchUrl(minecraftoptimizationportfolioUrl)) {
                               throw Exception(
-                                  'Could not launch $flutterportfolioUrl');
+                                  'Could not launch $minecraftoptimizationportfolioUrl');
                             }
                           }
 

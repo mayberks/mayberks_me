@@ -1,6 +1,5 @@
 import 'package:flutter/widgets.dart';
 import 'package:mayberks_me/constants/colors.dart';
-import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:morphing_text/morphing_text.dart';
 

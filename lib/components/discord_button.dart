@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/components/text_button.dart';
 import 'package:mayberks_me/constants/colors.dart';
