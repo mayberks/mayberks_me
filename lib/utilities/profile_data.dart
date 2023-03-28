@@ -110,13 +110,6 @@ class ProfileData {
       'shop_link': 'https://github.com/mayberks/mayberks_me',
       'product_code': 'ee715e56-bc47-4a8e-897e-cdcc7cd440b5',
       'product_name': 'Portfolio Web Script'
-    },
-    {
-      'image': 'assets/images/loginpagedesign.png',
-      'github_link': 'https://github.com/mayberks/login_page_design',
-      'shop_link': 'https://github.com/mayberks/login_page_design',
-      'product_code': '5e637284-238f-4c7f-9e21-27488272d693',
-      'product_name': 'Login Page Design'
     }
   ];
 
