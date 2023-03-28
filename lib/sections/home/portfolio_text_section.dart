@@ -24,12 +24,16 @@ class PortfolioText extends StatelessWidget {
                 'My portfolio.',
                 context,
                 color: greenColor,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w700,
               ),
               heightTen,
               smallText(
                 ProfileData.portfolioText,
                 context,
                 align: TextAlign.justify,
+                fontfamily: 'Epilogue',
+                weight: FontWeight.w300,
               ),
             ],
           ),
@@ -38,7 +42,12 @@ class PortfolioText extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            mediumText("Here are some examples!", context),
+            mediumText(
+              "Here are some examples!",
+              context,
+              weight: FontWeight.w700,
+              fontfamily: 'Epilogue',
+            ),
           ],
         ),
         heightTen,

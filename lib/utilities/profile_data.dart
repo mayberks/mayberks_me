@@ -25,7 +25,7 @@ class ProfileData {
 
   /// the portfolio text.
   static String portfolioText =
-      "Below are images and live examples of my work by category. These examples have been collected from past to present, mixed for better or worse. In addition to all these, the products of my customers who care about their privacy are not included. Your ideas and products are safe with me. Just click on the category you want to review. There are photos on the page that will open.";
+      "Below are examples and links to all my work so far. You can examine all my examples in detail by logging into the category you click on. I did not add some of my examples for customer privacy reasons. Your ideas are important to me. I do not add the examples you do not want to add here. If you want to work with me and have these wonderful products, you can contact me from my contact addresses above.";
 
   /// the discord image svg link.
   static String discordImage = 'svg/discord.svg';
