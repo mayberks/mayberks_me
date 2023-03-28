@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mayberks_me/components/heading.dart';
+import 'package:mayberks_me/components/portfolios/discord_setup_portfolios.dart';
 import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
 import 'package:mayberks_me/components/portfolios/minecraft_setup_portfolios.dart';
 import 'package:mayberks_me/components/wrapper.dart';
@@ -47,7 +48,7 @@ class _DiscordSetupPortfoliosScreenState
               isBigDesktop(context) ? heightTwenty : heightTen,
               DiscordSetupsPreviousPage(),
               isBigDesktop(context) ? heightTwenty : heightTen,
-              MinecraftSetupPortfolios(),
+              DiscordSetupPortfolios(),
             ],
           ),
         ),

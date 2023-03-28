@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/components/heading.dart';
-import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
+import 'package:mayberks_me/components/portfolios/minecraft_configuration_portfolios.dart';
 import 'package:mayberks_me/components/portfolios/minecraft_setup_portfolios.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
@@ -47,7 +46,7 @@ class _MinecraftConfigurationPortfoliosScreenState
               isBigDesktop(context) ? heightTwenty : heightTen,
               MinecraftConfigurationsPreviousPage(),
               isBigDesktop(context) ? heightTwenty : heightTen,
-              MinecraftSetupPortfolios(),
+              MinecraftConfigurationPortfolios(),
             ],
           ),
         ),

@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:mayberks_me/components/heading.dart';
 import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
 import 'package:mayberks_me/components/portfolios/minecraft_setup_portfolios.dart';
+import 'package:mayberks_me/components/portfolios/mobile_application_portfolios.dart';
 import 'package:mayberks_me/components/wrapper.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
@@ -47,7 +48,7 @@ class _MobileApplicationPortfoliosScreenState
               isBigDesktop(context) ? heightTwenty : heightTen,
               MobileApplicationsPreviousPage(),
               isBigDesktop(context) ? heightTwenty : heightTen,
-              MinecraftSetupPortfolios(),
+              MobileApplicationPortfolios(),
             ],
           ),
         ),
