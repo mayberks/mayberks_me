@@ -3,13 +3,17 @@ import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
 /// the small text.
-Widget smallText(title, BuildContext context,
-    {TextAlign align = TextAlign.start,
-    FontWeight weight = FontWeight.w100,
-    Color color = whiteColor,
-    TextOverflow? overflow,
-    int? maxLines,
-    double size = 10}) {
+Widget smallText(
+  title,
+  BuildContext context, {
+  TextAlign align = TextAlign.start,
+  FontWeight weight = FontWeight.w100,
+  Color color = whiteColor,
+  TextOverflow? overflow,
+  int? maxLines,
+  double size = 10,
+  String fontfamily = '',
+}) {
   return Text(
     title,
     textAlign: align,
@@ -24,6 +28,7 @@ Widget smallText(title, BuildContext context,
               : size,
       fontWeight: weight,
       color: color,
+      fontFamily: fontfamily,
     ),
   );
 }

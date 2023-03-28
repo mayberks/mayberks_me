@@ -3,11 +3,15 @@ import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
 /// the heading text.
-Widget heading(title, BuildContext context,
-    {TextAlign align = TextAlign.start,
-    FontWeight weight = FontWeight.w700,
-    Color color = whiteColor,
-    double size = 16}) {
+Widget heading(
+  title,
+  BuildContext context, {
+  TextAlign align = TextAlign.start,
+  FontWeight weight = FontWeight.w700,
+  Color color = whiteColor,
+  double size = 16,
+  String fontfamily = 'Sora',
+}) {
   return Text(
     title,
     textAlign: align,
@@ -19,6 +23,7 @@ Widget heading(title, BuildContext context,
               : size,
       fontWeight: weight,
       color: color,
+      fontFamily: fontfamily,
     ),
   );
 }

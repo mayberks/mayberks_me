@@ -14,6 +14,7 @@ dependencies:
   flutter_svg: ^2.0.4
   get: ^4.6.5
   url_launcher: ^6.1.10
+  morphing_text: ^1.0.1
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -46,6 +47,7 @@ flutter:
         - asset: assets/fonts/Epilogue-Black.ttf
           weight: 800
         - asset: assets/fonts/Epilogue-Bold.ttf
+          weight: 900
     - family: Sora
       fonts:
         - asset: assets/fonts/Sora-Bold.ttf
@@ -63,3 +65,4 @@ flutter:
         - asset: assets/fonts/Sora-SemiBold.ttf
           weight: 700
         - asset: assets/fonts/Sora-Thin.ttf
+          weight: 800
