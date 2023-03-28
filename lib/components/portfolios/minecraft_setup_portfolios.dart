@@ -5,13 +5,15 @@ import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// the minecraft setup portfolios.
 class MinecraftSetupPortfolios extends StatefulWidget {
   const MinecraftSetupPortfolios({super.key});
 
   @override
-  State<MinecraftSetupPortfolios> createState() => _MinecraftSetupPortfoliosState();
+  State<MinecraftSetupPortfolios> createState() =>
+      _MinecraftSetupPortfoliosState();
 }
 
 class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
@@ -25,8 +27,8 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
           mainAxisSpacing: 10,
           // childAspectRatio: (itemWidth / itemHeight),
           shrinkWrap: true,
-          children:
-              List.generate(ProfileData.minecraftsetupportfolios.length, (index) {
+          children: List.generate(
+              ProfileData.minecraftsetupportfoliolist.length, (index) {
             return MouseRegion(
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
@@ -36,7 +38,22 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
                     backgroundColor: containerBackgroundColor,
                     actions: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          /// the link parse.
+                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                              .minecraftsetupportfoliolist[index]['shop_link']);
+
+                          /// the link launch.
+                          Future<void> launchlink() async {
+                            if (!await launchUrl(flutterportfolioUrl)) {
+                              throw Exception(
+                                  'Could not launch $flutterportfolioUrl');
+                            }
+                          }
+
+                          /// the launch link.
+                          launchlink();
+                        },
                         icon: const FaIcon(
                           FontAwesomeIcons.bagShopping,
                           color: greenColor,
@@ -55,7 +72,21 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
                       ),
                       IconButton(
                         onPressed: () {
-                          launchPortfolioWebscript();
+                          /// the link parse.
+                          final Uri flutterportfolioUrl = Uri.parse(
+                              ProfileData.minecraftsetupportfoliolist[index]
+                                  ['github_link']);
+
+                          /// the link launch.
+                          Future<void> launchlink() async {
+                            if (!await launchUrl(flutterportfolioUrl)) {
+                              throw Exception(
+                                  'Could not launch $flutterportfolioUrl');
+                            }
+                          }
+
+                          /// the launch link.
+                          launchlink();
                         },
                         icon: const FaIcon(
                           FontAwesomeIcons.github,
@@ -71,7 +102,7 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
                       color: whiteColor,
                     ),
                     content: Image.asset(
-                      ProfileData.minecraftsetupportfolios[index],
+                      ProfileData.minecraftsetupportfoliolist[index]['image'],
                       height: isMobile(context) || isMobile2(context)
                           ? null
                           : Get.height * 0.8,
@@ -84,7 +115,7 @@ class _MinecraftSetupPortfoliosState extends State<MinecraftSetupPortfolios> {
                   child: Hero(
                     tag: 'imageHero$index',
                     child: Image.asset(
-                      ProfileData.minecraftsetupportfolios[index],
+                      ProfileData.minecraftsetupportfoliolist[index]['image'],
                       fit: BoxFit.fill,
                     ),
                   ),

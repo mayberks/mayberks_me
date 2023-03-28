@@ -5,6 +5,7 @@ import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 /// the minecraft configuration portfolios.
 class MinecraftConfigurationPortfolios extends StatefulWidget {
@@ -26,7 +27,7 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
           // childAspectRatio: (itemWidth / itemHeight),
           shrinkWrap: true,
           children:
-              List.generate(ProfileData.minecraftconfigurationportfolios.length, (index) {
+              List.generate(ProfileData.minecraftconfigurationportfoliolist.length, (index) {
             return MouseRegion(
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
@@ -36,7 +37,21 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
                     backgroundColor: containerBackgroundColor,
                     actions: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          /// the link parse.
+                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                              .minecraftconfigurationportfoliolist[index]['shop_link']);
+
+                          /// the link launch.
+                          Future<void> launchlink() async {
+                            if (!await launchUrl(flutterportfolioUrl)) {
+                              throw Exception(
+                                  'Could not launch $flutterportfolioUrl');
+                            }
+                          }
+
+                          /// the launch link.
+                          launchlink();},
                         icon: const FaIcon(
                           FontAwesomeIcons.bagShopping,
                           color: greenColor,
@@ -55,7 +70,20 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
                       ),
                       IconButton(
                         onPressed: () {
-                          launchPortfolioWebscript();
+                          /// the link parse.
+                          final Uri flutterportfolioUrl = Uri.parse(ProfileData
+                              .minecraftconfigurationportfoliolist[index]['github_link']);
+
+                          /// the link launch.
+                          Future<void> launchlink() async {
+                            if (!await launchUrl(flutterportfolioUrl)) {
+                              throw Exception(
+                                  'Could not launch $flutterportfolioUrl');
+                            }
+                          }
+
+                          /// the launch link.
+                          launchlink();
                         },
                         icon: const FaIcon(
                           FontAwesomeIcons.github,
@@ -71,7 +99,7 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
                       color: whiteColor,
                     ),
                     content: Image.asset(
-                      ProfileData.minecraftconfigurationportfolios[index],
+                      ProfileData.minecraftconfigurationportfoliolist[index]['image'],
                       height: isMobile(context) || isMobile2(context)
                           ? null
                           : Get.height * 0.8,
@@ -84,7 +112,7 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
                   child: Hero(
                     tag: 'imageHero$index',
                     child: Image.asset(
-                      ProfileData.minecraftconfigurationportfolios[index],
+                      ProfileData.minecraftconfigurationportfoliolist[index]['image'],
                       fit: BoxFit.fill,
                     ),
                   ),
