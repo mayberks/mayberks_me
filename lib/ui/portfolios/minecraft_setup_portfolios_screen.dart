@@ -12,15 +12,15 @@ import 'package:mayberks_me/utilities/helper.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
 /// the my flutter portfolios screen.
-class FlutterPortfoliosScreen extends StatefulWidget {
-  const FlutterPortfoliosScreen({super.key});
+class MinecraftSetupPortfoliosScreen extends StatefulWidget {
+  const MinecraftSetupPortfoliosScreen({super.key});
 
   @override
-  State<FlutterPortfoliosScreen> createState() =>
-      _FlutterPortfoliosScreenState();
+  State<MinecraftSetupPortfoliosScreen> createState() =>
+      _MinecraftSetupPortfoliosScreenState();
 }
 
-class _FlutterPortfoliosScreenState extends State<FlutterPortfoliosScreen> {
+class _MinecraftSetupPortfoliosScreenState extends State<MinecraftSetupPortfoliosScreen> {
   @override
   Widget build(BuildContext context) {
     double margin = Helper.getMargin(context);
@@ -34,8 +34,6 @@ class _FlutterPortfoliosScreenState extends State<FlutterPortfoliosScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              FlutterPortfolioHeader(),
-              FlutterPortfolioDescription(),
               isBigDesktop(context) ? heightTwenty : heightTen,
               FlutterPreviousPage(),
               isBigDesktop(context) ? heightTwenty : heightTen,

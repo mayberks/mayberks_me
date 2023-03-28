@@ -11,8 +11,8 @@ import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
 /// the portfolio header section.
-class PortfolioHeader extends StatelessWidget {
-  const PortfolioHeader({Key? key}) : super(key: key);
+class MinecraftSetupsPortfolioHeader extends StatelessWidget {
+  const MinecraftSetupsPortfolioHeader({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
