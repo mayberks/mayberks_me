@@ -31,7 +31,7 @@ class MobileApplicationsPortfolioDescription extends StatelessWidget {
               ),
               heightTen,
               smallText(
-                ProfileData.minecraftsetupsportfoliodescriptionText,
+                ProfileData.mobileapplicationsportfoliodescriptionText,
                 context,
                 align: TextAlign.justify,
                 fontfamily: 'Epilogue',

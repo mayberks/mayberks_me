@@ -10,71 +10,73 @@ class ConfigurationsOptimizationsItem extends StatefulWidget {
   const ConfigurationsOptimizationsItem({Key? key}) : super(key: key);
 
   @override
-  State<ConfigurationsOptimizationsItem> createState() => _ConfigurationsOptimizationsItemState();
+  State<ConfigurationsOptimizationsItem> createState() =>
+      _ConfigurationsOptimizationsItemState();
 }
 
-class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimizationsItem> {
+class _ConfigurationsOptimizationsItemState
+    extends State<ConfigurationsOptimizationsItem> {
   @override
   Widget build(BuildContext context) {
     return isMobile(context)
         ? Column(
-      children: [
-        portfolioItem(
-          'assets/images/minecraft_configurations.png',
-          'Minecraft Configurations',
-          'Click to preview my configurations.',
-              () {
-            print("Clicked portfolio item.");
-          },
-        ),
-        isMobile(context)
-            ? heightTen
-            : isBigDesktop(context)
-            ? widthFifteen
-            : widthTen,
-        portfolioItem(
-          'assets/images/minecraft_optimizations.png',
-          'Minecraft Optimizations',
-          'Click to preview my optimizations.',
-              () {
-            print("Clicked portfolio item.");
-          },
-        ),
-      ],
-    )
+            children: [
+              portfolioItem(
+                'assets/images/minecraft_configurations.png',
+                'Minecraft Configurations',
+                'Click to preview my configurations.',
+                () {
+                  Navigator.pushNamed(context, '/minecraft-configurations');
+                },
+              ),
+              isMobile(context)
+                  ? heightTen
+                  : isBigDesktop(context)
+                      ? widthFifteen
+                      : widthTen,
+              portfolioItem(
+                'assets/images/minecraft_optimizations.png',
+                'Minecraft Optimizations',
+                'Click to preview my optimizations.',
+                () {
+                  Navigator.pushNamed(context, '/minecraft-optimizations');
+                },
+              ),
+            ],
+          )
         : Row(
-      children: [
-        Expanded(
-          child: portfolioItem(
-            'assets/images/minecraft_configurations.png',
-            'Minecraft Configurations',
-            'Click to preview my configurations.',
-                () {
-              print("Clicked portfolio item.");
-            },
-          ),
-        ),
-        isBigDesktop(context) ? widthThirty : widthFifteen,
-        Expanded(
-          child: portfolioItem(
-            'assets/images/minecraft_optimizations.png',
-            'Minecraft Optimizations',
-            'Click to preview my optimizations.',
-                () {
-              print("Clicked portfolio item.");
-            },
-          ),
-        ),
-      ],
-    );
+            children: [
+              Expanded(
+                child: portfolioItem(
+                  'assets/images/minecraft_configurations.png',
+                  'Minecraft Configurations',
+                  'Click to preview my configurations.',
+                  () {
+                    Navigator.pushNamed(context, '/minecraft-configurations');
+                  },
+                ),
+              ),
+              isBigDesktop(context) ? widthThirty : widthFifteen,
+              Expanded(
+                child: portfolioItem(
+                  'assets/images/minecraft_optimizations.png',
+                  'Minecraft Optimizations',
+                  'Click to preview my optimizations.',
+                  () {
+                    Navigator.pushNamed(context, '/minecraft-optimizations');
+                  },
+                ),
+              ),
+            ],
+          );
   }
 
   Widget portfolioItem(
-      String image,
-      String title,
-      String description,
-      GestureTapCallback onTap,
-      ) {
+    String image,
+    String title,
+    String description,
+    GestureTapCallback onTap,
+  ) {
     return GestureDetector(
       onTap: onTap,
       child: MouseRegion(

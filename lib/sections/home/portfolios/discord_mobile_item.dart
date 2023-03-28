@@ -18,63 +18,63 @@ class _DiscordMobileItemState extends State<DiscordMobileItem> {
   Widget build(BuildContext context) {
     return isMobile(context)
         ? Column(
-      children: [
-        portfolioItem(
-          'assets/images/discord_setups.png',
-          'Discord Setups',
-          'Click to preview my discord setups.',
-              () {
-            print("Clicked portfolio item.");
-          },
-        ),
-        isMobile(context)
-            ? heightTen
-            : isBigDesktop(context)
-            ? widthFifteen
-            : widthTen,
-        portfolioItem(
-          'assets/images/mobile_applications.png',
-          'Mobile Applications',
-          'Click to preview my mobile applications.',
-              () {
-            print("Clicked portfolio item.");
-          },
-        ),
-      ],
-    )
+            children: [
+              portfolioItem(
+                'assets/images/discord_setups.png',
+                'Discord Setups',
+                'Click to preview my discord setups.',
+                () {
+                  Navigator.pushNamed(context, '/discord-setups');
+                },
+              ),
+              isMobile(context)
+                  ? heightTen
+                  : isBigDesktop(context)
+                      ? widthFifteen
+                      : widthTen,
+              portfolioItem(
+                'assets/images/mobile_applications.png',
+                'Mobile Applications',
+                'Click to preview my mobile applications.',
+                () {
+                  Navigator.pushNamed(context, '/mobile-applications');
+                },
+              ),
+            ],
+          )
         : Row(
-      children: [
-        Expanded(
-          child: portfolioItem(
-            'assets/images/discord_setups.png',
-            'Discord Setups',
-            'Click to preview my discord setups.',
-                () {
-              print("Clicked portfolio item.");
-            },
-          ),
-        ),
-        isBigDesktop(context) ? widthThirty : widthFifteen,
-        Expanded(
-          child: portfolioItem(
-            'assets/images/mobile_applications.png',
-            'Mobile Applications',
-            'Click to preview my mobile applications.',
-                () {
-              print("Clicked portfolio item.");
-            },
-          ),
-        ),
-      ],
-    );
+            children: [
+              Expanded(
+                child: portfolioItem(
+                  'assets/images/discord_setups.png',
+                  'Discord Setups',
+                  'Click to preview my discord setups.',
+                  () {
+                    Navigator.pushNamed(context, '/discord-setups');
+                  },
+                ),
+              ),
+              isBigDesktop(context) ? widthThirty : widthFifteen,
+              Expanded(
+                child: portfolioItem(
+                  'assets/images/mobile_applications.png',
+                  'Mobile Applications',
+                  'Click to preview my mobile applications.',
+                  () {
+                    Navigator.pushNamed(context, '/mobile-applications');
+                  },
+                ),
+              ),
+            ],
+          );
   }
 
   Widget portfolioItem(
-      String image,
-      String title,
-      String description,
-      GestureTapCallback onTap,
-      ) {
+    String image,
+    String title,
+    String description,
+    GestureTapCallback onTap,
+  ) {
     return GestureDetector(
       onTap: onTap,
       child: MouseRegion(

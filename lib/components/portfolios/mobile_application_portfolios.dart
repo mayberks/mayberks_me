@@ -26,7 +26,7 @@ class _MobileApplicationPortfoliosState extends State<MobileApplicationPortfolio
           // childAspectRatio: (itemWidth / itemHeight),
           shrinkWrap: true,
           children:
-              List.generate(ProfileData.minecraftsetupportfolios.length, (index) {
+              List.generate(ProfileData.mobileapplicationportfolios.length, (index) {
             return MouseRegion(
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
@@ -71,7 +71,7 @@ class _MobileApplicationPortfoliosState extends State<MobileApplicationPortfolio
                       color: whiteColor,
                     ),
                     content: Image.asset(
-                      ProfileData.minecraftsetupportfolios[index],
+                      ProfileData.mobileapplicationportfolios[index],
                       height: isMobile(context) || isMobile2(context)
                           ? null
                           : Get.height * 0.8,
@@ -84,7 +84,7 @@ class _MobileApplicationPortfoliosState extends State<MobileApplicationPortfolio
                   child: Hero(
                     tag: 'imageHero$index',
                     child: Image.asset(
-                      ProfileData.minecraftsetupportfolios[index],
+                      ProfileData.mobileapplicationportfolios[index],
                       fit: BoxFit.fill,
                     ),
                   ),

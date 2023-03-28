@@ -34,6 +34,18 @@ class ProfileData {
   /// the minecraft setups portfolio description text.
   static String minecraftsetupsportfoliodescriptionText = "Below, you can view the minecraft setup projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
 
+  /// the minecraft configurations portfolio description text.
+  static String minecraftconfigurationsportfoliodescriptionText = "Below, you can view the minecraft configuration projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
+
+  /// the minecraft optimizations portfolio description text.
+  static String minecraftoptimizationsportfoliodescriptionText = "Below, you can view the minecraft optimization projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
+
+  /// the mobile applications portfolio description text.
+  static String mobileapplicationsportfoliodescriptionText = "Below, you can view the mobile application projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
+
+  /// the discord setups portfolio description text.
+  static String discordsetupsportfoliodescriptionText = "Below, you can view the discord setup projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
+
   /// the discord image svg link.
   static String discordImage = 'svg/discord.svg';
 
@@ -87,19 +99,28 @@ class ProfileData {
     'assets/images/portfolio_web_script.png',
   ];
 
-  /// the flutter portfolio item names.
-  static List<String> flutterportfoliosname = [
-    'CV & Portfolio Webscript',
-  ];
-
-
   /// the minecraft setup portfolio item photos.
   static List minecraftsetupportfolios = [
     'assets/images/optimizationsetup.png',
   ];
 
-  /// the minecraft setup portfolio item names.
-  static List<String> minecraftsetupportfoliosname = [
-    'Minecraft Optimization Setup',
+  /// the minecraft configuration portfolio item photos.
+  static List minecraftconfigurationportfolios = [
+    'assets/images/optimizationsetup.png',
+  ];
+
+  /// the minecraft optimization portfolio item photos.
+  static List minecraftoptimizationportfolios = [
+    'assets/images/optimizationsetup.png',
+  ];
+
+  /// the discord setup portfolio item photos.
+  static List discordsetupportfolios = [
+    'assets/images/optimizationsetup.png',
+  ];
+
+  /// the mobile application portfolio item photos.
+  static List mobileapplicationportfolios = [
+    'assets/images/optimizationsetup.png',
   ];
 }

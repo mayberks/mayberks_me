@@ -26,7 +26,7 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
           // childAspectRatio: (itemWidth / itemHeight),
           shrinkWrap: true,
           children:
-              List.generate(ProfileData.minecraftsetupportfolios.length, (index) {
+              List.generate(ProfileData.minecraftconfigurationportfolios.length, (index) {
             return MouseRegion(
               cursor: SystemMouseCursors.click,
               child: GestureDetector(
@@ -71,7 +71,7 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
                       color: whiteColor,
                     ),
                     content: Image.asset(
-                      ProfileData.minecraftsetupportfolios[index],
+                      ProfileData.minecraftconfigurationportfolios[index],
                       height: isMobile(context) || isMobile2(context)
                           ? null
                           : Get.height * 0.8,
@@ -84,7 +84,7 @@ class _MinecraftConfigurationPortfoliosState extends State<MinecraftConfiguratio
                   child: Hero(
                     tag: 'imageHero$index',
                     child: Image.asset(
-                      ProfileData.minecraftsetupportfolios[index],
+                      ProfileData.minecraftconfigurationportfolios[index],
                       fit: BoxFit.fill,
                     ),
                   ),

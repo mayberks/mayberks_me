@@ -31,7 +31,7 @@ class MinecraftConfigurationsPortfolioDescription extends StatelessWidget {
               ),
               heightTen,
               smallText(
-                ProfileData.minecraftsetupsportfoliodescriptionText,
+                ProfileData.minecraftconfigurationsportfoliodescriptionText,
                 context,
                 align: TextAlign.justify,
                 fontfamily: 'Epilogue',
