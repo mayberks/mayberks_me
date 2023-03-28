@@ -25,6 +25,11 @@ const heightFifteen = SizedBox(
   height: 15,
 );
 
+/// the 17 height sizedbox.
+const heightSeventeen = SizedBox(
+  height: 17,
+);
+
 /// the 20 height sizedbox.
 const heightTwenty = SizedBox(
   height: 20,
@@ -63,6 +68,11 @@ const widthTen = SizedBox(
 /// the 15 width sizedbox.
 const widthFifteen = SizedBox(
   width: 15,
+);
+
+/// the 17 width sizedbox.
+const widthSeventeen = SizedBox(
+  width: 17,
 );
 
 /// the 20 width sizedbox.

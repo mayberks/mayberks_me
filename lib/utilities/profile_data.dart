@@ -1,14 +1,20 @@
 /// the profile data.
 class ProfileData {
-
   /// the profile image link.
   static String profileImage = 'assets/images/personal_image.png';
 
   /// the profile name.
   static String profileName = 'AYBERK CAKIR';
 
-  /// the job title.
-  static String job = 'Developer';
+  /// the job titles.
+  static List<String> jobs = [
+    'Flutter Developer',
+    'Minecraft Setup Specialist',
+    'Minecraft Configurator',
+    'Minecraft Optimization Expert',
+    'System Administrator',
+    'Marketing Manager',
+  ];
 
   /// the about me.
   static String aboutMe =
@@ -73,5 +79,4 @@ class ProfileData {
     'assets/images/portfolio_web_script.png',
     'assets/images/portfolio_web_script.png',
   ];
-
 }

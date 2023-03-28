@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:mayberks_me/components/animated_text.dart';
 import 'package:mayberks_me/components/heading.dart';
 import 'package:mayberks_me/components/rounded_image.dart';
 import 'package:mayberks_me/components/small_text.dart';
@@ -25,14 +26,14 @@ class Header extends StatelessWidget {
           fontfamily: 'Sora',
           weight: FontWeight.w900,
         ),
-        isDesktop(context) ? heightFour : heightFour,
-        smallText(
-          ProfileData.job,
+        isDesktop(context) ? heightTen : heightTen,
+        animatedText(
+          ProfileData.jobs,
           context,
           fontfamily: 'Sora',
           weight: FontWeight.w200,
         ),
-        isDesktop(context) ? heightTwenty : heightTen,
+        isDesktop(context) ? heightSeventeen : heightSeventeen,
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

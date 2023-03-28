@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:mayberks_me/components/animated_text.dart';
 import 'package:mayberks_me/components/heading.dart';
 import 'package:mayberks_me/components/rounded_image.dart';
 import 'package:mayberks_me/components/small_text.dart';
@@ -20,7 +21,12 @@ class PortfolioHeader extends StatelessWidget {
         isDesktop(context) ? heightFifteen : heightTen,
         heading(ProfileData.profileName, context),
         isDesktop(context) ? heightTen : heightFour,
-        smallText(ProfileData.job, context),
+        animatedText(
+          ProfileData.jobs,
+          context,
+          fontfamily: 'Sora',
+          weight: FontWeight.w200,
+        ),
         isDesktop(context) ? heightTwenty : heightTen,
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
