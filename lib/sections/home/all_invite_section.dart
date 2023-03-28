@@ -50,7 +50,7 @@ class _InvitesState extends State<Invites> {
                 child: inviteItem(
                   'assets/images/discord1.png',
                   'Join our Community Server.',
-                  'Click here to join our community server.',
+                  'Click to join our community server.',
                   () {
                     launchDiscordCommunity();
                   },
@@ -60,8 +60,8 @@ class _InvitesState extends State<Invites> {
               Expanded(
                 child: inviteItem(
                   'assets/images/bbb.png',
-                  'Preview my MC-Market contents',
-                  'Click here to preview my mc-market contents.',
+                  'Preview my MC-Market profile.',
+                  'Click to preview my mc-market profile.',
                   () {
                     launchmcmarketAccount();
                   },
@@ -112,6 +112,8 @@ class _InvitesState extends State<Invites> {
                     title,
                     context,
                     color: whiteColor,
+                    fontfamily: 'Epilogue',
+                    weight: FontWeight.w600,
                     size: isMobile(context) ? 18 : 8,
                   ),
                   heightTen,
@@ -120,8 +122,10 @@ class _InvitesState extends State<Invites> {
                     context,
                     color: whiteColor,
                     size: isMobile(context) ? 12 : 6,
+                    fontfamily: 'Epilogue',
+                    weight: FontWeight.w300,
                     overflow: TextOverflow.ellipsis,
-                    maxLines: 2,
+                    maxLines: 1,
                   ),
                 ],
               ),
