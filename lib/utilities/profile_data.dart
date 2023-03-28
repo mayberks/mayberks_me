@@ -69,23 +69,9 @@ class ProfileData {
 
   /// the flutter portfolio item photos.
   static List flutterportfolios = [
-    'assets/images/minecraft_configurations.png',
-    'assets/images/minecraft_setups.png',
-    'assets/images/minecraft_optimizations.png',
-    'assets/images/mobile_applications.png',
-    'assets/images/minecraft_configurations.png',
-    'assets/images/minecraft_setups.png',
-    'assets/images/minecraft_optimizations.png',
-    'assets/images/mobile_applications.png',
-    'assets/images/minecraft_configurations.png',
-    'assets/images/minecraft_setups.png',
-    'assets/images/minecraft_optimizations.png',
-    'assets/images/mobile_applications.png',
-    'assets/images/minecraft_configurations.png',
-    'assets/images/minecraft_setups.png',
-    'assets/images/minecraft_optimizations.png',
-    'assets/images/mobile_applications.png',
-
+    'assets/images/portfolio_web_script.png',
+    'assets/images/portfolio_web_script.png',
+    'assets/images/portfolio_web_script.png',
   ];
 
 }
