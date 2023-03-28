@@ -31,6 +31,9 @@ class ProfileData {
   /// the flutter portfolio description text.
   static String flutterportfoliodescriptionText = "Below, you can view the flutter projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
 
+  /// the minecraft setups portfolio description text.
+  static String minecraftsetupsportfoliodescriptionText = "Below, you can view the minecraft setup projects I have prepared. Some of them are free and some of them are based on open source code. You can enlarge the image and view the details by clicking on the project you want to examine in detail.";
+
   /// the discord image svg link.
   static String discordImage = 'svg/discord.svg';
 
@@ -92,7 +95,7 @@ class ProfileData {
 
   /// the minecraft setup portfolio item photos.
   static List minecraftsetupportfolios = [
-    'assets/images/optimizationsetups.png',
+    'assets/images/optimizationsetup.png',
   ];
 
   /// the minecraft setup portfolio item names.
