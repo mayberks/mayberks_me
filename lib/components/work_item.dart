@@ -4,6 +4,7 @@ import 'package:mayberks_me/components/small_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 import 'package:mayberks_me/constants/spaces.dart';
 
+/// the work item.
 Widget workItem(var experience, BuildContext context) {
   return Container(
     margin: const EdgeInsets.only(bottom: 20),

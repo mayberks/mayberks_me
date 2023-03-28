@@ -6,7 +6,7 @@ import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
-/// the flutter portfolios.
+/// the mobile application portfolios.
 class MobileApplicationPortfolios extends StatefulWidget {
   const MobileApplicationPortfolios({super.key});
 

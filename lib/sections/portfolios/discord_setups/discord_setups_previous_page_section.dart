@@ -3,6 +3,7 @@ import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 
+/// the discord setup previous page.
 class DiscordSetupsPreviousPage extends StatelessWidget {
   const DiscordSetupsPreviousPage({Key? key}) : super(key: key);
 

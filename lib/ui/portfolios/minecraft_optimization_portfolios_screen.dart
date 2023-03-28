@@ -18,7 +18,7 @@ import 'package:mayberks_me/sections/portfolios/minecraft_setups/minecraft_setup
 import 'package:mayberks_me/utilities/helper.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
-/// the my flutter portfolios screen.
+/// the my minecraft optimization portfolios screen.
 class MinecraftOptimizationPortfoliosScreen extends StatefulWidget {
   const MinecraftOptimizationPortfoliosScreen({super.key});
 

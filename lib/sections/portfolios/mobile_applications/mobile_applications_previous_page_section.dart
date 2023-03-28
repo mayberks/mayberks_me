@@ -3,6 +3,7 @@ import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 
+/// the mobile application previous page.
 class MobileApplicationsPreviousPage extends StatelessWidget {
   const MobileApplicationsPreviousPage({Key? key}) : super(key: key);
 

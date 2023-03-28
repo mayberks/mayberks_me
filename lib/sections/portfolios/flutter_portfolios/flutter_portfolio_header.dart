@@ -10,7 +10,7 @@ import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
-/// the portfolio header section.
+/// the flutter portfolio header section.
 class FlutterPortfolioHeader extends StatelessWidget {
   const FlutterPortfolioHeader({Key? key}) : super(key: key);
 

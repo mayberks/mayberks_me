@@ -18,7 +18,7 @@ import 'package:mayberks_me/sections/portfolios/mobile_applications/mobile_appli
 import 'package:mayberks_me/utilities/helper.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
-/// the my flutter portfolios screen.
+/// the my mobile application portfolios screen.
 class MobileApplicationPortfoliosScreen extends StatefulWidget {
   const MobileApplicationPortfoliosScreen({super.key});
 

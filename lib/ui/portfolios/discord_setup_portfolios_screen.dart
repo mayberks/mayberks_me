@@ -18,7 +18,7 @@ import 'package:mayberks_me/sections/portfolios/minecraft_setups/minecraft_setup
 import 'package:mayberks_me/utilities/helper.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 
-/// the my flutter portfolios screen.
+/// the my discord portfolios screen.
 class DiscordSetupPortfoliosScreen extends StatefulWidget {
   const DiscordSetupPortfoliosScreen({super.key});
 

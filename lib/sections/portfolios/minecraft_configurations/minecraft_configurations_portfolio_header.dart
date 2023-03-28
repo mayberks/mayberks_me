@@ -10,7 +10,7 @@ import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
-/// the portfolio header section.
+/// the minecraft configuration portfolio header section.
 class MinecraftConfigurationsPortfolioHeader extends StatelessWidget {
   const MinecraftConfigurationsPortfolioHeader({Key? key}) : super(key: key);
 

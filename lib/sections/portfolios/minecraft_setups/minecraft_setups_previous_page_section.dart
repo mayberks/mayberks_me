@@ -3,6 +3,7 @@ import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 
+/// the minecraft setup previous page.
 class MinecraftSetupsPreviousPage extends StatelessWidget {
   const MinecraftSetupsPreviousPage({Key? key}) : super(key: key);
 

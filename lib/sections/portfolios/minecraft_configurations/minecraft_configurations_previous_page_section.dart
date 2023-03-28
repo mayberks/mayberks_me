@@ -3,6 +3,7 @@ import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 
+/// the minecraft configuration previous page.
 class MinecraftConfigurationsPreviousPage extends StatelessWidget {
   const MinecraftConfigurationsPreviousPage({Key? key}) : super(key: key);
 

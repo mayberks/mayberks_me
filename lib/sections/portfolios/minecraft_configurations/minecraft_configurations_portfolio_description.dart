@@ -9,7 +9,7 @@ import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
-/// the portfolio description section.
+/// the minecraft configuration portfolio description section.
 class MinecraftConfigurationsPortfolioDescription extends StatelessWidget {
   const MinecraftConfigurationsPortfolioDescription({Key? key}) : super(key: key);
 

@@ -9,7 +9,7 @@ import 'package:mayberks_me/constants/spaces.dart';
 import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
-/// the portfolio description section.
+/// the minecraft optimization portfolio description section.
 class MinecraftOptimizationsPortfolioDescription extends StatelessWidget {
   const MinecraftOptimizationsPortfolioDescription({Key? key}) : super(key: key);
 

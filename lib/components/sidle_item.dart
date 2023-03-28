@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
+/// the sidle item.
 Widget sidleItem(String image, String name) {
   return Expanded(
     child: Stack(

@@ -6,7 +6,7 @@ import 'package:mayberks_me/utilities/profile_data.dart';
 import 'package:mayberks_me/utilities/responsive.dart';
 import 'package:mayberks_me/utilities/urls.dart';
 
-/// the flutter portfolios.
+/// the minecraft setup portfolios.
 class MinecraftSetupPortfolios extends StatefulWidget {
   const MinecraftSetupPortfolios({super.key});
 

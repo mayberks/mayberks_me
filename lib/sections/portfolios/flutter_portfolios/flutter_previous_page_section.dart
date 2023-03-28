@@ -3,6 +3,7 @@ import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 
+/// the flutter previous page.
 class FlutterPreviousPage extends StatelessWidget {
   const FlutterPreviousPage({Key? key}) : super(key: key);
 

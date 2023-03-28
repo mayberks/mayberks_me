@@ -3,6 +3,7 @@ import 'package:mayberks_me/components/medium_text.dart';
 import 'package:mayberks_me/constants/colors.dart';
 
 
+/// the minecraft optimization previous page.
 class MinecraftOptimizationsPreviousPage extends StatelessWidget {
   const MinecraftOptimizationsPreviousPage({Key? key}) : super(key: key);
 
