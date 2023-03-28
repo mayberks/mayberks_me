@@ -20,3 +20,6 @@ const Color greyColor = Color.fromRGBO(189, 205, 214, 1);
 
 /// the green color.
 const Color greenColor = Color.fromRGBO(56, 229, 77, 1);
+
+/// the red color.
+const Color redColor = Color.fromRGBO(255, 0, 50, 1);

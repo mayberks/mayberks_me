@@ -22,7 +22,7 @@ class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimiza
         portfolioItem(
           'assets/images/minecraft_configurations.png',
           'Minecraft Configurations',
-          'Click to preview my minecraft configurations.',
+          'Click to preview my configurations.',
               () {
             print("Clicked portfolio item.");
           },
@@ -35,7 +35,7 @@ class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimiza
         portfolioItem(
           'assets/images/minecraft_optimizations.png',
           'Minecraft Optimizations',
-          'Click to preview my minecraft optimizations.',
+          'Click to preview my optimizations.',
               () {
             print("Clicked portfolio item.");
           },
@@ -48,7 +48,7 @@ class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimiza
           child: portfolioItem(
             'assets/images/minecraft_configurations.png',
             'Minecraft Configurations',
-            'Click to preview my minecraft configurations.',
+            'Click to preview my configurations.',
                 () {
               print("Clicked portfolio item.");
             },
@@ -59,7 +59,7 @@ class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimiza
           child: portfolioItem(
             'assets/images/minecraft_optimizations.png',
             'Minecraft Optimizations',
-            'Click to preview my minecraft optimizations.',
+            'Click to preview my optimizations.',
                 () {
               print("Clicked portfolio item.");
             },
@@ -110,6 +110,8 @@ class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimiza
                     title,
                     context,
                     color: whiteColor,
+                    fontfamily: 'Sora',
+                    weight: FontWeight.w700,
                     size: isMobile(context) ? 18 : 8,
                   ),
                   heightTen,
@@ -118,6 +120,8 @@ class _ConfigurationsOptimizationsItemState extends State<ConfigurationsOptimiza
                     context,
                     color: whiteColor,
                     size: isMobile(context) ? 12 : 6,
+                    fontfamily: 'Sora',
+                    weight: FontWeight.w400,
                     overflow: TextOverflow.ellipsis,
                     maxLines: 2,
                   ),
