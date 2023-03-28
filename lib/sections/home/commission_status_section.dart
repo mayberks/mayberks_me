@@ -14,7 +14,7 @@ class StatusData {
 
 /// the status text widget.
 class CommissionStatus extends StatelessWidget {
-  final statusData = StatusData(commissionStatus: false);
+  final statusData = StatusData(commissionStatus: true);
 
   CommissionStatus({super.key});
 

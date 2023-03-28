@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
 import 'package:mayberks_me/ui/home/home_screen.dart';
 import 'package:mayberks_me/ui/portfolios/discord_setup_portfolios_screen.dart';
 import 'package:mayberks_me/ui/portfolios/flutter_portfolios_screen.dart';
