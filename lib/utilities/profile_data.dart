@@ -92,11 +92,11 @@ class ProfileData {
 
   /// the minecraft setup portfolio item photos.
   static List minecraftsetupportfolios = [
-    'assets/images/portfolio_web_script.png',
+    'assets/images/optimizationsetups.png',
   ];
 
   /// the minecraft setup portfolio item names.
   static List<String> minecraftsetupportfoliosname = [
-    'CV & Portfolio Webscript',
+    'Minecraft Optimization Setup',
   ];
 }

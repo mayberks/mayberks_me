@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:mayberks_me/components/portfolios/flutter_portfolios.dart';
 import 'package:mayberks_me/ui/home/home_screen.dart';
 import 'package:mayberks_me/ui/portfolios/flutter_portfolios_screen.dart';
+import 'package:mayberks_me/ui/portfolios/minecraft_setup_portfolios_screen.dart';
 
 void main() {
   runApp(const MayberksMe());
@@ -20,6 +21,7 @@ class MayberksMe extends StatelessWidget {
       routes: {
         '/': (context) => HomeScreen(),
         '/flutter-portfolios': (context) => FlutterPortfoliosScreen(),
+        '/minecraft-setups': (context) => MinecraftSetupPortfoliosScreen(),
       },
     );
   }

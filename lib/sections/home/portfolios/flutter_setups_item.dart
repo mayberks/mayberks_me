@@ -37,7 +37,7 @@ class _FlutterSetupsItemState extends State<FlutterSetupsItem> {
                 'Minecraft Setups',
                 'Click to preview my minecraft setups.',
                 () {
-                  print("Clicked portfolio item.");
+                  Navigator.pushNamed(context, '/minecraft-setups');
                 },
               ),
             ],
@@ -61,7 +61,7 @@ class _FlutterSetupsItemState extends State<FlutterSetupsItem> {
                   'Minecraft Setups',
                   'Click to preview my minecraft setups.',
                   () {
-                    print("Clicked portfolio item.");
+                    Navigator.pushNamed(context, '/minecraft-setups');
                   },
                 ),
               ),
