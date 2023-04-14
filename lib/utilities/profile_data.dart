@@ -129,6 +129,14 @@ class ProfileData {
           'https://builtbybit.com/resources/%EF%B8%B1hq-%EF%B8%B1fully-velocity-setup%EF%B8%B11-8-1-18-1-%EF%B8%B1-authlobby-%EF%B8%B1-ban-system%EF%B8%B1bot-filter-%EF%B8%B1announcements-%EF%B8%B1-30-sale.22945/',
       'product_code': 'ee6f1eb8-1662-458a-8523-f72ba7cf1ff4',
       'product_name': 'Minecraft Velocity Setup'
+    },
+    {
+      'image': 'assets/images/lobbysetup.png',
+      'github_link': 'https://github.com/mayberks',
+      'shop_link':
+      'https://builtbybit.com/resources/premium-lobby-setup.28018/',
+      'product_code': 'ee6f1eb8-1662-458a-8523-f72ba7cf1ff4',
+      'product_name': 'Minecraft Lobby Setup'
     }
   ];
 
